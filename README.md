@@ -69,6 +69,9 @@ Total de población: 702.926
 ### Cuestiones sanitarias
 
 
+## Actores involucrados
+El proyecto afecta a varios actores directa e indirectamente: 
+Los actores directos son: 1- Los ancianos 
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
 
