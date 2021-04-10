@@ -23,6 +23,8 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 
 #### Distribución etaria uruguaya
 
+La tendencia en la distribución etaria uruguaya es el envejecimiento general. El porcentaje de personas en la franja etaria de 60+ es cada vez más alto, siendo un 23% de la población total.
+
 ![Image of dog](https://i.imgur.com/DJgzPMJ.png)
 
 | Edad | Hombres | Mujeres |
@@ -64,7 +66,12 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 | 95-99 | 1192 | 7617 |
 | 100 | 205 | 1938 |
 
-Total de población: 702.926
+Total de población: 702.926 (23%)
+
+### Alfabetización informatica
+
+La alfabetización digital es un proceso de adquisición de conocimientos necesarios para utilizar adecuadamente las infotecnologías y poder responder críticamente a los estímulos y exigencias de un entorno informacional cada vez más complejo, con variedad y multiplicidad de fuentes, medios de comunicación y servicios. Para este autor la alfabetización digital seria poseer la capacidad imprescindible para sobrevivir en la sociedad de la información y comunicación y poder actuar críticamente sobre ella, además de la capacidad de interactuar inteligentemente con las tecnologías para gobernar la complejidad y transformar la sociedad. (Casado apud Malinowsk, 2007)
+
 
 ### Cuestiones sanitarias
 
