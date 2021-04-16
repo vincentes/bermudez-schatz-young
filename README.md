@@ -66,23 +66,35 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 
 Total de población: 702.926
 
-### Cuestiones sanitarias
-Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
+### Cuestiones sanitarias'
 
-## Alternativas
-### PedidosYa
-PedidosYa es una compañía uruguaya de delivery que reúne los restaurantes locales y los depliesga en una interfaz amigable para el usuario, dandole la opción de elegir de una variedad de comidas.
+## Requerimientos
+##  Requerimientos funcionales
+Existen diferentes especificaciones que el sistema debe cumplir para su uso e implementacion, tambien en este momento vamos a especificar el funcionamiento del sistema en un momento especifico. Ademas de como se procesa la informacion (entrada y salida). 
 
-Diferencias con el Proyecto Verdulista:
-* Requiere una tarjeta internacional
-* Requiere saber usar el celular
-* No es de uso diario
-* Caro
+1.En caso de un evento en el que la compra llegue al destino dalerta se debe notificar al usuario. 
 
+2. En caso de ocurrir un evento que no era esperado se debe de notificar al estudiante. 
 
+3. Se le debe proporcionar a todos los usuarios, una lista de preferencias de listas de alimentos en oferta.
 
+4. Se le debe proporcionar a todos los usuarios una lista de comercios preferentes.
 
+5. Se le debe permitir a los empleados asignar a los usuarios una zna limite de pedidos.
 
+6. Permitir a los empleados realizar encuestas de calidad de servicio a todos los usuarios  
+
+7. Permitir a los empleados su notificacion por alertas metereológicas de grado anaranjado o rojo.
+
+8. Permitir a  los empleados el acceso a diferentes rutas (y se le dara la mas optimizada) 
+
+9. Mostrar al usuario la ubicación actual del empleado.
+
+10. Dada la ubicacion del empleado, su ubicación guiar al empleadohacia la siguiente verduleria que quiera que vaya.
+
+11.Permitir el alta y baja del sistema
+
+12.Ecriptar la contraseña de los usuarios
 
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
