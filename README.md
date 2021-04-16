@@ -67,7 +67,23 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 Total de población: 702.926
 
 ### Cuestiones sanitarias
+Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
 
-##  Requerimientos funcion
+## Alternativas
+### PedidosYa
+PedidosYa es una compañía uruguaya de delivery que reúne los restaurantes locales y los depliesga en una interfaz amigable para el usuario, dandole la opción de elegir de una variedad de comidas.
+
+Diferencias con el Proyecto Verdulista:
+* Requiere una tarjeta internacional
+* Requiere saber usar el celular
+* No es de uso diario
+* Caro
+
+
+
+
+
+
+
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
 
