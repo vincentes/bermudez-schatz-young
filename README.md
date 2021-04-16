@@ -68,7 +68,6 @@ Total de población: 702.926
 
 ### Cuestiones sanitarias
 
-
-
+##  Requerimientos funcion
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
 
