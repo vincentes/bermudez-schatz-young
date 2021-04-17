@@ -102,3 +102,50 @@ Diferencias con el Proyecto Verdulista:
 | IDE | Visual Studio Code | Requerido |
 | Test unitarios | Jest | Conocimiento del equipo, facil de usar |
 
+### Cuestiones sanitarias
+
+## Requerimientos
+##  Requerimientos funcionales
+Existen diferentes especificaciones que el sistema debe cumplir para su uso e implementacion, tambien en este momento vamos a especificar el funcionamiento del sistema en un momento especifico. Ademas de como se procesa la informacion (entrada y salida). 
+
+1.En caso de un evento en el que la compra llegue al destino dalerta se debe notificar al usuario. 
+
+2. En caso de ocurrir un evento que no era esperado se debe de notificar al estudiante. 
+
+3. Se le debe proporcionar a todos los usuarios, una lista de preferencias de listas de alimentos en oferta.
+
+4. Se le debe proporcionar a todos los usuarios una lista de comercios preferentes.
+
+5. Se le debe permitir a los empleados asignar a los usuarios una zna limite de pedidos.
+
+6. Permitir a los empleados realizar encuestas de calidad de servicio a todos los usuarios  
+
+7. Permitir a los empleados su notificacion por alertas metereológicas de grado anaranjado o rojo.
+
+8. Permitir a  los empleados el acceso a diferentes rutas (y se le dara la mas optimizada) 
+
+9. Mostrar al usuario la ubicación actual del empleado.
+
+10. Dada la ubicacion del empleado, su ubicación guiar al empleadohacia la siguiente verduleria que quiera que vaya.
+
+11.Permitir el alta y baja del sistema
+
+12.Ecriptar la contraseña de los usuarios
+
+# Requerimientos no funcionales
+
+A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
+
+1.El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 3 segundos 
+2. Los usuarios tienen disponibles aplicaciones son móviles compatibles con iOS 10 o superior y con Android 8 Oreo o superior
+3. El sistmea debe ser amigables e intuitivos para usuarios y empleadaos.
+4. El sistema debe estar disponible las veinticuatro horas del día sin percances. 
+5. En la aplicación móvil debe correr de manera fluida, incluso con dispositivos relativamente antiguos.
+6. El sistema debe ser compatible con Android 4.1 en adelante.
+
+8. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
+9.  La aplicación móvil no debe pesar más de 20MB, y la aplicación web no debe pesar más de 500MB.
+10. Todo el codigo debe estar escrito en JavaScript. 
+
+
+Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
