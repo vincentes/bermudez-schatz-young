@@ -23,6 +23,8 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 
 #### Distribución etaria uruguaya
 
+La tendencia en la distribución etaria uruguaya es el envejecimiento general. El porcentaje de personas en la franja etaria de 60+ es cada vez más alto, siendo un 23% de la población total.
+
 ![Image of dog](https://i.imgur.com/DJgzPMJ.png)
 
 | Edad | Hombres | Mujeres |
@@ -64,9 +66,43 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 | 95-99 | 1192 | 7617 |
 | 100 | 205 | 1938 |
 
-Total de población: 702.926
+Total de población: 702.926 (23%)
 
-### Cuestiones sanitarias'
+### Cuestiones sanitarias
+Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
+
+## Alternativas
+### PedidosYa (igual que Rappi, UberEats)
+PedidosYa es una compañía uruguaya de delivery que reúne los restaurantes locales y los depliesga en una interfaz amigable para el usuario, dandole la opción de elegir de una variedad de comidas.
+
+Diferencias con el Proyecto Verdulista:
+* Requiere una tarjeta internacional
+* Requiere saber usar el celular
+* No es de uso diario
+* Caro
+
+### Snap Kitchen (igual que Daily Harvest, Splendid Spoon, Hungryroot)
+SnapKitchen es una plataforma de delivery de comida para personas que tienen tiempo limitado para cocinar o comprar comida. El usuario puede registrarse en la página, introduciendo su dirección y una tarjeta de crédito para pagar.
+
+Diferencias con el Proyecto Verdulista:
+* Solo funciona en los EEUU
+* Requiere que el usuario sepa usar una computadora
+* No se pueden pedir ingredientes, es comida lista
+
+## Tecnologías a utilizar
+
+| Categoría | Tecnología | Razón |
+| :-------: | :----: | :---: |
+| Control de Versiones| Git con GitHub | Requerido |
+| Documentación | Markdown | Requerido |
+| Backend | NodeJS | Requerido |
+| Frontend | Markdown | Requerido |
+| Frontend | AngularJS | Conocimiento del equipo, facil de usar, responsive |
+| Diseño | Material Design (ng-material) | Requerido |
+| IDE | Visual Studio Code | Requerido |
+| Test unitarios | Jest | Conocimiento del equipo, facil de usar |
+
+### Cuestiones sanitarias
 
 ## Requerimientos
 ##  Requerimientos funcionales
@@ -144,4 +180,3 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
-
