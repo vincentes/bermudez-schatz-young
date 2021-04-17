@@ -68,18 +68,37 @@ La tendencia en la distribución etaria uruguaya es el envejecimiento general. E
 
 Total de población: 702.926 (23%)
 
-### Alfabetización informatica
-
-La alfabetización digital es un proceso de adquisición de conocimientos necesarios para utilizar adecuadamente las infotecnologías y poder responder críticamente a los estímulos y exigencias de un entorno informacional cada vez más complejo, con variedad y multiplicidad de fuentes, medios de comunicación y servicios. Para este autor la alfabetización digital seria poseer la capacidad imprescindible para sobrevivir en la sociedad de la información y comunicación y poder actuar críticamente sobre ella, además de la capacidad de interactuar inteligentemente con las tecnologías para gobernar la complejidad y transformar la sociedad. (Casado apud Malinowsk, 2007)
-
-
 ### Cuestiones sanitarias
+Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
 
-Las cuestiones sanitarias son lalalalalla
-1
-2
-3
-455
+## Alternativas
+### PedidosYa (igual que Rappi, UberEats)
+PedidosYa es una compañía uruguaya de delivery que reúne los restaurantes locales y los depliesga en una interfaz amigable para el usuario, dandole la opción de elegir de una variedad de comidas.
 
-Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
+Diferencias con el Proyecto Verdulista:
+* Requiere una tarjeta internacional
+* Requiere saber usar el celular
+* No es de uso diario
+* Caro
+
+### Snap Kitchen (igual que Daily Harvest, Splendid Spoon, Hungryroot)
+SnapKitchen es una plataforma de delivery de comida para personas que tienen tiempo limitado para cocinar o comprar comida. El usuario puede registrarse en la página, introduciendo su dirección y una tarjeta de crédito para pagar.
+
+Diferencias con el Proyecto Verdulista:
+* Solo funciona en los EEUU
+* Requiere que el usuario sepa usar una computadora
+* No se pueden pedir ingredientes, es comida lista
+
+## Tecnologías a utilizar
+
+| Categoría | Tecnología | Razón |
+| :-------: | :----: | :---: |
+| Control de Versiones| Git con GitHub | Requerido |
+| Documentación | Markdown | Requerido |
+| Backend | NodeJS | Requerido |
+| Frontend | Markdown | Requerido |
+| Frontend | AngularJS | Conocimiento del equipo, facil de usar, responsive |
+| Diseño | Material Design (ng-material) | Requerido |
+| IDE | Visual Studio Code | Requerido |
+| Test unitarios | Jest | Conocimiento del equipo, facil de usar |
 
