@@ -147,5 +147,36 @@ A continuacion  se muestran las restricciones  provistas por el sistema, en aspe
 9.  La aplicación móvil no debe pesar más de 20MB, y la aplicación web no debe pesar más de 500MB.
 10. Todo el codigo debe estar escrito en JavaScript. 
 
+## Actores involucrados
+El proyecto afecta a varios actores directa e indirectamente: 
+Los actores directos son:
+1- Los ancianos: son el eje central en la creacion de este servicio que propone facilitar la seguridad y practicidad con la que hacen compras durante la era del COVID-19.
+2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
+3- Empresa de reparticion: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
+Los actores indirectos son: 
+1- Otros competidores con servicios similares: Rappi, UberEats, Pedidos Ya , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
+2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
+
+## Objetivos especificos
+
+A continuacion detallaremos los objetivos especificos del proyecto: 
+
+1- Reducir el riesgo de contagio en personas mayores que no tienen manejo fluido con aplicaciones: estas personas durante el tiempo que quede de COVID-19 deberan al menos tener la libertad de elegir cuando salir a comprar y cuando no, sin verse limitadas a depender de alguien mas para tener stock de alimentos.
+
+2- Darle mas independencia a las personas mayores en el mundo moderno: estos tiempos dejaron relegados a muchas personas mayores que no tienen la capacidad de adaptarse a determinados cambios que propuso la mezcla de la pandemia y el avance de la tecnologia. Por lo que esta aplicacion puede ser una puerta de entrada gradual al mundo de la tecnologia para que estas personas puedan disfrutar de una vida mas independiente y con mas opciones.
+
+##  Necesidades 
+
+Las necesidades que se presentan en este desarrollo son las siguientes: 
+
+1- Desarrollar una aplicacion que permita organizar los pedidos: agregar, leer , modificar y eliminar estos de la manera mas organizada posible por el administrador del sistema.
+
+2- Una base de datos para almacenar la aplicacion de la aplicacion del punto 1 y que esos datos sean persistentes.
+
+3- Un adminsitrador del sistema: Una persona que cuente con las habilidades para manipular un telefono y responder las llamadas de las personas y agendar esos pedidos en nuestra plataforma(desarrollada en el punto 1).
+
+4- Un servicio de transporte que permita coordinar los envios lo mas rapido posible ajustandose al horario de los clientes.
+
+
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
