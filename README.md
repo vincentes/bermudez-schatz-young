@@ -25,7 +25,7 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 
 La tendencia en la distribución etaria uruguaya es el envejecimiento general. El porcentaje de personas en la franja etaria de 60+ es cada vez más alto, siendo un 23% de la población total.
 
-![Image of dog](https://i.imgur.com/DJgzPMJ.png)
+![Distribución etaria uruguaya](https://i.imgur.com/DJgzPMJ.png)
 
 | Edad | Hombres | Mujeres |
 | :------- | ----: | :---: |
@@ -202,6 +202,9 @@ Branches para el repositorio de web y api:
   * develop
     * feature/CU-### (### representa el ID del caso de uso a implementar)
 
-Casos de uso
+## Casos de uso
+![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
+
+
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
