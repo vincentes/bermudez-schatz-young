@@ -242,6 +242,8 @@ Branches para el repositorio de web y api:
   * develop
     * feature/CU-### (### representa el ID del caso de uso a implementar)
 
-Casos de uso
+## Casos de uso
+![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
+
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
