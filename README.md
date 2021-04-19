@@ -25,7 +25,7 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 
 La tendencia en la distribución etaria uruguaya es el envejecimiento general. El porcentaje de personas en la franja etaria de 60+ es cada vez más alto, siendo un 23% de la población total.
 
-![Distribución etaria uruguaya](https://i.imgur.com/DJgzPMJ.png)
+![Image of dog](https://i.imgur.com/DJgzPMJ.png)
 
 | Edad | Hombres | Mujeres |
 | :------- | ----: | :---: |
@@ -69,6 +69,46 @@ La tendencia en la distribución etaria uruguaya es el envejecimiento general. E
 Total de población: 702.926 (23%)
 
 ### Cuestiones sanitarias
+Para entender la relación de los mayores con los supermercados y la pandemia, decidimos buscar sus opiniones, para lograr entender sus dificultades.
+
+#### Encuesta
+Titulo: Relación de personas de 60+ con la tecnología y la pandemia
+
+Campos requeridos: Nombre, Edad
+
+Preguntas realizadas: 
+¿Que tanto sabe usar un celular?
+* Muy bien
+* Bien
+* Mas o menos
+* Poco
+* Muy poco
+* Nada
+
+**¿Tiene celular?**
+* Si
+* No
+
+Aquí buscamos hallar cuántos tienen celular, para poder considerar la opción de implementar alguna aplicación móvil para evitar las llamadas telefónicas por parte de los clientes.
+
+**¿Si tiene un celular, tiene alguna aplicación instalada? ¿Cuáles?**
+(Libre respuesta)
+
+No es suficiente con que los mayores sepan usar un celular, sino que también debemos asegurarnos que tengan el suficiente conocimiento como para realizar transacciones bancarias y/o de crédito via una interfaz móvil. 
+
+**¿Se siente excluido/a del mundo moderno?(Si/no, y porque)**
+(Libre respuesta)
+
+Con esta pregunta evaluamos el sentimiento de inclusión en el mundo moderno, para confirmar que nuestro grupo objetivo es ignorado en las nuevas tecnologías, o que al menos así lo siente.
+
+**Actualmente (en el contexto del COVID) ¿cómo realiza las compras de frutas y verduras?**
+
+**¿Te sentís seguro yendo a la verdulería? Con respecto al COVID-19.**
+
+Además de conocer su relación con la tecnología, es importante conocer cómo este grupo realiza sus compras en el contexto de pandemia.
+
+#### Conclusiones de la encuesta
+
 Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
 
 ## Alternativas
@@ -202,9 +242,6 @@ Branches para el repositorio de web y api:
   * develop
     * feature/CU-### (### representa el ID del caso de uso a implementar)
 
-## Casos de uso
-![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
-
-
+Casos de uso
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
