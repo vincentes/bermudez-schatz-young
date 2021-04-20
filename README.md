@@ -178,5 +178,64 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 4- Un servicio de transporte que permita coordinar los envios lo mas rapido posible ajustandose al horario de los clientes.
 
 
+## Plan de SCM
+Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
+
+Tendremos tres repositorios en Github:
+* Verdulería Documentación: Documentación técnica y especifición del proyecto. 
+* Verdulería Web: Código fuente de la aplicación web.
+* Verdulería API: Código fuente de la API.
+
+Branches para la documentación:
+* main
+  * vicente
+  * felipe
+  * tali
+
+Branches para el repositorio de web y api:
+* main
+  * develop
+    * feature/CU-### (### representa el ID del caso de uso a implementar)
+
+Un detalle no menor es que entendemos que pueden haber errores en el uso del repositorio ya que es necesaria una determinada curva de aprendizaje para lograr una familiarizacion total con la plataforma.
+Los errores que preevemos que pueden suceder son: 
+* Commits directos al main sin pasar por branches
+* Realizar commits sin haber hecho un pull previo "pisando los cambios anteriores"
+* Olvidar hacer push de cambios y que el resto del equipo no los pueda ver.
+Todos estos problemas son reversibles y no representan una amenaza para el equipo, pero es importante denotar que pueden ocurrir.
+
+
+## Historias de Usuario
+
+ID: 1
+Titulo: Agregar Verduleria
+Narrativa: Como usuario quiero poder agregar verdulerias con sus respectivos datos de contacto para poder contactarlos y comprarles las frutas que quieren los clientes.
+Criterios de aceptacion: 
+* Se deben llenar los campos: nombre,telefono,zona y rango de precio esperado(bajo, medio y alto).
+* No se debe permitir agregar una verduleria si le falta uno de los datos anteriores.
+
+ID: 2
+Titulo: Eliminar Verduleria
+Narrativa: Como usuario quiero poder eliminar verdulerias y sus datos de contacto para no contar con ellos a la hora de armarle un pedido al cliente.
+Criterios de aceptacion:
+* Se deben eliminar todos los datos de la verduleria seleccionada.
+
+ID: 3
+Titulo: Crear Pedido
+Narrativa: Como usuario quiero poder crear un pedido con sus respectivas cantidades de frutas y verduras para tener mas organizada la informacion a la hora de realizar el pedido en las verdulerias que tengo registradas en el sistema.
+Criterios de aceptacion: 
+* Se debe poder agregar nombre, direccion de destino, cantidades de frutas y verduras, horario de preferencia de entrega y medio de pago.
+
+ID: 4
+Titulo: Despachar pedido
+Narrativa: Como usuario quiero poder quitar del sistema los pedidos que fueron ya enviados a sus respectivos clientes de modo que no sean visibles para que no interfieran con la lista de pedidos pendientes.
+Criterios de aceptacion: 
+* El pedido ya no debe ser visible en la lista de pedidos pendientes
+* Se debe notificar al cliente que su pedido esta en camino.
+
+## 
+
+
+
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
