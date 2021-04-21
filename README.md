@@ -322,7 +322,47 @@ Narrativa:
 			Como usuario 
 			Quiero poder dejar de usar el sistema
             Para poder abandonar el sistema cuando el usuario quiera
-Criterios de aceptación:el usuario no tiene adeudos
+Criterios de aceptación:el usuario no tiene deudas
+
+ID: #6
+Titulo: Agregar Verduleria
+Narrativa: 
+	Como usuario
+	Quiero poder agregar verdulerias con sus respectivos datos de contacto.
+	Para poder contactarlos y comprarles las frutas que quieren los clientes.
+Criterios de aceptacion: 
+* Se deben llenar los campos: nombre,telefono,zona y rango de precio esperado(bajo, medio y alto).
+* No se debe permitir agregar una verduleria si le falta uno de los datos anteriores.
+
+ID: #7
+Titulo: Eliminar Verduleria
+Narrativa:
+	Como usuario 
+	Quiero poder eliminar verdulerias y sus datos de contacto 
+	Para no contar con ellos a la hora de armarle un pedido al cliente.
+Criterios de aceptacion:
+* Se deben eliminar todos los datos de la verduleria seleccionada, incluidos los pedidos pendientes asociados.
+
+ID: #8
+Titulo: Crear Pedido
+Narrativa: 
+	Como usuario
+	Quiero poder crear un pedido con sus respectivas cantidades de frutas y verduras 
+	Para tener mas organizada la informacion a la hora de realizar el pedido en las verdulerias que tengo registradas en el sistema.
+Criterios de aceptacion: 
+* Se debe poder agregar nombre, direccion de destino, cantidades de frutas y verduras, horario de preferencia de entrega y medio de pago.
+
+ID: #9
+Titulo: Despachar pedido
+Narrativa: 
+	Como usuario
+	Quiero poder quitar del sistema los pedidos que fueron ya enviados a sus respectivos clientes de modo que no sean visibles para que no interfieran con la lista de pedidos pendientes.
+	Para poder visualizar mejor los pedidios que van en camino.
+Criterios de aceptacion: 
+* El pedido ya no debe ser visible en la lista de pedidos pendientes
+* Se debe notificar al cliente que su pedido esta en camino.
+
+## 
 
 ## Validacion de requerimientos 
 
@@ -370,35 +410,7 @@ Caracteristicas de Luisa:
 -Trabajadora
 -Responsable 
 
-## Historias de Usuario
 
-ID: 1
-Titulo: Agregar Verduleria
-Narrativa: Como usuario quiero poder agregar verdulerias con sus respectivos datos de contacto para poder contactarlos y comprarles las frutas que quieren los clientes.
-Criterios de aceptacion: 
-* Se deben llenar los campos: nombre,telefono,zona y rango de precio esperado(bajo, medio y alto).
-* No se debe permitir agregar una verduleria si le falta uno de los datos anteriores.
-
-ID: 2
-Titulo: Eliminar Verduleria
-Narrativa: Como usuario quiero poder eliminar verdulerias y sus datos de contacto para no contar con ellos a la hora de armarle un pedido al cliente.
-Criterios de aceptacion:
-* Se deben eliminar todos los datos de la verduleria seleccionada.
-
-ID: 3
-Titulo: Crear Pedido
-Narrativa: Como usuario quiero poder crear un pedido con sus respectivas cantidades de frutas y verduras para tener mas organizada la informacion a la hora de realizar el pedido en las verdulerias que tengo registradas en el sistema.
-Criterios de aceptacion: 
-* Se debe poder agregar nombre, direccion de destino, cantidades de frutas y verduras, horario de preferencia de entrega y medio de pago.
-
-ID: 4
-Titulo: Despachar pedido
-Narrativa: Como usuario quiero poder quitar del sistema los pedidos que fueron ya enviados a sus respectivos clientes de modo que no sean visibles para que no interfieran con la lista de pedidos pendientes.
-Criterios de aceptacion: 
-* El pedido ya no debe ser visible en la lista de pedidos pendientes
-* Se debe notificar al cliente que su pedido esta en camino.
-
-## 
 
 
 
