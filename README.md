@@ -255,6 +255,8 @@ Los actores indirectos son:
 1- Otros competidores con servicios similares: Rappi, UberEats, Pedidos Ya , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
 2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
 
+
+
 ## Objetivos especificos
 
 A continuacion detallaremos los objetivos especificos del proyecto: 
@@ -275,6 +277,90 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 
 4- Un servicio de transporte que permita coordinar los envios lo mas rapido posible ajustandose al horario de los clientes.
 
+## User Sories 
+
+ID: #1	
+Título: Compra
+Narrativa:
+			Como usuario
+			Quiero poder registrarme con mi tarjeta de debito
+            Para poder comprar unicamente con la tarjeta que elegi
+Criterios de aceptación:
+La tarjeta debe no haber caducido y cumplir con todos los requerimientos necesarios del banco
+
+
+ID: #3
+Título: Ofertas para usuarios frecuentes
+Narrativa: 
+			Como empleado
+			Quiero poder ver la lista de productos mas consumidos por un usuario frecuente //definir usuario frecuente 
+            Para poder ofrecerle esos productos en oferta 
+Criterios de aceptación:
+Cumplir con las condiciones para ser un usuario frecuente
+
+
+ID: #4
+Título: Consumo del usuario
+Narrativa: 
+			Como usuario 
+			Quiero poder ver de donde procede la mercaderia
+            Para asegurar que el usuario se siente seguro con lo que esta consumiendo 
+Criterios de aceptación:
+Ser usuario del sistema
+
+ID: #5
+Título: Dar de baja
+Narrativa: 
+			Como usuario 
+			Quiero poder dejar de usar el sistema
+            Para poder abandonar el sistema cuando el usuario quiera
+Criterios de aceptación:el usuario no tiene adeudos
+
+## Validacion de requerimientos 
+
+## CheckList requerimientos 
+1. Completitud 
+/*Los requerimientos se encuentran correctamente priorizados porque el sistema prioriza a adultos mayores a poder seguir realizando las tareas diarias sin 
+*/
+Los usuarios fueron obtenidos de ir a la feria y observar que patrones sigue el grupo de adultos mayores que concurren diariamente alli. Por lo tanto, consideramos que todos los casos sosn exaustivos. Ademas de de respetar con el estandar puesto que cada vez que se realiza una entrevista se cumple con cada uno de los requerimientos especificados. Todos los requerimientos de calidad estan tomados en cuenta segun las especificaciones dadas por los usurarios . 
+
+2. Verificabilidad y no ambiguedad 
+Cada uno de los requerimientos de los usuarios fueron interpretados como preguntas unicas sin repeticio. Podemos demostrar esto observando que ninguna de las pregntas fueron repetidas. 
+
+3. Correctitud y consistencia 
+//no se puede hacer esto sin haber hecho las entecistas tampoco la trnzabilidad
+
+## User Persona 
+
+Nombre : Maria Rodriguez 
+
+Lema de vida de Maria:  “La vida es una y hay que cuidarla” y 
+
+Bio: María nació en el año 1937 en Polonia,  sobrevivió a varias guerra y pandemias (hasta la fecha),  ella trabajo desarrollándose siempre en el área del ballet, fue primera bailarina en el periodo de (1950-1957) hoy en día se desarrolla como parte del cuerpo honorario de las escuelas de formación artística del Sodre.  En su vida personal se casó en el 1952, tiene 3 hijos 16 nietos, 2 bisnietos y 6 gatos por lo que la familia es un pilar muy importante. Se caracteriza como una persona muy trabajadora y comprometida (en todos los ámbitos) . En este momento de la pandemia del país maría es consciente de que no se pueden hacer actividades con tanta exposición como ir a la feria.
+
+Características de Maria:
+-Veterana
+-No maneja bien la tecnología
+-Comprometida y trabajadora
+-Tiene una gran familia
+-Es compradora habitual de la feria
+
+Nombre: Jose Menigues 
+Bio: Jose nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
+
+Caracterisiticas de Jose: 
+- Trabajador 
+-Amante de la tecnologia 
+-Compromiso 
+- Reinvencion constante
+
+Nombre: Luisa Fernandez 
+Bio: Luisa nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
+
+Caracteristicas de Luisa: 
+-Amante de la familia
+-Trabajadora
+-Responsable 
 
 ## Plan de SCM
 Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
