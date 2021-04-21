@@ -23,6 +23,8 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 
 #### Distribución etaria uruguaya
 
+La tendencia en la distribución etaria uruguaya es el envejecimiento general. El porcentaje de personas en la franja etaria de 60+ es cada vez más alto, siendo un 23% de la población total.
+
 ![Image of dog](https://i.imgur.com/DJgzPMJ.png)
 
 | Edad | Hombres | Mujeres |
@@ -64,10 +66,216 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 | 95-99 | 1192 | 7617 |
 | 100 | 205 | 1938 |
 
-Total de población: 702.926
+Total de población: 702.926 (23%)
+
+### Cuestiones sanitarias
+Para entender la relación de los mayores con los supermercados y la pandemia, decidimos buscar sus opiniones, para lograr entender sus dificultades.
+
+#### Encuesta
+Titulo: Relación de personas de 60+ con la tecnología y la pandemia
+
+Campos requeridos: Nombre, Edad
+
+Preguntas realizadas: 
+¿Que tanto sabe usar un celular?
+* Muy bien
+* Bien
+* Mas o menos
+* Poco
+* Muy poco
+* Nada
+
+**¿Tiene celular?**
+* Si
+* No
+
+Aquí buscamos hallar cuántos tienen celular, para poder considerar la opción de implementar alguna aplicación móvil para evitar las llamadas telefónicas por parte de los clientes.
+
+**¿Si tiene un celular, tiene alguna aplicación instalada? ¿Cuáles?**
+(Libre respuesta)
+
+No es suficiente con que los mayores sepan usar un celular, sino que también debemos asegurarnos que tengan el suficiente conocimiento como para realizar transacciones bancarias y/o de crédito via una interfaz móvil. 
+
+**¿Se siente excluido/a del mundo moderno?(Si/no, y porque)**
+(Libre respuesta)
+
+Con esta pregunta evaluamos el sentimiento de inclusión en el mundo moderno, para confirmar que nuestro grupo objetivo es ignorado en las nuevas tecnologías, o que al menos así lo siente.
+
+**Actualmente (en el contexto del COVID) ¿cómo realiza las compras de frutas y verduras?**
+
+**¿Te sentís seguro yendo a la verdulería? Con respecto al COVID-19.**
+
+Además de conocer su relación con la tecnología, es importante conocer cómo este grupo realiza sus compras en el contexto de pandemia.
+
+#### Conclusiones de la encuesta
+
+Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
+
+## Alternativas
+### PedidosYa (igual que Rappi, UberEats)
+PedidosYa es una compañía uruguaya de delivery que reúne los restaurantes locales y los depliesga en una interfaz amigable para el usuario, dandole la opción de elegir de una variedad de comidas.
+
+Diferencias con el Proyecto Verdulista:
+* Requiere una tarjeta internacional
+* Requiere saber usar el celular
+* No es de uso diario
+* Caro
+
+### Snap Kitchen (igual que Daily Harvest, Splendid Spoon, Hungryroot)
+SnapKitchen es una plataforma de delivery de comida para personas que tienen tiempo limitado para cocinar o comprar comida. El usuario puede registrarse en la página, introduciendo su dirección y una tarjeta de crédito para pagar.
+
+Diferencias con el Proyecto Verdulista:
+* Solo funciona en los EEUU
+* Requiere que el usuario sepa usar una computadora
+* No se pueden pedir ingredientes, es comida lista
+
+## Tecnologías a utilizar
+
+| Categoría | Tecnología | Razón |
+| :-------: | :----: | :---: |
+| Control de Versiones| Git con GitHub | Requerido |
+| Documentación | Markdown | Requerido |
+| Backend | NodeJS | Requerido |
+| Frontend | Markdown | Requerido |
+| Frontend | AngularJS | Conocimiento del equipo, facil de usar, responsive |
+| Diseño | Material Design (ng-material) | Requerido |
+| IDE | Visual Studio Code | Requerido |
+| Test unitarios | Jest | Conocimiento del equipo, facil de usar |
 
 ### Cuestiones sanitarias
 
+## Requerimientos
+
+##  Requerimientos funcionales
+Existen diferentes especificaciones que el sistema debe cumplir para su uso e implementacion, tambien en este momento vamos a especificar el funcionamiento del sistema en un momento especifico. Ademas de como se procesa la informacion (entrada y salida). 
+
+1. Se le debe notificar al administrador la llegada de un pedido
+
+2. El repartidor podrá notificar al administrador la finalización de un pedido
+
+3. Se le debe proporcionar al administrador una lista de alimentos disponibles para delivery.
+
+4. Se le debe proporcionar al administrador una lista de comercios junto con un lista de alimentos correspondientes, junto con sus precios.
+
+5. Se le debe permitir a los administradores armar un pedido y asignarlo a un repartidor y a un cliente
+
+6. Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad
+
+7. Se le debe permitir a los administradores visualizar los clientes registrados
+
+8. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes  
+
+9. Guiar al repartidor hacia la verduleria más cercana
+
+# Requerimientos no funcionales
+
+A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
+
+1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos 
+2. Los usuarios tienen disponibles aplicaciones son móviles compatibles con iOS 10 o superior y con Android 8 Oreo o superior
+3. El sistema debe ser amigables e intuitivos para usuarios y empleadaos.
+4. El sistema debe estar disponible las veinticuatro horas del día sin percances. 
+5. En la aplicación móvil debe correr de manera fluida, incluso con dispositivos relativamente antiguos.
+6. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
+7. La aplicación móvil no debe pesar más de 100MB, y la aplicación web no debe pesar más de 500MB.
+8. Todo el codigo debe estar escrito en JavaScript. 
+
+## Actores involucrados
+El proyecto afecta a varios actores directa e indirectamente: 
+Los actores directos son:
+1- Los ancianos: son el eje central en la creacion de este servicio que propone facilitar la seguridad y practicidad con la que hacen compras durante la era del COVID-19.
+2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
+3- Empresa de reparticion: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
+Los actores indirectos son: 
+1- Otros competidores con servicios similares: Rappi, UberEats, Pedidos Ya , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
+2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
+
+## Objetivos especificos
+
+A continuacion detallaremos los objetivos especificos del proyecto: 
+
+1- Reducir el riesgo de contagio en personas mayores que no tienen manejo fluido con aplicaciones: estas personas durante el tiempo que quede de COVID-19 deberan al menos tener la libertad de elegir cuando salir a comprar y cuando no, sin verse limitadas a depender de alguien mas para tener stock de alimentos.
+
+2- Darle mas independencia a las personas mayores en el mundo moderno: estos tiempos dejaron relegados a muchas personas mayores que no tienen la capacidad de adaptarse a determinados cambios que propuso la mezcla de la pandemia y el avance de la tecnologia. Por lo que esta aplicacion puede ser una puerta de entrada gradual al mundo de la tecnologia para que estas personas puedan disfrutar de una vida mas independiente y con mas opciones.
+
+##  Necesidades 
+
+Las necesidades que se presentan en este desarrollo son las siguientes: 
+
+1- Desarrollar una aplicacion que permita organizar los pedidos: agregar, leer , modificar y eliminar estos de la manera mas organizada posible por el administrador del sistema.
+
+2- Una base de datos para almacenar la aplicacion de la aplicacion del punto 1 y que esos datos sean persistentes.
+
+3- Un adminsitrador del sistema: Una persona que cuente con las habilidades para manipular un telefono y responder las llamadas de las personas y agendar esos pedidos en nuestra plataforma(desarrollada en el punto 1).
+
+4- Un servicio de transporte que permita coordinar los envios lo mas rapido posible ajustandose al horario de los clientes.
+
+
+## Alcance del proyecto
+
+Los principales elementos de la aplicación son los siguientes:
+1. Se le debe proporcionar a todos los usuarios una lista de alimentos en oferta.
+2. Se le debe proporcionar al administrador una lista de comercios junto con un lista de alimentos correspondientes, junto con sus precios.
+
+Por lo tanto, estos elementos son esenciales para cumplir las necesidades de los clientes.
+
+## Plan de SQA
+* Load testing: Se probarán los distintos endpoints de la API utilizando una plataforma como loader.io, analizando el estrés máximo que soportará el servicio.
+* Tests unitarios: Se escribirán unit tests de las clases más importantes para el sistema. El estándard será de un 60% de code completion.
+
+## Plan de SCM
+Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
+
+Tendremos tres repositorios en Github:
+* Verdulería Documentación: Documentación técnica y especifición del proyecto. 
+* Verdulería Web: Código fuente de la aplicación web.
+* Verdulería API: Código fuente de la API.
+
+Branches para la documentación:
+* main
+  * vicente
+  * felipe
+  * tali
+
+Branches para el repositorio de web y api:
+* main
+  * develop
+    * feature/CU-### (### representa el ID del caso de uso a implementar)
+
+## Casos de uso
+![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
+
+## Actores involucrados
+El proyecto afecta a varios actores directa e indirectamente: 
+Los actores directos son:
+1- Los ancianos: son el eje central en la creacion de este servicio que propone facilitar la seguridad y practicidad con la que hacen compras durante la era del COVID-19.
+2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
+3- Empresa de reparticion: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
+Los actores indirectos son: 
+1- Otros competidores con servicios similares: Rappi, UberEats, Pedidos Ya , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
+2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
+
+
+
+## Objetivos especificos
+
+A continuacion detallaremos los objetivos especificos del proyecto: 
+
+1- Reducir el riesgo de contagio en personas mayores que no tienen manejo fluido con aplicaciones: estas personas durante el tiempo que quede de COVID-19 deberan al menos tener la libertad de elegir cuando salir a comprar y cuando no, sin verse limitadas a depender de alguien mas para tener stock de alimentos.
+
+2- Darle mas independencia a las personas mayores en el mundo moderno: estos tiempos dejaron relegados a muchas personas mayores que no tienen la capacidad de adaptarse a determinados cambios que propuso la mezcla de la pandemia y el avance de la tecnologia. Por lo que esta aplicacion puede ser una puerta de entrada gradual al mundo de la tecnologia para que estas personas puedan disfrutar de una vida mas independiente y con mas opciones.
+
+##  Necesidades 
+
+Las necesidades que se presentan en este desarrollo son las siguientes: 
+
+1- Desarrollar una aplicacion que permita organizar los pedidos: agregar, leer , modificar y eliminar estos de la manera mas organizada posible por el administrador del sistema.
+
+2- Una base de datos para almacenar la aplicacion de la aplicacion del punto 1 y que esos datos sean persistentes.
+
+3- Un adminsitrador del sistema: Una persona que cuente con las habilidades para manipular un telefono y responder las llamadas de las personas y agendar esos pedidos en nuestra plataforma(desarrollada en el punto 1).
+
+4- Un servicio de transporte que permita coordinar los envios lo mas rapido posible ajustandose al horario de los clientes.
 
 ## User Sories 
 
@@ -154,9 +362,64 @@ Caracteristicas de Luisa:
 -Trabajadora
 -Responsable 
 
+## Plan de SCM
+Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
+
+Tendremos tres repositorios en Github:
+* Verdulería Documentación: Documentación técnica y especifición del proyecto. 
+* Verdulería Web: Código fuente de la aplicación web.
+* Verdulería API: Código fuente de la API.
+
+Branches para la documentación:
+* main
+  * vicente
+  * felipe
+  * tali
+
+Branches para el repositorio de web y api:
+* main
+  * develop
+    * feature/CU-### (### representa el ID del caso de uso a implementar)
+
+Un detalle no menor es que entendemos que pueden haber errores en el uso del repositorio ya que es necesaria una determinada curva de aprendizaje para lograr una familiarizacion total con la plataforma.
+Los errores que preevemos que pueden suceder son: 
+* Commits directos al main sin pasar por branches
+* Realizar commits sin haber hecho un pull previo "pisando los cambios anteriores"
+* Olvidar hacer push de cambios y que el resto del equipo no los pueda ver.
+Todos estos problemas son reversibles y no representan una amenaza para el equipo, pero es importante denotar que pueden ocurrir.
+
+
+## Historias de Usuario
+
+ID: 1
+Titulo: Agregar Verduleria
+Narrativa: Como usuario quiero poder agregar verdulerias con sus respectivos datos de contacto para poder contactarlos y comprarles las frutas que quieren los clientes.
+Criterios de aceptacion: 
+* Se deben llenar los campos: nombre,telefono,zona y rango de precio esperado(bajo, medio y alto).
+* No se debe permitir agregar una verduleria si le falta uno de los datos anteriores.
+
+ID: 2
+Titulo: Eliminar Verduleria
+Narrativa: Como usuario quiero poder eliminar verdulerias y sus datos de contacto para no contar con ellos a la hora de armarle un pedido al cliente.
+Criterios de aceptacion:
+* Se deben eliminar todos los datos de la verduleria seleccionada.
+
+ID: 3
+Titulo: Crear Pedido
+Narrativa: Como usuario quiero poder crear un pedido con sus respectivas cantidades de frutas y verduras para tener mas organizada la informacion a la hora de realizar el pedido en las verdulerias que tengo registradas en el sistema.
+Criterios de aceptacion: 
+* Se debe poder agregar nombre, direccion de destino, cantidades de frutas y verduras, horario de preferencia de entrega y medio de pago.
+
+ID: 4
+Titulo: Despachar pedido
+Narrativa: Como usuario quiero poder quitar del sistema los pedidos que fueron ya enviados a sus respectivos clientes de modo que no sean visibles para que no interfieran con la lista de pedidos pendientes.
+Criterios de aceptacion: 
+* El pedido ya no debe ser visible en la lista de pedidos pendientes
+* Se debe notificar al cliente que su pedido esta en camino.
+
+## 
 
 
 
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
-
