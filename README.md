@@ -245,5 +245,95 @@ Branches para el repositorio de web y api:
 ## Casos de uso
 ![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
 
+## Actores involucrados
+El proyecto afecta a varios actores directa e indirectamente: 
+Los actores directos son:
+1- Los ancianos: son el eje central en la creacion de este servicio que propone facilitar la seguridad y practicidad con la que hacen compras durante la era del COVID-19.
+2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
+3- Empresa de reparticion: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
+Los actores indirectos son: 
+1- Otros competidores con servicios similares: Rappi, UberEats, Pedidos Ya , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
+2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
+
+## Objetivos especificos
+
+A continuacion detallaremos los objetivos especificos del proyecto: 
+
+1- Reducir el riesgo de contagio en personas mayores que no tienen manejo fluido con aplicaciones: estas personas durante el tiempo que quede de COVID-19 deberan al menos tener la libertad de elegir cuando salir a comprar y cuando no, sin verse limitadas a depender de alguien mas para tener stock de alimentos.
+
+2- Darle mas independencia a las personas mayores en el mundo moderno: estos tiempos dejaron relegados a muchas personas mayores que no tienen la capacidad de adaptarse a determinados cambios que propuso la mezcla de la pandemia y el avance de la tecnologia. Por lo que esta aplicacion puede ser una puerta de entrada gradual al mundo de la tecnologia para que estas personas puedan disfrutar de una vida mas independiente y con mas opciones.
+
+##  Necesidades 
+
+Las necesidades que se presentan en este desarrollo son las siguientes: 
+
+1- Desarrollar una aplicacion que permita organizar los pedidos: agregar, leer , modificar y eliminar estos de la manera mas organizada posible por el administrador del sistema.
+
+2- Una base de datos para almacenar la aplicacion de la aplicacion del punto 1 y que esos datos sean persistentes.
+
+3- Un adminsitrador del sistema: Una persona que cuente con las habilidades para manipular un telefono y responder las llamadas de las personas y agendar esos pedidos en nuestra plataforma(desarrollada en el punto 1).
+
+4- Un servicio de transporte que permita coordinar los envios lo mas rapido posible ajustandose al horario de los clientes.
+
+
+## Plan de SCM
+Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
+
+Tendremos tres repositorios en Github:
+* Verdulería Documentación: Documentación técnica y especifición del proyecto. 
+* Verdulería Web: Código fuente de la aplicación web.
+* Verdulería API: Código fuente de la API.
+
+Branches para la documentación:
+* main
+  * vicente
+  * felipe
+  * tali
+
+Branches para el repositorio de web y api:
+* main
+  * develop
+    * feature/CU-### (### representa el ID del caso de uso a implementar)
+
+Un detalle no menor es que entendemos que pueden haber errores en el uso del repositorio ya que es necesaria una determinada curva de aprendizaje para lograr una familiarizacion total con la plataforma.
+Los errores que preevemos que pueden suceder son: 
+* Commits directos al main sin pasar por branches
+* Realizar commits sin haber hecho un pull previo "pisando los cambios anteriores"
+* Olvidar hacer push de cambios y que el resto del equipo no los pueda ver.
+Todos estos problemas son reversibles y no representan una amenaza para el equipo, pero es importante denotar que pueden ocurrir.
+
+
+## Historias de Usuario
+
+ID: 1
+Titulo: Agregar Verduleria
+Narrativa: Como usuario quiero poder agregar verdulerias con sus respectivos datos de contacto para poder contactarlos y comprarles las frutas que quieren los clientes.
+Criterios de aceptacion: 
+* Se deben llenar los campos: nombre,telefono,zona y rango de precio esperado(bajo, medio y alto).
+* No se debe permitir agregar una verduleria si le falta uno de los datos anteriores.
+
+ID: 2
+Titulo: Eliminar Verduleria
+Narrativa: Como usuario quiero poder eliminar verdulerias y sus datos de contacto para no contar con ellos a la hora de armarle un pedido al cliente.
+Criterios de aceptacion:
+* Se deben eliminar todos los datos de la verduleria seleccionada.
+
+ID: 3
+Titulo: Crear Pedido
+Narrativa: Como usuario quiero poder crear un pedido con sus respectivas cantidades de frutas y verduras para tener mas organizada la informacion a la hora de realizar el pedido en las verdulerias que tengo registradas en el sistema.
+Criterios de aceptacion: 
+* Se debe poder agregar nombre, direccion de destino, cantidades de frutas y verduras, horario de preferencia de entrega y medio de pago.
+
+ID: 4
+Titulo: Despachar pedido
+Narrativa: Como usuario quiero poder quitar del sistema los pedidos que fueron ya enviados a sus respectivos clientes de modo que no sean visibles para que no interfieran con la lista de pedidos pendientes.
+Criterios de aceptacion: 
+* El pedido ya no debe ser visible en la lista de pedidos pendientes
+* Se debe notificar al cliente que su pedido esta en camino.
+
+## 
+
+
+
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
