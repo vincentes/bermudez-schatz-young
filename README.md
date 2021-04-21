@@ -242,6 +242,13 @@ Branches para el repositorio de web y api:
   * develop
     * feature/CU-### (### representa el ID del caso de uso a implementar)
 
+Un detalle no menor es que entendemos que pueden haber errores en el uso del repositorio ya que es necesaria una determinada curva de aprendizaje para lograr una familiarizacion total con la plataforma.
+Los errores que preevemos que pueden suceder son: 
+* Commits directos al main sin pasar por branches
+* Realizar commits sin haber hecho un pull previo "pisando los cambios anteriores"
+* Olvidar hacer push de cambios y que el resto del equipo no los pueda ver.
+Todos estos problemas son reversibles y no representan una amenaza para el equipo, pero es importante denotar que pueden ocurrir.
+
 ## Casos de uso
 ![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
 
@@ -277,36 +284,37 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 
 4- Un servicio de transporte que permita coordinar los envios lo mas rapido posible ajustandose al horario de los clientes.
 
-## User Sories 
-
+## User Stories
 ID: #1	
 Título: Compra
 Narrativa:
-			Como usuario
-			Quiero poder registrarme con mi tarjeta de debito
-            Para poder comprar unicamente con la tarjeta que elegi
+	Como administrador
+	Quiero poder registrar una tarjeta de débito como medio de pago
+        Para poder cobrarle las verduras al cliente
+	
 Criterios de aceptación:
-La tarjeta debe no haber caducido y cumplir con todos los requerimientos necesarios del banco
+* La tarjeta debe no haber caducido y cumplir con todos los requerimientos necesarios del banco.
 
-
-ID: #3
-Título: Ofertas para usuarios frecuentes
+ID: #2
+Título: Ofertas para cliente frecuentes
 Narrativa: 
-			Como empleado
-			Quiero poder ver la lista de productos mas consumidos por un usuario frecuente //definir usuario frecuente 
-            Para poder ofrecerle esos productos en oferta 
+	Como administrador
+	Quiero poder ver la lista de productos mas consumidos por un cliente frecuente**
+        Para poder ofrecerle esos productos en oferta 
 Criterios de aceptación:
 Cumplir con las condiciones para ser un usuario frecuente
 
+** Cliente frecuente: Un cliente que hizo más de diez compras.
 
 ID: #4
-Título: Consumo del usuario
+Título: Información de verdulería
 Narrativa: 
-			Como usuario 
-			Quiero poder ver de donde procede la mercaderia
-            Para asegurar que el usuario se siente seguro con lo que esta consumiendo 
+	Como repartidor 
+	Quiero poder ver la información de la verdulería a visitar
+        Para asegurar que el repartidor no se presente al lugar equivocado
+
 Criterios de aceptación:
-Ser usuario del sistema
+Ser repartidor del sistema.
 
 ID: #5
 Título: Dar de baja
@@ -361,33 +369,6 @@ Caracteristicas de Luisa:
 -Amante de la familia
 -Trabajadora
 -Responsable 
-
-## Plan de SCM
-Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
-
-Tendremos tres repositorios en Github:
-* Verdulería Documentación: Documentación técnica y especifición del proyecto. 
-* Verdulería Web: Código fuente de la aplicación web.
-* Verdulería API: Código fuente de la API.
-
-Branches para la documentación:
-* main
-  * vicente
-  * felipe
-  * tali
-
-Branches para el repositorio de web y api:
-* main
-  * develop
-    * feature/CU-### (### representa el ID del caso de uso a implementar)
-
-Un detalle no menor es que entendemos que pueden haber errores en el uso del repositorio ya que es necesaria una determinada curva de aprendizaje para lograr una familiarizacion total con la plataforma.
-Los errores que preevemos que pueden suceder son: 
-* Commits directos al main sin pasar por branches
-* Realizar commits sin haber hecho un pull previo "pisando los cambios anteriores"
-* Olvidar hacer push de cambios y que el resto del equipo no los pueda ver.
-Todos estos problemas son reversibles y no representan una amenaza para el equipo, pero es importante denotar que pueden ocurrir.
-
 
 ## Historias de Usuario
 
