@@ -142,30 +142,35 @@ Diferencias con el Proyecto Verdulista:
 | IDE | Visual Studio Code | Requerido |
 | Test unitarios | Jest | Conocimiento del equipo, facil de usar |
 
-### Cuestiones sanitarias
 
 ## Requerimientos
 
 ##  Requerimientos funcionales
 Existen diferentes especificaciones que el sistema debe cumplir para su uso e implementacion, tambien en este momento vamos a especificar el funcionamiento del sistema en un momento especifico. Ademas de como se procesa la informacion (entrada y salida). 
 
-1. Se le debe notificar al administrador la llegada de un pedido
+1. Permitir al administrador ver el estado , origen , destino y usuario de un envio. 
 
-2. El repartidor podrá notificar al administrador la finalización de un pedido
+2. Se le debe permitir a los administradores armar un pedido y asignarlo a un repartidor disponible y a un cliente.
 
-3. Se le debe proporcionar al administrador una lista de alimentos disponibles para delivery.
+9. Guia del repartido. Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
 
-4. Se le debe proporcionar al administrador una lista de comercios junto con un lista de alimentos correspondientes, junto con sus precios.
+2. El repartidor podrá notificar al administrador la finalización de un pedido.
 
-5. Se le debe permitir a los administradores armar un pedido y asignarlo a un repartidor y a un cliente
+11. El adminsitrador puede sancionar a los repartidores incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
 
-6. Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad
+3. Se le debe proporcionar al administrador una lista de alimentos disponibles para delivery. (Observado)
 
-7. Se le debe permitir a los administradores visualizar los clientes registrados
+4. El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
 
-8. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes  
+6. Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
 
-9. Guiar al repartidor hacia la verduleria más cercana
+7. Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
+
+8. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
+
+10. Se le debe notificar al administrador la llegada de un pedido.
+
+
 
 # Requerimientos no funcionales
 
