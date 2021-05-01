@@ -157,7 +157,7 @@ RF4. Llegada del pedido. Descripcion: El repartidor podrá notificar al administ
 
 RF5. Sancionar repartidor. El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
 
-RF6. Se le debe proporcionar al administrador una lista de alimentos disponibles para delivery. (Observado) ??? 
+RF6. Verdulerias por alimento. Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
 
 RF7. Listas de precios. Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
 
@@ -175,12 +175,10 @@ RF10. Permitir a los administradores realizar encuestas de calidad de servicio a
 A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
 
 RNF1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos 
-RNF2. Los usuarios tienen disponibles aplicaciones son móviles compatibles con iOS 10 o superior y con Android 8 Oreo o superior
-RNF3. El sistema debe ser amigables utilizando el estandar de diseño Material Design.
-RNF4. El sistema debe estar disponible las veinticuatro horas del día sin percances. 
-RNF5. En la aplicación móvil debe correr de manera fluida, incluso con dispositivos relativamente antiguos.
-RNF6. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
-RNF7. Todo el codigo debe estar escrito en JavaScript. 
+RNF2. Debe ser responsive para móviles con iOS 8.0 o superior y con Android Jelly bean o superior.
+RNF3. El sistema debe construirse utilizando el estandar de diseño Material Design.
+RNF4. El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes. 
+RNF5. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
 
 ## Actores involucrados
 El proyecto afecta a varios actores directa e indirectamente: 
