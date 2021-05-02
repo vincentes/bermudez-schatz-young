@@ -153,25 +153,26 @@ Existen diferentes especificaciones que el sistema debe cumplir para su uso e im
 
 RF1. Vista general. Descripcion:Permitir al administrador ver el estado , origen , destino y usuario de un envio. 
 
-RF2. Armar pedido. Descripcion: Se le debe permitir a los administradores armar un pedido de un cliente y asignarle a un repartidor disponible.
+RF2. Manipulacion de usuarios. Descripcion: el administrador debe poder agregar/modificar/eliminar nuevos usuarios.
 
-RF3. Guia del repartidor. Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
+RF3. Chequeo de cliente registrado. Descripcion: Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
 
-RF4. Llegada del pedido. Descripcion: El repartidor podrá notificar al administrador la finalización de un pedido.
+RF4. Listas de precios. Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
 
-RF5. Sancionar repartidor. El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
+RF5. Verdulerias por alimento. Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
 
-RF6. Verdulerias por alimento. Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
+RF6. Armar pedido. Descripcion: Se le debe permitir a los administradores armar un pedido de un cliente y asignarle a un repartidor disponible.
 
-RF7. Listas de precios. Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
+RF7. Llegada del pedido. Descripcion: El repartidor podrá notificar al administrador la finalización de un pedido.
 
-RF8. Lista de repartidores. Descripcion: Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
+RF8. Guia del repartidor. Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
 
-RF9. Chequeo de cliente registrado. Descripcion: Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
+RF9. Lista de repartidores. Descripcion: Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
 
-RF10. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
+RF10. Sancionar repartidor. El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
 
-RF11. Manipulacion de usuarios. Descripcion: el administrador debe poder agregar/modificar/eliminar nuevos usuarios.
+RF11. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
+
 
 
 
@@ -224,9 +225,9 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 ## Escenciales
 
 Los principales elementos de la aplicación, los cuales el proyecto no puede prescindir son los siguientes:
-1. Vista general. El administrador debe poder ver que pedidios estan en camino, en que consiste cada pedido y a donde van.
-2. Lista de productos. El administrador debe poder ver los productos, con los precios por alimento y por verduleria.
-3. Manipulacion de usuarios. El administrador debe poder crear/editar/eliminar usuarios.
+1. Vista general. El administrador debe poder ver que pedidios estan en camino, en que consiste cada pedido y a donde van. Su importancia alta deriva de que es el rol central del producto poder adminstrar todos estos pedidos.
+2. Lista de productos. El administrador debe poder ver los productos, con los precios por alimento y por verduleria. Su importancia deriva de poder manejar los precios de los productos para poder comunicarselos al cliente.
+3. Manipulacion de usuarios. El administrador debe poder crear/editar/eliminar usuarios. Su importancia alta se debe a que permite identificar y asociar a las persoans que llaman con usuarios ya registrados en el sistema.
 
 
 ## Plan de SCM
@@ -394,7 +395,12 @@ Caracteristicas de Luisa:
 -Responsable 
 
 
+## Conclusiones Felipe
 
+Llegada a esta altura del obligatorio podemos sacar conclusiones a dos niveles:
+
+1. Como "desarrollador" se pudo ver que el analisis del entorno donde se va a intentar crear un producto es fundamental ya que algo que parece tan obvio como definir que rumbo tomara el equipo, no se vuelve tan claro dentro de la toma de decisiones micro y por ello es tan importante tener una hoja de ruta bastante bien definida y evitar improvisar. Todo esto sin haber escrito una sola linea de codigo para el proyecto.
+2. Como un integrante "creador del producto" se pudo ver que la creacion de un producto abarca muchisimo mas que solo la programacion, abarca partes de diseño, planificacion, organizacion , comunicacion con el "cliente", entre muchas otras areas. Ademas de que hay que aprender a convivr con el impulso de querer crear cosas nuevas sobre algo que todavia ni fue creado.
 
 
 
