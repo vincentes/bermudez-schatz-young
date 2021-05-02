@@ -472,4 +472,6 @@ Caracteristicas de Luisa:
 -Trabajadora
 -Responsable 
 
+
+
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
