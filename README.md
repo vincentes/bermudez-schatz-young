@@ -399,7 +399,7 @@ Caracteristicas de Luisa:
 
 Llegada a esta altura del obligatorio podemos sacar conclusiones a dos niveles:
 
-1. Como "desarrollador" se pudo ver que el analisis del entorno donde se va a intentar crear un producto es fundamental ya que algo que parece tan obvio como definir que rumbo tomara el equipo, no se vuelve tan claro dentro de la toma de decisiones micro y por ello es tan importante tener una hoja de ruta bastante bien definida y evitar improvisar. Todo esto sin haber escrito una sola linea de codigo para el proyecto.
+1. Como "desarrollador" se pudo ver que el analisis del entorno donde se va a intentar crear un producto es fundamental ya que algo que parece tan obvio como definir que rumbo tomara el equipo, no se vuelve tan claro dentro de la toma de decisiones micro y por ello es tan importante tener una hoja de ruta bien definida y evitar improvisar. Todo esto se pudo ver sin haber escrito una sola linea de codigo para el proyecto.
 2. Como un integrante "creador del producto" se pudo ver que la creacion de un producto abarca muchisimo mas que solo la programacion, abarca partes de diseño, planificacion, organizacion , comunicacion con el "cliente", entre muchas otras areas. Ademas de que hay que aprender a convivr con el impulso de querer crear cosas nuevas sobre algo que todavia ni fue creado.
 
 
