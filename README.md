@@ -5,8 +5,6 @@
 ## Abstract 
 Reserved.
 
-![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/Orange.png "Logo")
-
 ## Introducción
 Es sabido que la tecnología cambia la forma por la cual interactuamos con el mundo, pero estos cambios pueden ser abruptos y algunas personas simplemente no se pueden acostumbrar a ello. De hecho, es de conocimiento que en varios países existe un notorio envejecimiento de la población, y además, un exponencial desarrollo tecnológico. En otras palabras: los ancianos están siendo aislados del mundo debido a su poca capacidad de incorporar nuevas tecnologías en sus vidas.
 
@@ -346,6 +344,10 @@ Criterios de aceptacion:
 
 
 ## Bocetos de interfaz de usuario
+
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/admin1.png "Logo")  
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/admin2.png "Logo")  
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/delivery1.png "Logo")  
 
 ## CheckList requerimientos 
 1. Completitud 
