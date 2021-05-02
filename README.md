@@ -1,3 +1,4 @@
+
 # Proyecto Verdulista
   
 ## Abstract 
@@ -250,6 +251,101 @@ Todos estos problemas son reversibles y no representan una amenaza para el equip
 ![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
 
 
+### Casos generales de usuario
+### Menú de iniciar sesión
+#### Título: Login
+#### Actor: Usuario
+#### Menú: Iniciar Sesión
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 1. Se introduce el login | 2. - |
+| 3. Se introduce la contraseña| 4. - |
+| 5. Se presiona el botón de inicar sesión | 6. El sistema lleva al usuario al menú correspondiente (Menú Repartidor o Menú Administrador). |
+
+### Menú de inicio
+#### Título: Menú de inicio
+#### Actor: Usuario
+#### Menú: Inicio 
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 2.- | 1. - El sistema le muestra las funcionalidades disponibles para el rol del usuario (Repartidor o Administrador)|
+
+### RF1
+#### Título: Vista general de los envíos
+#### Actor: Administrador
+#### Menú: Listado de envíos (Administrador)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 1. El administrador entra al menú desde Menu Inicio.  | 2. El sistema le muestra el estado, origen, destino, y usuarios de los envíos pendientes.  |
+
+### RF2
+#### Título: Armar pedido
+#### Actor: Administrador
+#### Menú: Armar Pedido (Administrador)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 2. El administrador elige uno o varios productos de la lista. | 1. El sistema le muestra un listado de productos. |
+| 3. El administrador asigna un repartidor. | 3. - |
+| 4. El administrador introduce la cédula del cliente. | 5. - |
+| 6. El administrador elige la opción de confirmar pedido. | 7. El sistema ingresa el pedido al sistema. |
+
+7.1 El administrador introduce una cédula inválida (sin dígito verificador correcto) y el sistema le avisa.
+7.2 El administrador introduce una cédula válida que no está registrada en el sistema, por lo tanto el sistema le avisa que no figura en el mismo.
+
+
+### RF3
+#### Título: Guia del repartidor
+#### Actor: Repartidor
+#### Menú: Info Envío (Repartidor)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 2. - | 1. El sistema le muestra la ubicación del cliente y la ubicación suya según el GPS. |
+
+
+Curso alternativo:
+2.1: El usuario presiona volver y vuelve al menú principal.
+
+### RF4
+
+#### Título:  Notificar llegada del pedido
+#### Actor: Repartidor
+#### Menú: Info Envío (Repartidor)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 1. El repartidor elige la opción de confirmar envío. - | 2. El sistema actualiza el envío en la base de datos y le avisa al repartidor que fue actualizado correctamente. |
+
+
+### RF5
+
+#### Título:  Sancionar repartidor
+#### Actor: Administrador
+#### Menú: Listado de Repartidores (Repartidor)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 1. El administrador elige un repartidor para sancionar. - | 2. El sistema le pide la confirmación de la sanción. |
+| 3. El administrador confirma la sanción. - | 4. El sistema le registra la sanción en el sistema. |
+
+Cursos alternativos
+1.1 El adminstrador elige la opción de volver y se dirige hacia el menú principal.
+3.1 El administrador cancela la creación de la sanción y el sistema no efectúa ningún cambio. 
+
+
+### RF_XX
+
+#### Título:  Notificar pedido en curso
+#### Actor: Repartidor
+#### Menú: Info Envío (Repartidor)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+|  1. El repartidor elige la opción de cambiar estado de envío a "en curso".  | 2. El sistema actualiza el envío en la base de datos y le avisa al repartidor que fue actualizado correctamente. |
 
 ## User Stories
 ID: #1	
@@ -329,7 +425,6 @@ Criterios de aceptacion:
 * El pedido ya no debe ser visible en la lista de pedidos pendientes
 * Se debe notificar al cliente que su pedido esta en camino.
 
-## 
 
 ## Validacion de requerimientos 
 
@@ -376,10 +471,5 @@ Caracteristicas de Luisa:
 -Amante de la familia
 -Trabajadora
 -Responsable 
-
-
-
-
-
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
