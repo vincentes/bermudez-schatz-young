@@ -3,6 +3,8 @@
 ## Abstract 
 Reserved.
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 ## Introducción
 Es sabido que la tecnología cambia la forma por la cual interactuamos con el mundo, pero estos cambios pueden ser abruptos y algunas personas simplemente no se pueden acostumbrar a ello. De hecho, es de conocimiento que en varios países existe un notorio envejecimiento de la población, y además, un exponencial desarrollo tecnológico. En otras palabras: los ancianos están siendo aislados del mundo debido a su poca capacidad de incorporar nuevas tecnologías en sus vidas.
 
@@ -109,6 +111,8 @@ Además de conocer su relación con la tecnología, es importante conocer cómo 
 
 #### Conclusiones de la encuesta
 
+Luego de realizado la encuesta llegamos a una serie de conclusiones basandonos en los datos que obtuvimos.
+(IMAGENEEEEEEEE)
 Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
 
 ## Alternativas
@@ -167,6 +171,8 @@ RF9. Chequeo de cliente registrado. Descripcion: Se le debe permitir a los admin
 
 RF10. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
 
+RF11. Manipulacion de usuarios. Descripcion: el administrador debe poder agregar/modificar/eliminar nuevos usuarios.
+
 
 
 
@@ -174,10 +180,14 @@ RF10. Permitir a los administradores realizar encuestas de calidad de servicio a
 
 A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
 
-RNF1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos 
+RNF1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos.
+
 RNF2. Debe ser responsive para móviles con iOS 8.0 o superior y con Android Jelly bean o superior.
+
 RNF3. El sistema debe construirse utilizando el estandar de diseño Material Design.
-RNF4. El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes. 
+
+RNF4. El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes.
+
 RNF5. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
 
 ## Actores involucrados
@@ -211,13 +221,12 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 4- Otra aplicacion web que permita a los repartidores notificarles de envios nuevos y ademas de notificar al adminstrador entregas.
 
 
-## Alcance del proyecto
+## Escenciales
 
-Los principales elementos de la aplicación son los siguientes:
-1. Se le debe proporcionar a todos los usuarios una lista de alimentos en oferta.
-2. Se le debe proporcionar al administrador una lista de comercios junto con un lista de alimentos correspondientes, junto con sus precios.
-
-Por lo tanto, estos elementos son esenciales para cumplir las necesidades de los clientes.
+Los principales elementos de la aplicación, los cuales el proyecto no puede prescindir son los siguientes:
+1. Vista general. El administrador debe poder ver que pedidios estan en camino, en que consiste cada pedido y a donde van.
+2. Lista de productos. El administrador debe poder ver los productos, con los precios por alimento y por verduleria.
+3. Manipulacion de usuarios. El administrador debe poder crear/editar/eliminar usuarios.
 
 
 ## Plan de SCM
@@ -332,6 +341,9 @@ Criterios de aceptacion:
 ## 
 
 ## Validacion de requerimientos 
+
+
+## Bocetos de interfaz de usuario
 
 ## CheckList requerimientos 
 1. Completitud 
