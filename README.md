@@ -1,7 +1,7 @@
 
 # Proyecto Verdulista
 
-![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/Orange.png "Logo")  
+![alt text](![image](https://user-images.githubusercontent.com/11695552/116833561-5551da00-ab90-11eb-8ea2-ad862df34422.png))  
 
 ## Abstract 
 Reserved.
@@ -443,9 +443,9 @@ Criterios de aceptacion:
 
 ## Bocetos de interfaz de usuario
 
-![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/admin1.png "Logo")  
-![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/admin2.png "Logo")  
-![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/delivery1.png "Logo")  
+![image](https://user-images.githubusercontent.com/11695552/116833596-8cc08680-ab90-11eb-93f4-3764bd647ad5.png)
+![image](https://user-images.githubusercontent.com/11695552/116833609-9d70fc80-ab90-11eb-9623-87a011c910e2.png)
+![image](https://user-images.githubusercontent.com/11695552/116833614-a661ce00-ab90-11eb-999e-5cd1beaa3ed9.png)
 
 ## CheckList requerimientos 
 1. Completitud 
