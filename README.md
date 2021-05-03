@@ -502,6 +502,15 @@ Cada uno de los requerimientos fueron escritos de forma consistentes y haciendo 
 4. Tranzabilidad
 Cada uno de los requerimientos se referencian correctamente entre si y cada uno se puede especificar hasta el origen.  
 
+## Checklist casos de uso
+Cada uno de los casos son unicos en su objetivo.
+Ademas de que el objetivo de cada uno de ellos tiene un resultado medible 
+Siempre dejamos claro que actores se  beneficiones capaz no especificamos cual es benefincio especidico
+Tambien existe una secuencia logica en los pasos que permite la transaccion entre el actor y el sistema
+El nivel de abstraccion de las transacciones es el adecuado 
+Cada caso de uso es libre de detalle de dise;o e implementacion a posibles soluciones
+El unico curso alternativo que podria faltar es el de el log in cuando fracasa
+
 ## Revision de requerimientos frente a pares 
 
 ![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graciela.jpg)
@@ -540,6 +549,13 @@ Llegada a esta altura del obligatorio podemos sacar conclusiones a dos niveles:
 
 ### Vicente
 Es necesario conocer flujos del trabajo en equipo en lo que respecta al software, para una vez insertados al mercado laboral, llegar a sincronizarnos adecuadamente con los avances de los proyectos. Como estudiante aprendí a trabajar en equipo con otros desarrolladores, sin obstaculizarnos. El uso de la herramiento de Git fue primordial para dicho aprendizaje, ya que esta tecnología nos permite estar constantemente sincronizados, y aumenta la rapidez del desarrollo. Nuestra misión fue analizar una solución para un problema que de verdad existe, y pudimos hallarla, preguntándonos qué es lo que quiere el cliente y cómo se lo podemos brindar. El equipo trabajó en completa sincronía. Estoy seguro que esta experiencia nos servirá para los proyectos que tomemos fuera de la facultad.
+
+## Bibliografia
+La mayor parte de la bibliografia la sacamos como consecuencia de las encuestas realizadas 
+pero tambien sacamos parte de la informacion mas que nada de las encuestas de las siguientes paginas: 
+https://www.rutgers.edu/news/why-older-adults-should-shop-home-while-pandemic-surging
+https://www.elpais.com.uy/informacion/salud/
+https://psico.edu.uy/covid/personas-mayores
 
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
