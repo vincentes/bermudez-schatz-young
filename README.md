@@ -71,7 +71,12 @@ Total de población: 702.926 (23%)
 ### Cuestiones sanitarias
 Para entender la relación de los mayores con los supermercados y la pandemia, decidimos buscar sus opiniones, para lograr entender sus dificultades.
 
-#### Encuesta
+### Técnicas de elicitación utilizadas
+* Cuestionarios
+* Entrevistas
+* Workshops
+
+#### Cuestionarios
 Titulo: Relación de personas de 60+ con la tecnología y la pandemia
 
 Campos requeridos: Nombre, Edad
@@ -107,7 +112,7 @@ Con esta pregunta evaluamos el sentimiento de inclusión en el mundo moderno, pa
 
 Además de conocer su relación con la tecnología, es importante conocer cómo este grupo realiza sus compras en el contexto de pandemia.
 
-#### Conclusiones de la encuesta
+#### Conclusiones del cuestionario
 
 Luego de realizado la encuesta llegamos a una serie de conclusiones basandonos en los datos que obtuvimos.
 (IMAGENEEEEEEEE)
