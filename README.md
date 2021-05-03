@@ -1,7 +1,7 @@
 
 # Proyecto Verdulista
 
-![alt text](![image](https://user-images.githubusercontent.com/11695552/116833561-5551da00-ab90-11eb-8ea2-ad862df34422.png))  
+![image](https://user-images.githubusercontent.com/11695552/116833561-5551da00-ab90-11eb-8ea2-ad862df34422.png)
 
 ## Abstract 
 Reserved.
