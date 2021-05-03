@@ -432,9 +432,9 @@ Criterios de aceptacion:
 
 ## Bocetos de interfaz de usuario
 
-![image](https://user-images.githubusercontent.com/11695552/116833596-8cc08680-ab90-11eb-93f4-3764bd647ad5.png)
-![image](https://user-images.githubusercontent.com/11695552/116833609-9d70fc80-ab90-11eb-9623-87a011c910e2.png)
-![image](https://user-images.githubusercontent.com/11695552/116833614-a661ce00-ab90-11eb-999e-5cd1beaa3ed9.png)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/admin1.png)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/admin2.png)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/delivery1.png)
 
 ## CheckList requerimientos 
 1. Completitud 
