@@ -111,17 +111,17 @@ Además de conocer su relación con la tecnología, es importante conocer cómo 
 
 Es importante aclarar que muchos de los datos de las graficas que estan mas abajo fueron rellenados por nosotros realizando llamadas a estas personas.
 Luego de realizado la encuesta llegamos a una serie de conclusiones basandonos en los datos que obtuvimos.
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf3.png) (TIENE CELULAR)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf3.png) 
 Como podemos observar la enorme mayoria de las personas mayores encuestadas cuentan con celular, por lo que ya podemos inducir que hay un grado de modernidad que la mayoria por distintas causas termina siendo propietaria de un celular.
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf4.png) (QUE TANTO SABE USAR)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf4.png) 
 Pero por otro lado podemos ver que el nivel de aprendizaje con respecto al uso del celular es muy variado, tenemos un 45% de nuestros encuestados que no puede afiermar que maneja bien el celular. Es decir cuentan con una herramienta que no pueden entender completamente.
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf1.png) (CRITERIOS DE COMPRA)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf1.png) 
 Con relacion a los criterios con los que compran frutas y verduras podemos ver que hay un peso sustancial en el precio, lo que es razonable , pero luego el segundo item mas votado es la seguridad. Aqui podemos ver la incidencia del COVID 19 en el miedo de las personas mayores y como este factor condiciona sus habitos de compra.
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf2.png) (SABE LLAMAR)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf2.png) 
 Luego observamos que todos los que cuentan con celular y fueron encuestados saben llamar con su celular , lo que nos hace inducir que su problema principal de comprension esta dirigido al uso de mensajeria/otras apps , pero que la llamada la pueden entender bien. Esto tiene sentido ya que la llamada ha existido desde hace mucho tiempo y han ellos han adquirido ese concepto con facilidad.
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf5.png)(COMO COMPRA FRUTAS)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf5.png)
 Si observamos el grafico de como compran los encuestados podemos observar que el 75% va personalmente a realizar las compras, pero tambien hemos observado que una importante mayoria prioriza la seguridad, por lo que podemos ver que estas personas asumen un riesgo conciente al salir de sus casas.
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf6.png) (SE SIENTE SEGURO)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf6.png) 
 Por ultimo este grafico confirma lo dicho anteriormente, una mayoria 75% afirma no estar segura de ir a la verduleria por motivos de COVID 19.
 Un dato importante que no se puede ver en las graficas es que hay una tendencia de los hombres encuestados a responder que no a la ultima pregunta, no podemos decir que sea una tendencia tan clara teniendo en cuenta que solo consideramos 20 entrevistados, pero una de las hipotesis que manejamos es que en general los hombres mayores imponen mas resistencia a reconocer que no se sienten seguros o que sienten miedo a determinadas cosas. Por lo que puede que en la realidad los datos sean aun mayores, pero resulta incomprobable.
 Como conclusion final de esta encuesta podemos ver que es necesaria una alternativa extra a estas personas, ya que se encuentran en una situacion en la que quieren comprar pero no quieren arriesgar su salud, por lo que implementar una solucion sin grandes dificultades tecnologicas para estas personas podria ser una muy importante oportunidad. 
