@@ -1,9 +1,9 @@
-# Proyecto Verdulista
+
+# Proyecto Verdulista  
 
 ![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/Orange.png "Logo")  
 
-## Abstract 
-Reserved.
+
 
 ## Introducción
 Es sabido que la tecnología cambia la forma por la cual interactuamos con el mundo, pero estos cambios pueden ser abruptos y algunas personas simplemente no se pueden acostumbrar a ello. De hecho, es de conocimiento que en varios países existe un notorio envejecimiento de la población, y además, un exponencial desarrollo tecnológico. En otras palabras: los ancianos están siendo aislados del mundo debido a su poca capacidad de incorporar nuevas tecnologías en sus vidas.
@@ -17,7 +17,6 @@ Tomaremos como base de la solución imitar la experiencia de usuario que los anc
 La idea es que nuestros clientes puedan comunicarse con el equipo a través del celular y pedir los productos que necesitase. Compramos la mercadería al menor precio pero cuando la relación de calidad-precio, para posteriormente enviarle al cliente su pedido.
 
 Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el contacto y el riesgo de contagio. Sin embargo, podrán pagar en efectivo si así lo desean.
-
 
 ## Presentación del cliente
 
@@ -69,6 +68,8 @@ La tendencia en la distribución etaria uruguaya es el envejecimiento general. E
 | 100 | 205 | 1938 |
 
 Total de población: 702.926 (23%)
+
+
 
 ### Cuestiones sanitarias
 Para entender la relación de los mayores con los supermercados y la pandemia, decidimos buscar sus opiniones, para lograr entender sus dificultades.
@@ -176,7 +177,6 @@ RF11. Permitir a los administradores realizar encuestas de calidad de servicio a
 
 
 
-
 # Requerimientos no funcionales
 
 A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
@@ -221,7 +221,6 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 
 4- Otra aplicacion web que permita a los repartidores notificarles de envios nuevos y ademas de notificar al adminstrador entregas.
 
-
 ## Escenciales
 
 Los principales elementos de la aplicación, los cuales el proyecto no puede prescindir son los siguientes:
@@ -259,8 +258,6 @@ Todos estos problemas son reversibles y no representan una amenaza para el equip
 ## Casos de uso
 ![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
 
-
-
 ## User Stories
 ID: #1	
 Título: Compra
@@ -270,7 +267,7 @@ Narrativa:
         Para poder cobrarle las verduras al cliente
 	
 Criterios de aceptación:
-* La tarjeta debe no haber caducido y cumplir con todos los requerimientos necesarios del banco.
+*Al ingresar la tarjeta para aceptar el pedido el sistema debe verificar que todos los datos sean veridicos de acuerdo a la reglamentacion del banco.
 
 ID: #2
 Título: Ofertas para cliente frecuentes
@@ -279,8 +276,7 @@ Narrativa:
 	Quiero poder ver la lista de productos mas consumidos por un cliente frecuente**
         Para poder ofrecerle esos productos en oferta 
 Criterios de aceptación:
-Cumplir con las condiciones para ser un usuario frecuente
-
+Cumplir con las condiciones para ser un usuario frecuente. Ademas el sistema debe contar con una lista de los clientes frecuentes para poder contactarlos, junto con su maximo de gasto en el pedido.
 ** Cliente frecuente: Un cliente que hizo más de diez compras.
 
 ID: #4
@@ -291,7 +287,7 @@ Narrativa:
         Para asegurar que el repartidor no se presente al lugar equivocado
 
 Criterios de aceptación:
-Ser repartidor del sistema.
+El sistema debe poder verificar periodicamente si la verduleria cuenta con los protocolos santiarios correspondientes y entran en el rango de zona que puede abarcar el repartidor.
 
 ID: #5
 Título: Dar de baja
@@ -299,7 +295,7 @@ Narrativa:
 			Como usuario 
 			Quiero poder dejar de usar el sistema
             Para poder abandonar el sistema cuando el usuario quiera
-Criterios de aceptación:el usuario no tiene deudas
+Criterios de aceptación:el sistema debe poder verificar si el cliente tiene una deuda anterior
 
 ID: #6
 Titulo: Agregar Verduleria
@@ -339,9 +335,7 @@ Criterios de aceptacion:
 * El pedido ya no debe ser visible en la lista de pedidos pendientes
 * Se debe notificar al cliente que su pedido esta en camino.
 
-## 
-
-## Validacion de requerimientos 
+## Verificacion y validacion de requerimientos 
 
 
 ## Bocetos de interfaz de usuario
@@ -352,47 +346,75 @@ Criterios de aceptacion:
 
 ## CheckList requerimientos 
 1. Completitud 
-/*Los requerimientos se encuentran correctamente priorizados porque el sistema prioriza a adultos mayores a poder seguir realizando las tareas diarias sin 
-*/
-Los usuarios fueron obtenidos de ir a la feria y observar que patrones sigue el grupo de adultos mayores que concurren diariamente alli. Por lo tanto, consideramos que todos los casos sosn exaustivos. Ademas de de respetar con el estandar puesto que cada vez que se realiza una entrevista se cumple con cada uno de los requerimientos especificados. Todos los requerimientos de calidad estan tomados en cuenta segun las especificaciones dadas por los usurarios . 
+Los usuarios fueron obtenidos de ir a la feria y observar que patrones sigue el grupo de adultos mayores que concurren diariamente alli. Por lo tanto, consideramos que todos los casos son exaustivos. Ademas de de respetar con el estandar puesto que cada vez que se realiza una entrevista se cumple con cada uno de los requerimientos especificados. Todos los requerimientos de calidad estan tomados en cuenta segun las especificaciones dadas por los usurarios . 
 
 2. Verificabilidad y no ambiguedad 
 Cada uno de los requerimientos de los usuarios fueron interpretados como preguntas unicas sin repeticio. Podemos demostrar esto observando que ninguna de las pregntas fueron repetidas. 
 
 3. Correctitud y consistencia 
-//no se puede hacer esto sin haber hecho las entecistas tampoco la trnzabilidad
+Cada uno de los requerimientos fueron escritos de forma consistentes y haciendo hincapie en el nivel de detalles en que los dimos. No existen duplicados o conflictos entre cada requerimiento cada uno es unico y detallado, ademas de estar en el alcance del problema. Por ultimo ninguno de los requerimientos evitan algun aspecto del diseño. 
+
+4. Tranzabilidad
+Cada uno de los requerimientos se referencian correctamente entre si y cada uno se puede especificar hasta el origen.  
+
+## Revision de requerimientos frente a pares 
+
+//foto graciela 
+En esta parte del obligatorio decidimos preguntarle a un posible usuario de nuestro sistema, sus opiniones acerca del proyecto planteado, en este caso decidimos hablar con: Graciela Lassner.
+Es una mezzosoprano nacida el 29/11/1945 en Montevideo. Haciendo sus estudios terciarios como Interprete de Arte lirico en la universidad de Berkeley, carrera que desempeno tanto a nivel nacional como internacional, actualmente ella se dedica a dar clases de tecnica vocal en la Escuela Nacional de Arte lirico del Sodre.
+
+-> Opinion general sobre la solucion dado el problema planteado
+"En materia de alimentos siempre es un poco complicado, pero no me parecee inviable, comprar sin ver comida es un poco dificil, por ejemplo, en mi caso a mi me gusta que las bananas entre amarillas y verdes que solo mi verdulero de confianza sabe pero por mas de que yo le de al sistema esta especificacion capaz el verdulero igual me puede poner de otro color porque se lo quiere "sacar de encima". Sin embargo, el proyecto en lineas generales me parece una excelente idea no solamente para este momento de pandemia sino tambien para el futuro, puesto que nosotros (las personas mayores) no queremos salir a la calle por miedo tambien a por ejemplo ser victimas de un robo o porque simplemente algunos no tienen fuerza."
+
+->Opinion en lineas generales sobre los requerimientos funcionales 
+"Me parecen excelentes las ideas que estan proponiendole al sistema porque creo que es todo lo que el mismo debe cumplir"
+
+->Opinion sobre los repartidores frente a los aspectos sanitarios 
+
+"Sinceramente yo me sentiria mucho mas segura con un sistema de este tipo, desde el momento que se le impone una sancion al repartidor por no cumplir con las medidas que nos cuidan a nosotros"
+
+->Sugerencias 
+"Creo que esta es una excelente idea siempre y cuando haya una relacion comercial. El minoreo tiene sus cosas. Conocer bien al cliente, sus gustos, etc. es todo un tema. Me parece que es una idea con un gran futuro, pero que hay que pulirla en el sentido de darle importancia a lo que el cliente quiera especificamente. Me parece que la idea va a permanecer la gente siempre va a envejecer y es algo que no va a pasar de modo pero siempre con un servicio correcto a nivel de valores , que este centrada en el gusto del consumidor,etc" 
+
 
 ## User Persona 
 
-Nombre : Maria Rodriguez 
+Nombre : Rene Schatz
 
-Lema de vida de Maria:  “La vida es una y hay que cuidarla” y 
+Lema de vida de Rene:  “La vida es una y hay que cuidarla” y 
 
 Bio: María nació en el año 1937 en Polonia,  sobrevivió a varias guerra y pandemias (hasta la fecha),  ella trabajo desarrollándose siempre en el área del ballet, fue primera bailarina en el periodo de (1950-1957) hoy en día se desarrolla como parte del cuerpo honorario de las escuelas de formación artística del Sodre.  En su vida personal se casó en el 1952, tiene 3 hijos 16 nietos, 2 bisnietos y 6 gatos por lo que la familia es un pilar muy importante. Se caracteriza como una persona muy trabajadora y comprometida (en todos los ámbitos) . En este momento de la pandemia del país maría es consciente de que no se pueden hacer actividades con tanta exposición como ir a la feria.
 
-Características de Maria:
+Características de Rene
 -Veterana
 -No maneja bien la tecnología
 -Comprometida y trabajadora
 -Tiene una gran familia
 -Es compradora habitual de la feria
 
-Nombre: Jose Menigues 
-Bio: Jose nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
+Nombre: Magdi Kreiner
+Bio: Magdi nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
 
-Caracterisiticas de Jose: 
+Caracterisiticas de Magdi: 
 - Trabajador 
 -Amante de la tecnologia 
 -Compromiso 
 - Reinvencion constante
 
-Nombre: Luisa Fernandez 
-Bio: Luisa nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
+Nombre: Edith Schatz
+Bio: Edith nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
 
-Caracteristicas de Luisa: 
+Caracteristicas de Eduth: 
 -Amante de la familia
 -Trabajadora
 -Responsable 
+
+## Reflexiones individuales y grupales 
+
+## Reflexion individual 
+-> Tali: 
+
+ Los equipos se integran, se desempeñan y desintegran en base a  sus relaciones, actitudes y esfuerzo. Los mejores equipos rn este caso creo que entre todos los miembros del mismo hubo una gran quimica, creo que cada uno de nosotros nos llevamos relaciones son significativas y los miembros del equipo están conectados.Porque nuestra actitud colectiva es muy positiva y todos en el equipo trabajan duro para lograr nuestra mision que era sacar el obligatorio adelante. Tambien el uso de la herramienta git nos ayudo en cuanto a la diferencia de horario que cada uno maneja en su vida profesional y personal. Por ultimo queria cometar dde que yo personalmente no sabia utilizar las herramientas y me senti muy apoyada por mis compañeros al momento de utilizarla.
 
 
 ## Conclusiones Felipe
