@@ -1,4 +1,9 @@
+
 # Proyecto Verdulista  
+
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/Orange.png "Logo")  
+
+
 
 ## Introducción
 Es sabido que la tecnología cambia la forma por la cual interactuamos con el mundo, pero estos cambios pueden ser abruptos y algunas personas simplemente no se pueden acostumbrar a ello. De hecho, es de conocimiento que en varios países existe un notorio envejecimiento de la población, y además, un exponencial desarrollo tecnológico. En otras palabras: los ancianos están siendo aislados del mundo debido a su poca capacidad de incorporar nuevas tecnologías en sus vidas.
@@ -74,95 +79,6 @@ Titulo: Relación de personas de 60+ con la tecnología y la pandemia
 
 Campos requeridos: Nombre, Edad
 
-<<<<<<< HEAD
-## User Sories 
-
-ID: #1	
-Título: Compra
-Narrativa:
-			Como usuario
-			Quiero poder registrarme con mi tarjeta de debito
-            Para poder comprar unicamente con la tarjeta que elegi
-Criterios de aceptación:
-La tarjeta debe no haber caducido y cumplir con todos los requerimientos necesarios del banco
-
-
-ID: #3
-Título: Ofertas para usuarios frecuentes
-Narrativa: 
-			Como empleado
-			Quiero poder ver la lista de productos mas consumidos por un usuario frecuente //definir usuario frecuente 
-            Para poder ofrecerle esos productos en oferta 
-Criterios de aceptación:
-Cumplir con las condiciones para ser un usuario frecuente
-
-
-ID: #4
-Título: Consumo del usuario
-Narrativa: 
-			Como usuario 
-			Quiero poder ver de donde procede la mercaderia
-            Para asegurar que el usuario se siente seguro con lo que esta consumiendo 
-Criterios de aceptación:
-Ser usuario del sistema
-
-ID: #5
-Título: Dar de baja
-Narrativa: 
-			Como usuario 
-			Quiero poder dejar de usar el sistema
-            Para poder abandonar el sistema cuando el usuario quiera
-Criterios de aceptación:el usuario no tiene adeudos
-
-## Validacion de requerimientos 
-
-## CheckList requerimientos 
-1. Completitud 
-/*Los requerimientos se encuentran correctamente priorizados porque el sistema prioriza a adultos mayores a poder seguir realizando las tareas diarias sin 
-*/
-Los usuarios fueron obtenidos de ir a la feria y observar que patrones sigue el grupo de adultos mayores que concurren diariamente alli. Por lo tanto, consideramos que todos los casos sosn exaustivos. Ademas de de respetar con el estandar puesto que cada vez que se realiza una entrevista se cumple con cada uno de los requerimientos especificados. Todos los requerimientos de calidad estan tomados en cuenta segun las especificaciones dadas por los usurarios . 
-
-2. Verificabilidad y no ambiguedad 
-Cada uno de los requerimientos de los usuarios fueron interpretados como preguntas unicas sin repeticio. Podemos demostrar esto observando que ninguna de las pregntas fueron repetidas. 
-
-3. Correctitud y consistencia 
-//no se puede hacer esto sin haber hecho las entecistas tampoco la trnzabilidad
-
-## User Persona 
-
-Nombre : Maria Rodriguez 
-
-Lema de vida de Maria:  “La vida es una y hay que cuidarla” y 
-
-Bio: María nació en el año 1937 en Polonia,  sobrevivió a varias guerra y pandemias (hasta la fecha),  ella trabajo desarrollándose siempre en el área del ballet, fue primera bailarina en el periodo de (1950-1957) hoy en día se desarrolla como parte del cuerpo honorario de las escuelas de formación artística del Sodre.  En su vida personal se casó en el 1952, tiene 3 hijos 16 nietos, 2 bisnietos y 6 gatos por lo que la familia es un pilar muy importante. Se caracteriza como una persona muy trabajadora y comprometida (en todos los ámbitos) . En este momento de la pandemia del país maría es consciente de que no se pueden hacer actividades con tanta exposición como ir a la feria.
-
-Características de Maria:
--Veterana
--No maneja bien la tecnología
--Comprometida y trabajadora
--Tiene una gran familia
--Es compradora habitual de la feria
-
-Nombre: Jose Menigues 
-Bio: Jose nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
-
-Caracterisiticas de Jose: 
-- Trabajador 
--Amante de la tecnologia 
--Compromiso 
-- Reinvencion constante
-
-Nombre: Luisa Fernandez 
-Bio: Luisa nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
-
-Caracteristicas de Luisa: 
--Amante de la familia
--Trabajadora
--Responsable 
-
-
-Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
-=======
 Preguntas realizadas: 
 ¿Que tanto sabe usar un celular?
 * Muy bien
@@ -196,6 +112,8 @@ Además de conocer su relación con la tecnología, es importante conocer cómo 
 
 #### Conclusiones de la encuesta
 
+Luego de realizado la encuesta llegamos a una serie de conclusiones basandonos en los datos que obtuvimos.
+(IMAGENEEEEEEEE)
 Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
 
 ## Alternativas
@@ -236,23 +154,25 @@ Existen diferentes especificaciones que el sistema debe cumplir para su uso e im
 
 RF1. Vista general. Descripcion:Permitir al administrador ver el estado , origen , destino y usuario de un envio. 
 
-RF2. Armar pedido. Descripcion: Se le debe permitir a los administradores armar un pedido de un cliente y asignarle a un repartidor disponible.
+RF2. Manipulacion de usuarios. Descripcion: el administrador debe poder agregar/modificar/eliminar nuevos usuarios.
 
-RF3. Guia del repartidor. Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
+RF3. Chequeo de cliente registrado. Descripcion: Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
 
-RF4. Llegada del pedido. Descripcion: El repartidor podrá notificar al administrador la finalización de un pedido.
+RF4. Listas de precios. Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
 
-RF5. Sancionar repartidor. El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
+RF5. Verdulerias por alimento. Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
 
-RF6. Verdulerias por alimento. Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
+RF6. Armar pedido. Descripcion: Se le debe permitir a los administradores armar un pedido de un cliente y asignarle a un repartidor disponible.
 
-RF7. Listas de precios. Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
+RF7. Llegada del pedido. Descripcion: El repartidor podrá notificar al administrador la finalización de un pedido.
 
-RF8. Lista de repartidores. Descripcion: Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
+RF8. Guia del repartidor. Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
 
-RF9. Chequeo de cliente registrado. Descripcion: Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
+RF9. Lista de repartidores. Descripcion: Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
 
-RF10. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
+RF10. Sancionar repartidor. El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
+
+RF11. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
 
 
 
@@ -261,10 +181,14 @@ RF10. Permitir a los administradores realizar encuestas de calidad de servicio a
 
 A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
 
-RNF1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos 
+RNF1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos.
+
 RNF2. Debe ser responsive para móviles con iOS 8.0 o superior y con Android Jelly bean o superior.
+
 RNF3. El sistema debe construirse utilizando el estandar de diseño Material Design.
-RNF4. El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes. 
+
+RNF4. El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes.
+
 RNF5. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
 
 ## Actores involucrados
@@ -297,14 +221,12 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 
 4- Otra aplicacion web que permita a los repartidores notificarles de envios nuevos y ademas de notificar al adminstrador entregas.
 
+## Escenciales
 
-## Alcance del proyecto
-
-Los principales elementos de la aplicación son los siguientes:
-1. Se le debe proporcionar a todos los usuarios una lista de alimentos en oferta.
-2. Se le debe proporcionar al administrador una lista de comercios junto con un lista de alimentos correspondientes, junto con sus precios.
-
-Por lo tanto, estos elementos son esenciales para cumplir las necesidades de los clientes.
+Los principales elementos de la aplicación, los cuales el proyecto no puede prescindir son los siguientes:
+1. Vista general. El administrador debe poder ver que pedidios estan en camino, en que consiste cada pedido y a donde van. Su importancia alta deriva de que es el rol central del producto poder adminstrar todos estos pedidos.
+2. Lista de productos. El administrador debe poder ver los productos, con los precios por alimento y por verduleria. Su importancia deriva de poder manejar los precios de los productos para poder comunicarselos al cliente.
+3. Manipulacion de usuarios. El administrador debe poder crear/editar/eliminar usuarios. Su importancia alta se debe a que permite identificar y asociar a las persoans que llaman con usuarios ya registrados en el sistema.
 
 
 ## Plan de SCM
@@ -314,7 +236,6 @@ Tendremos tres repositorios en Github:
 * Verdulería Documentación: Documentación técnica y especifición del proyecto. 
 * Verdulería Web: Código fuente de la aplicación web.
 * Verdulería API: Código fuente de la API.
->>>>>>> 5ec1551de1db1215736354152bd9424bed51d5b4
 
 Branches para la documentación:
 * main
@@ -336,7 +257,6 @@ Todos estos problemas son reversibles y no representan una amenaza para el equip
 
 ## Casos de uso
 ![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
-
 
 ## User Stories
 ID: #1	
@@ -415,9 +335,14 @@ Criterios de aceptacion:
 * El pedido ya no debe ser visible en la lista de pedidos pendientes
 * Se debe notificar al cliente que su pedido esta en camino.
 
-## 
-
 ## Verificacion y validacion de requerimientos 
+
+
+## Bocetos de interfaz de usuario
+
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/admin1.png "Logo")  
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/admin2.png "Logo")  
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/delivery1.png "Logo")  
 
 ## CheckList requerimientos 
 1. Completitud 
@@ -492,7 +417,12 @@ Caracteristicas de Eduth:
  Los equipos se integran, se desempeñan y desintegran en base a  sus relaciones, actitudes y esfuerzo. Los mejores equipos rn este caso creo que entre todos los miembros del mismo hubo una gran quimica, creo que cada uno de nosotros nos llevamos relaciones son significativas y los miembros del equipo están conectados.Porque nuestra actitud colectiva es muy positiva y todos en el equipo trabajan duro para lograr nuestra mision que era sacar el obligatorio adelante. Tambien el uso de la herramienta git nos ayudo en cuanto a la diferencia de horario que cada uno maneja en su vida profesional y personal. Por ultimo queria cometar dde que yo personalmente no sabia utilizar las herramientas y me senti muy apoyada por mis compañeros al momento de utilizarla.
 
 
+## Conclusiones Felipe
 
+Llegada a esta altura del obligatorio podemos sacar conclusiones a dos niveles:
+
+1. Como "desarrollador" se pudo ver que el analisis del entorno donde se va a intentar crear un producto es fundamental ya que algo que parece tan obvio como definir que rumbo tomara el equipo, no se vuelve tan claro dentro de la toma de decisiones micro y por ello es tan importante tener una hoja de ruta bien definida y evitar improvisar. Todo esto se pudo ver sin haber escrito una sola linea de codigo para el proyecto.
+2. Como un integrante "creador del producto" se pudo ver que la creacion de un producto abarca muchisimo mas que solo la programacion, abarca partes de diseño, planificacion, organizacion , comunicacion con el "cliente", entre muchas otras areas. Ademas de que hay que aprender a convivr con el impulso de querer crear cosas nuevas sobre algo que todavia ni fue creado.
 
 
 
