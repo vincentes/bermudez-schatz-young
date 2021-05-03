@@ -1,6 +1,8 @@
 
 # Proyecto Verdulista
-  
+
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/Orange.png "Logo")  
+
 ## Abstract 
 Reserved.
 
@@ -69,6 +71,8 @@ La tendencia en la distribución etaria uruguaya es el envejecimiento general. E
 
 Total de población: 702.926 (23%)
 
+
+
 ### Cuestiones sanitarias
 Para entender la relación de los mayores con los supermercados y la pandemia, decidimos buscar sus opiniones, para lograr entender sus dificultades.
 
@@ -110,6 +114,8 @@ Además de conocer su relación con la tecnología, es importante conocer cómo 
 
 #### Conclusiones de la encuesta
 
+Luego de realizado la encuesta llegamos a una serie de conclusiones basandonos en los datos que obtuvimos.
+(IMAGENEEEEEEEE)
 Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
 
 ## Alternativas
@@ -150,23 +156,26 @@ Existen diferentes especificaciones que el sistema debe cumplir para su uso e im
 
 RF1. Vista general. Descripcion:Permitir al administrador ver el estado , origen , destino y usuario de un envio. 
 
-RF2. Armar pedido. Descripcion: Se le debe permitir a los administradores armar un pedido de un cliente y asignarle a un repartidor disponible.
+RF2. Manipulacion de usuarios. Descripcion: el administrador debe poder agregar/modificar/eliminar nuevos usuarios.
 
-RF3. Guia del repartidor. Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
+RF3. Chequeo de cliente registrado. Descripcion: Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
 
-RF4. Llegada del pedido. Descripcion: El repartidor podrá notificar al administrador la finalización de un pedido.
+RF4. Listas de precios. Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
 
-RF5. Sancionar repartidor. El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
+RF5. Verdulerias por alimento. Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
 
-RF6. Verdulerias por alimento. Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
+RF6. Armar pedido. Descripcion: Se le debe permitir a los administradores armar un pedido de un cliente y asignarle a un repartidor disponible.
 
-RF7. Listas de precios. Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
+RF7. Llegada del pedido. Descripcion: El repartidor podrá notificar al administrador la finalización de un pedido.
 
-RF8. Lista de repartidores. Descripcion: Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
+RF8. Guia del repartidor. Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
 
-RF9. Chequeo de cliente registrado. Descripcion: Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
+RF9. Lista de repartidores. Descripcion: Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
 
-RF10. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
+RF10. Sancionar repartidor. El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
+
+RF11. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
+
 
 
 
@@ -175,10 +184,14 @@ RF10. Permitir a los administradores realizar encuestas de calidad de servicio a
 
 A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
 
-RNF1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos 
+RNF1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos.
+
 RNF2. Debe ser responsive para móviles con iOS 8.0 o superior y con Android Jelly bean o superior.
+
 RNF3. El sistema debe construirse utilizando el estandar de diseño Material Design.
-RNF4. El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes. 
+
+RNF4. El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes.
+
 RNF5. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
 
 ## Actores involucrados
@@ -212,13 +225,12 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 4- Otra aplicacion web que permita a los repartidores notificarles de envios nuevos y ademas de notificar al adminstrador entregas.
 
 
-## Alcance del proyecto
+## Escenciales
 
-Los principales elementos de la aplicación son los siguientes:
-1. Se le debe proporcionar a todos los usuarios una lista de alimentos en oferta.
-2. Se le debe proporcionar al administrador una lista de comercios junto con un lista de alimentos correspondientes, junto con sus precios.
-
-Por lo tanto, estos elementos son esenciales para cumplir las necesidades de los clientes.
+Los principales elementos de la aplicación, los cuales el proyecto no puede prescindir son los siguientes:
+1. Vista general. El administrador debe poder ver que pedidios estan en camino, en que consiste cada pedido y a donde van. Su importancia alta deriva de que es el rol central del producto poder adminstrar todos estos pedidos.
+2. Lista de productos. El administrador debe poder ver los productos, con los precios por alimento y por verduleria. Su importancia deriva de poder manejar los precios de los productos para poder comunicarselos al cliente.
+3. Manipulacion de usuarios. El administrador debe poder crear/editar/eliminar usuarios. Su importancia alta se debe a que permite identificar y asociar a las persoans que llaman con usuarios ya registrados en el sistema.
 
 
 ## Plan de SCM
@@ -428,6 +440,13 @@ Criterios de aceptacion:
 
 ## Validacion de requerimientos 
 
+
+## Bocetos de interfaz de usuario
+
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/admin1.png "Logo")  
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/admin2.png "Logo")  
+![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/delivery1.png "Logo")  
+
 ## CheckList requerimientos 
 1. Completitud 
 /*Los requerimientos se encuentran correctamente priorizados porque el sistema prioriza a adultos mayores a poder seguir realizando las tareas diarias sin 
@@ -473,5 +492,11 @@ Caracteristicas de Luisa:
 -Responsable 
 
 
+## Conclusiones Felipe
+
+Llegada a esta altura del obligatorio podemos sacar conclusiones a dos niveles:
+
+1. Como "desarrollador" se pudo ver que el analisis del entorno donde se va a intentar crear un producto es fundamental ya que algo que parece tan obvio como definir que rumbo tomara el equipo, no se vuelve tan claro dentro de la toma de decisiones micro y por ello es tan importante tener una hoja de ruta bien definida y evitar improvisar. Todo esto se pudo ver sin haber escrito una sola linea de codigo para el proyecto.
+2. Como un integrante "creador del producto" se pudo ver que la creacion de un producto abarca muchisimo mas que solo la programacion, abarca partes de diseño, planificacion, organizacion , comunicacion con el "cliente", entre muchas otras areas. Ademas de que hay que aprender a convivr con el impulso de querer crear cosas nuevas sobre algo que todavia ni fue creado.
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
