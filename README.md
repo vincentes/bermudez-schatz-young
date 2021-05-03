@@ -345,28 +345,29 @@ Cursos alternativos
 | :-------: | :---:	 |
 |  1. El repartidor elige la opción de cambiar estado de envío a "en curso".  | 2. El sistema actualiza el envío en la base de datos y le avisa al repartidor que fue actualizado correctamente. |
 
-## User Stories
-ID: #1	
-Título: Compra
+ID: #1
+Título: Login
 Narrativa:
-	Como administrador
-	Quiero poder registrar una tarjeta de débito como medio de pago
-        Para poder cobrarle las verduras al cliente
+	Como administrador y como repartidor
+	Quiero poder iniciar sesion en mi cuenta
+        Para poder mantener tener los datos de los clientes/envios protegidos.
 	
 Criterios de aceptación:
-*Al ingresar la tarjeta para aceptar el pedido el sistema debe verificar que todos los datos sean veridicos de acuerdo a la reglamentacion del banco.
+*Al ingresar usuario y contraseña el sistema debe verificar que las credenciales son correctas y de serlo darme acceso, de lo contrario mostrar un error.
+
 
 ID: #2
-Título: Ofertas para cliente frecuentes
-Narrativa: 
+Título: Crear pedido
+Narrativa:
 	Como administrador
-	Quiero poder ver la lista de productos mas consumidos por un cliente frecuente**
-        Para poder ofrecerle esos productos en oferta 
+	Quiero poder registrar un pedido con su usuario, repartidor, cantidad de frutas y verduras y metodo de pago.
+        Para poder enviarle en tiempo y forma los bienes al usuario.
+	
 Criterios de aceptación:
-Cumplir con las condiciones para ser un usuario frecuente. Ademas el sistema debe contar con una lista de los clientes frecuentes para poder contactarlos, junto con su maximo de gasto en el pedido.
-** Cliente frecuente: Un cliente que hizo más de diez compras.
+* Se debe agregar: usuario, repartidor, cantidades de frutas y verduras , metodo de pago.
+* Al agregar se debe agregar el pedido a la cola de pedidos del repartidor correspondiente.
 
-ID: #4
+ID: #3
 Título: Información de verdulería
 Narrativa: 
 	Como repartidor 
@@ -376,51 +377,36 @@ Narrativa:
 Criterios de aceptación:
 El sistema debe poder verificar periodicamente si la verduleria cuenta con los protocolos santiarios correspondientes y entran en el rango de zona que puede abarcar el repartidor.
 
-ID: #5
-Título: Dar de baja
+ID: #4
+Titulo: Entregar pedido
 Narrativa: 
-	 Como usuario 
-	 Quiero poder dejar de usar el sistema
-         Para poder abandonar el sistema cuando el usuario quiera
-Criterios de aceptación:el sistema debe poder verificar si el cliente tiene una deuda anterior
+	Como repartidor
+	Quiero poder notificar al adminstrador que el pedido fue entregado correctamente.
+	Para poder visualizar mejor los pedidios que estan pendientes.
+Criterios de aceptacion: 
+* El pedido debe salir de la cola de pedidos del repartidor.
+* El pedido debe aparecer en el inicio del administrador como entregado.
+
+ID: #5
+Titulo: Guiar repartidor
+Narrativa: 
+	Como repartidor
+	Quiero poder ver el pedido con sus datos y la direccion a donde lo quiero llevar.
+	Para poder realizar un envio mas optimo.
+Criterios de aceptacion: 
+* Se debe visualizar un mapa que dirija al repartidor y que lo siga por GPS.
+* Se debe poder ver donde comprar las verduras y las cantidades.
 
 ID: #6
-Titulo: Agregar Verduleria
+Titulo: Sancionar repartidor
 Narrativa: 
-	Como usuario
-	Quiero poder agregar verdulerias con sus respectivos datos de contacto.
-	Para poder contactarlos y comprarles las frutas que quieren los clientes.
+	Como administrador
+	Quiero poder sancionar a los repartidores que fueran denunciados por los usuarios por incumplimiento de las normas sanitarias.
+	Para poder poder prevenir posibles contagios al personal y a los clientes.
 Criterios de aceptacion: 
-* Se deben llenar los campos: nombre,telefono,zona y rango de precio esperado(bajo, medio y alto).
-* No se debe permitir agregar una verduleria si le falta uno de los datos anteriores.
-
-ID: #7
-Titulo: Eliminar Verduleria
-Narrativa:
-	Como usuario 
-	Quiero poder eliminar verdulerias y sus datos de contacto 
-	Para no contar con ellos a la hora de armarle un pedido al cliente.
-Criterios de aceptacion:
-* Se deben eliminar todos los datos de la verduleria seleccionada, incluidos los pedidos pendientes asociados.
-
-ID: #8
-Titulo: Crear Pedido
-Narrativa: 
-	Como usuario
-	Quiero poder crear un pedido con sus respectivas cantidades de frutas y verduras 
-	Para tener mas organizada la informacion a la hora de realizar el pedido en las verdulerias que tengo registradas en el sistema.
-Criterios de aceptacion: 
-* Se debe poder agregar nombre, direccion de destino, cantidades de frutas y verduras, horario de preferencia de entrega y medio de pago.
-
-ID: #9
-Titulo: Despachar pedido
-Narrativa: 
-	Como usuario
-	Quiero poder quitar del sistema los pedidos que fueron ya enviados a sus respectivos clientes de modo que no sean visibles para que no interfieran con la lista de pedidos pendientes.
-	Para poder visualizar mejor los pedidios que van en camino.
-Criterios de aceptacion: 
-* El pedido ya no debe ser visible en la lista de pedidos pendientes
-* Se debe notificar al cliente que su pedido esta en camino.
+* Se debe notificar al repartidor que fue sancionado.
+* Se debe proporcionar un motivo de la sancion.
+* Se debe bloquear al repartidor de recibir pedidos a su cola de pedidos por un determinado periodo de tiempo.
 
 ## Verificacion y validacion de requerimientos 
 
