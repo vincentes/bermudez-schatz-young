@@ -424,11 +424,6 @@ Criterios de aceptacion:
 
 ## Verificacion y validacion de requerimientos 
 
-## Bocetos de interfaz de usuario
-
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/admin1.png)
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/admin2.png)
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/delivery1.png)
 
 ## CheckList requerimientos 
 1. Completitud 
