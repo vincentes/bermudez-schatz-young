@@ -1,20 +1,68 @@
 
-## Plantilla identificatoria de grupo
+
+# Plantilla identificatoria de grupo
 Identificación                                                                                                                                   
 Fundamentos de Ingenieria de Software    Docente: Alejandro Adorjan                                
 Grupo M4A                                Integrantes: Tali Schatz, Felipe Young y Vicente Bermudez.
 
 # Proyecto Verdulista
-
 ![image](https://user-images.githubusercontent.com/11695552/116833561-5551da00-ab90-11eb-8ea2-ad862df34422.png)
 
+## Repositorio Git
+Para la creacion de este proyecto utilizamos un repositorio remoto el cual es de acceso publico.
+
+Para el repositorio local utilizamos distintos comandos usualmente si no teniamos ninguna problema desde la parte remota utilizabamos:
+git branch
+git push 
+git commit 
+git add . 
+git checkout 
+git merge 
+
+Aunque en un comienzo hemos tenido problemas con los repositorios y utilizamos lo siguiente.
+git reverse 
+git stash
+git clear
+
+## Aplicar buenas prácticas de versionado
+Ver resumen de commits en el historial del repositorio.
+
+
+
+## Resumen de commits y evolución del proyecto
+
+Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
+
+Tendremos tres repositorios en Github:
+* Verdulería Documentación: Documentación técnica y especifición del proyecto. 
+* Verdulería Web: Código fuente de la aplicación web.
+* Verdulería API: Código fuente de la API.
+
+Branches para la documentación:
+* main
+  * vicente
+  * felipe
+  * tali
+
+Branches para el repositorio de web y api:
+* main
+  * develop
+    * feature/CU-### (### representa el ID del caso de uso a implementar)
+
+Un detalle no menor es que entendemos que pueden haber errores en el uso del repositorio ya que es necesaria una determinada curva de aprendizaje para lograr una familiarizacion total con la plataforma.
+Los errores que preevemos que pueden suceder son: 
+* Commits directos al main sin pasar por branches
+* Realizar commits sin haber hecho un pull previo "pisando los cambios anteriores"
+* Olvidar hacer push de cambios y que el resto del equipo no los pueda ver.
+Todos estos problemas son reversibles y no representan una amenaza para el equipo, pero es importante denotar que pueden ocurrir.
+
+# Elicitación
 ## Introducción
 Es sabido que la tecnología cambia la forma por la cual interactuamos con el mundo, pero estos cambios pueden ser abruptos y algunas personas simplemente no se pueden acostumbrar a ello. De hecho, es de conocimiento que en varios países existe un notorio envejecimiento de la población, y además, un exponencial desarrollo tecnológico. En otras palabras: los ancianos están siendo aislados del mundo debido a su poca capacidad de incorporar nuevas tecnologías en sus vidas.
 
-Ver Anexo 1.0 para mas detalles sobre COVID19.
+Ver Anexo 1.0 para mas detalles sobre COVID-19.
 
 En este contexto, tomamos la iniciativa de cerrar la grieta entre la vejez y la tecnología, al menos en lo que tiene que ver con los supermercados.
-
 
 ## Presentación del cliente
 
@@ -28,11 +76,15 @@ Ver datos en Anexo 1.1
 
 Ver mas datos Anexo 1.2
 
+## Evidencia de actividades de investigación
 
 ### Cuestiones sanitarias
 Para entender la relación de los mayores con los supermercados y la pandemia, decidimos buscar sus opiniones, para lograr entender sus dificultades.
 
 #### Encuesta
+
+Link de encuesta: https://docs.google.com/forms/d/1-2NxbwNaznKnrnxgqZ3UVLYreiy7_00z6Uo5gRbEH1Y/edit
+
 Resolvimos la realizacion de una encuesta dado que preevimos que muchas personas no sabrian utilizar google forms por lo que debiamos contactarlas por telefono y hacerles las preguntas del formulario. Consideramos que es una buena forma de conseguir datos de manera eficiente ya que la encuesta no permite grandes desviaciones de la conversacion como si podria generar una entrevista u otro metodo de elicitacion.
  
 Ver mas datos Anexo 2.1
@@ -56,6 +108,64 @@ Por ultimo este grafico confirma lo dicho anteriormente, una mayoria 75% afirma 
 Un dato importante que no se puede ver en las graficas es que hay una tendencia de los hombres encuestados a responder que no a la ultima pregunta, no podemos decir que sea una tendencia tan clara teniendo en cuenta que solo consideramos 20 entrevistados, pero una de las hipotesis que manejamos es que en general los hombres mayores imponen mas resistencia a reconocer que no se sienten seguros o que sienten miedo a determinadas cosas. Por lo que puede que en la realidad los datos sean aun mayores, pero resulta incomprobable.
 Como conclusion final de esta encuesta podemos ver que es necesaria una alternativa extra a estas personas, ya que se encuentran en una situacion en la que quieren comprar pero no quieren arriesgar su salud, por lo que implementar una solucion sin grandes dificultades tecnologicas para estas personas podria ser una muy importante oportunidad. 
 
+## Referencias a fuentes de información
+Link a cuestionario
+
+https://docs.google.com/forms/d/1-2NxbwNaznKnrnxgqZ3UVLYreiy7_00z6Uo5gRbEH1Y/edit
+
+Why Older Adults Should Shop Home While Pandemic is Surging, Michelle Edelstein, December 1, 2020
+
+https://www.rutgers.edu/news/why-older-adults-should-shop-home-while-pandemic-surging
+
+## Caracterización de los usuarios: User Personas
+
+### User Persona 
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona1.jpeg)
+
+Nombre : Edith Schwartzdoff
+
+Lema de vida de Edith:  “La vida es una y hay que cuidarla” y 
+
+Bio: Edith nació en el año 1937 en Polonia,  sobrevivió a varias guerra y pandemias (hasta la fecha),  ella trabajo desarrollándose siempre en el área del ballet, fue primera bailarina en el periodo de (1950-1957) hoy en día se desarrolla como parte del cuerpo honorario de las escuelas de formación artística del Sodre.  En su vida personal se casó en el 1952, tiene 3 hijos 16 nietos, 2 bisnietos y 6 gatos por lo que la familia es un pilar muy importante. Se caracteriza como una persona muy trabajadora y comprometida (en todos los ámbitos) . En este momento de la pandemia del país maría es consciente de que no se pueden hacer actividades con tanta exposición como ir a la feria.
+
+Características de Edith
+-Veterana
+-No maneja bien la tecnología
+-Comprometida y trabajadora
+-Tiene una gran familia
+-Es compradora habitual de la feria
+
+
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona2.jpeg)
+Nombre: Jose Kreiner
+Bio: Jose nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
+
+Caracterisiticas de Jose: 
+- Trabajador 
+-Amante de la tecnologia 
+-Compromiso 
+- Reinvencion constante
+
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona3.jpeg)
+Nombre: Isaac Gandelmann
+Bio: Isaac nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
+
+Caracteristicas de Isaac: 
+-Amante de la familia
+-Trabajadora
+-Responsable 
+
+# Modelo Conceptual del Problema
+
+Como podemos ver tenemos dos grandes problematicas: por un lado una historica que se trata de la falta de adaptabilidad de las personas mayores a las nuevas tecnologias, esto no es una gran sorpresa.
+Por otro lado tenemos la componente de la Pandemia del Covid 19 que fue un catalizador al desarrollo e incorporacion de nuevas tecnologias y ademas les impidio a millones de personas salir de sus casas principlamente a los mayores.
+En este contexto de por un lado ignoracia de nuevas tecnologias y obligacion de quedarse en sus casas para prevenir riesgos se generó la tormeta perfecta para que estas personas mayores quedaran excluidas.
+En virtud de esta situacion podemos observar que una de las principales causas de que los mayores salgan de sus casas es para comprar alimentos y a partir de esta actividad generar se puede generar un brote de SARS-COV-2.
+
+## ¿Qué vamos a hacer?
+Tomaremos como base de la solución imitar la experiencia de usuario que los ancianos tuvieron en épocas menos arraigadas al riesgo de contagio, y evitar la dificultad de enseñarles a nuestros clientes cómo funciona la tecnología, pero a la vez mejorando su flexibilidad de compra.
+La idea es que nuestros clientes puedan comunicarse con el equipo a través del celular y pedir los productos que necesitase. Compramos la mercadería al menor precio pero cuando la relación de calidad-precio, para posteriormente enviarle al cliente su pedido.
+Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el contacto y el riesgo de contagio. Sin embargo, podrán pagar en efectivo si así lo desean.
 
 ## Alternativas
 ### PedidosYa (igual que Rappi, UberEats)
@@ -76,16 +186,28 @@ Diferencias con el Proyecto Verdulista:
 * Requiere que el usuario sepa usar una computadora
 * No se pueden pedir ingredientes, es comida lista
 
-## Especificacion del problema
-Como podemos ver tenemos dos grandes problematicas: por un lado una historica que se trata de la falta de adaptabilidad de las personas mayores a las nuevas tecnologias, esto no es una gran sorpresa.
-Por otro lado tenemos la componente de la Pandemia del Covid 19 que fue un catalizador al desarrollo e incorporacion de nuevas tecnologias y ademas les impidio a millones de personas salir de sus casas principlamente a los mayores.
-En este contexto de por un lado ignoracia de nuevas tecnologias y obligacion de quedarse en sus casas para prevenir riesgos se generó la tormeta perfecta para que estas personas mayores quedaran excluidas.
-En virtud de esta situacion podemos observar que una de las principales causas de que los mayores salgan de sus casas es para comprar alimentos y a partir de esta actividad generar se puede generar un brote de SARS-COV-2.
+##  Necesidades 
 
-## ¿Qué vamos a hacer?
-Tomaremos como base de la solución imitar la experiencia de usuario que los ancianos tuvieron en épocas menos arraigadas al riesgo de contagio, y evitar la dificultad de enseñarles a nuestros clientes cómo funciona la tecnología, pero a la vez mejorando su flexibilidad de compra.
-La idea es que nuestros clientes puedan comunicarse con el equipo a través del celular y pedir los productos que necesitase. Compramos la mercadería al menor precio pero cuando la relación de calidad-precio, para posteriormente enviarle al cliente su pedido.
-Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el contacto y el riesgo de contagio. Sin embargo, podrán pagar en efectivo si así lo desean.
+Las necesidades que se presentan en este desarrollo son las siguientes: 
+
+1- Desarrollar una aplicacion web que permita organizar los pedidos: agregar, leer , modificar y eliminar estos de la manera mas organizada posible por el administrador del sistema.
+
+2- Una base de datos para almacenar los datos de pedidos, usuarios y repartidores.
+
+3- Un adminsitrador del sistema: Una persona que cuente con las habilidades para manipular un telefono y responder las llamadas de las personas y agendar esos pedidos en nuestra plataforma(desarrollada en el punto 1).
+
+4- Otra aplicacion web que permita a los repartidores notificarles de envios nuevos y ademas de notificar al adminstrador entregas.
+
+Ver Anexo 3.0 para ver los elementos esenciales del sistema.
+
+
+## Objetivos especificos
+
+A continuacion detallaremos los objetivos especificos del proyecto: 
+
+1- Reducir el riesgo de contagio en personas mayores que no tienen manejo fluido con aplicaciones: estas personas durante el tiempo que quede de COVID-19 deberan al menos tener la libertad de elegir cuando salir a comprar y cuando no, sin verse limitadas a depender de alguien mas para tener stock de alimentos.
+
+2- Darle mas independencia a las personas mayores en el mundo moderno: estos tiempos dejaron relegados a muchas personas mayores que no tienen la capacidad de adaptarse a determinados cambios que propuso la mezcla de la pandemia y el avance de la tecnologia. Por lo que esta aplicacion puede ser una puerta de entrada gradual al mundo de la tecnologia para que estas personas puedan disfrutar de una vida mas independiente y con mas opciones.
 
 
 ## Tecnologías a utilizar
@@ -101,10 +223,11 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 | IDE | Visual Studio Code | Requerido |
 | Test unitarios | Jest | Conocimiento del equipo, facil de usar |
 
+# Especificación
 
-## Requerimientos
+## Definicion Requerimientos Funcionales y No Funcionales
 
-##  Requerimientos funcionales
+###  Requerimientos funcionales
 Existen diferentes especificaciones que el sistema debe cumplir para su uso e implementacion, tambien en este momento vamos a especificar el funcionamiento del sistema en un momento especifico. Ademas de como se procesa la informacion (entrada y salida). 
 
 RF1. **Vista general**.
@@ -152,9 +275,7 @@ RF11. **Encuestas**.
 Descripcion:Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
 Prioridad: Baja
 
-
-
-# Requerimientos no funcionales
+### Requerimientos no funcionales
 
 A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
 
@@ -198,65 +319,7 @@ RNF10. **Front-end.**
 Descripcion:El front-end debe estar realizado utilizando AngularJS .
 Prioridad: Alta
 
-
-
-## Actores involucrados
-El proyecto afecta a varios actores directa e indirectamente: 
-Los actores directos son:
-1- Los ancianos: son el eje central en la creacion de este servicio que propone facilitar la seguridad y practicidad con la que hacen compras durante la era del COVID-19.
-2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
-3- Repartidores: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
-Los actores indirectos son: 
-1- Otros competidores con servicios similares: Rappi, UberEats, PedidosYa , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
-2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
-
-## Objetivos especificos
-
-A continuacion detallaremos los objetivos especificos del proyecto: 
-
-1- Reducir el riesgo de contagio en personas mayores que no tienen manejo fluido con aplicaciones: estas personas durante el tiempo que quede de COVID-19 deberan al menos tener la libertad de elegir cuando salir a comprar y cuando no, sin verse limitadas a depender de alguien mas para tener stock de alimentos.
-
-2- Darle mas independencia a las personas mayores en el mundo moderno: estos tiempos dejaron relegados a muchas personas mayores que no tienen la capacidad de adaptarse a determinados cambios que propuso la mezcla de la pandemia y el avance de la tecnologia. Por lo que esta aplicacion puede ser una puerta de entrada gradual al mundo de la tecnologia para que estas personas puedan disfrutar de una vida mas independiente y con mas opciones.
-
-##  Necesidades 
-
-Las necesidades que se presentan en este desarrollo son las siguientes: 
-
-1- Desarrollar una aplicacion web que permita organizar los pedidos: agregar, leer , modificar y eliminar estos de la manera mas organizada posible por el administrador del sistema.
-
-2- Una base de datos para almacenar los datos de pedidos, usuarios y repartidores.
-
-3- Un adminsitrador del sistema: Una persona que cuente con las habilidades para manipular un telefono y responder las llamadas de las personas y agendar esos pedidos en nuestra plataforma(desarrollada en el punto 1).
-
-4- Otra aplicacion web que permita a los repartidores notificarles de envios nuevos y ademas de notificar al adminstrador entregas.
-
-Ver Anexo 3.0 para ver los elementos esenciales del sistema.
-
-## Plan de SCM
-Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
-
-Tendremos tres repositorios en Github:
-* Verdulería Documentación: Documentación técnica y especifición del proyecto. 
-* Verdulería Web: Código fuente de la aplicación web.
-* Verdulería API: Código fuente de la API.
-
-Branches para la documentación:
-* main
-  * vicente
-  * felipe
-  * tali
-
-Branches para el repositorio de web y api:
-* main
-  * develop
-    * feature/CU-### (### representa el ID del caso de uso a implementar)
-
-Un detalle no menor es que entendemos que pueden haber errores en el uso del repositorio ya que es necesaria una determinada curva de aprendizaje para lograr una familiarizacion total con la plataforma.
-Los errores que preevemos que pueden suceder son: 
-* Commits directos al main sin pasar por branches
-* Realizar commits sin haber hecho un pull previo "pisando los cambios anteriores"
-* Olvidar hacer push de cambios y que el resto del equipo no los pueda ver.
-Todos estos problemas son reversibles y no representan una amenaza para el equipo, pero es importante denotar que pueden ocurrir.
+# User Stories / Casos de usos detallados
 
 ## Casos de uso
 Ver imagen Anexo 4.1
@@ -421,6 +484,8 @@ Criterios de aceptacion:
 * Se debe proporcionar un motivo de la sancion.
 * Se debe bloquear al repartidor de recibir pedidos a su cola de pedidos por un determinado periodo de tiempo.
 
+
+
 ## Verificacion y validacion de requerimientos 
 
 
@@ -455,43 +520,6 @@ Es una mezzosoprano nacida el 29/11/1945 en Montevideo. Haciendo sus estudios te
 
 ->Sugerencias 
 "Creo que esta es una excelente idea siempre y cuando haya una relacion comercial. El minoreo tiene sus cosas. Conocer bien al cliente, sus gustos, etc. es todo un tema. Me parece que es una idea con un gran futuro, pero que hay que pulirla en el sentido de darle importancia a lo que el cliente quiera especificamente. Me parece que la idea va a permanecer la gente siempre va a envejecer y es algo que no va a pasar de modo pero siempre con un servicio correcto a nivel de valores , que este centrada en el gusto del consumidor,etc" 
-
-
-## User Persona 
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona1.jpeg)
-
-Nombre : Edith Schwartzdoff
-
-Lema de vida de Edith:  “La vida es una y hay que cuidarla” y 
-
-Bio: Edith nació en el año 1937 en Polonia,  sobrevivió a varias guerra y pandemias (hasta la fecha),  ella trabajo desarrollándose siempre en el área del ballet, fue primera bailarina en el periodo de (1950-1957) hoy en día se desarrolla como parte del cuerpo honorario de las escuelas de formación artística del Sodre.  En su vida personal se casó en el 1952, tiene 3 hijos 16 nietos, 2 bisnietos y 6 gatos por lo que la familia es un pilar muy importante. Se caracteriza como una persona muy trabajadora y comprometida (en todos los ámbitos) . En este momento de la pandemia del país maría es consciente de que no se pueden hacer actividades con tanta exposición como ir a la feria.
-
-Características de Edith
--Veterana
--No maneja bien la tecnología
--Comprometida y trabajadora
--Tiene una gran familia
--Es compradora habitual de la feria
-
-
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona2.jpeg)
-Nombre: Jose Kreiner
-Bio: Jose nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
-
-Caracterisiticas de Jose: 
-- Trabajador 
--Amante de la tecnologia 
--Compromiso 
-- Reinvencion constante
-
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona3.jpeg)
-Nombre: Isaac Gandelmann
-Bio: Isaac nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
-
-Caracteristicas de Isaac: 
--Amante de la familia
--Trabajadora
--Responsable 
 
 ## Reflexiones individuales y grupales 
 
@@ -633,6 +661,17 @@ Los principales elementos de la aplicación, los cuales el proyecto no puede pre
 3. Manipulacion de usuarios. El administrador debe poder crear/editar/eliminar usuarios. Su importancia alta se debe a que permite identificar y asociar a las persoans que llaman con usuarios ya registrados en el sistema.
 
 Anexo 4.1 
+
+El proyecto afecta a varios actores directa e indirectamente: 
+Los actores directos son:
+1- Los ancianos: son el eje central en la creacion de este servicio que propone facilitar la seguridad y practicidad con la que hacen compras durante la era del COVID-19.
+2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
+3- Repartidores: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
+
+Los actores indirectos son: 
+1- Otros competidores con servicios similares: Rappi, UberEats, PedidosYa , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
+2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
+
 ![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
 
 
