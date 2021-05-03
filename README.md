@@ -5,15 +5,10 @@
 ## Introducción
 Es sabido que la tecnología cambia la forma por la cual interactuamos con el mundo, pero estos cambios pueden ser abruptos y algunas personas simplemente no se pueden acostumbrar a ello. De hecho, es de conocimiento que en varios países existe un notorio envejecimiento de la población, y además, un exponencial desarrollo tecnológico. En otras palabras: los ancianos están siendo aislados del mundo debido a su poca capacidad de incorporar nuevas tecnologías en sus vidas.
 
-El nuevo coronavirus denominado SARS-CoV-2 (COVID-19) funcionó como un catalizador para la tecnología en todos los aspectos de nuestra vida diaria, incluso llegó a modernizar el delivery de mercadería de supermercado. Es sabido que este virus es significativamente más dañino para las personas de mayor edad (60+). Los ancianos no pueden exponerse a la posibilidad de fallecer por un mandado. La data nos muestra que unos de los más importantes culpables son los supermercados. Como ejemplo, en Riverside, California, hubo alrededor de 48 brotes relacionados a supermercados el verano pasado. Actualmente el grupo social mencionado puede pedir comida online, si es que llega a tener un asistente humano para realizar dicha orden, ya que gran parte de ellos no tienen la suficiente alfabetización informática.
+Ver Anexo 1.0 para mas detalles sobre COVID19.
 
 En este contexto, tomamos la iniciativa de cerrar la grieta entre la vejez y la tecnología, al menos en lo que tiene que ver con los supermercados.
 
-Tomaremos como base de la solución imitar la experiencia de usuario que los ancianos tuvieron en épocas menos arraigadas al riesgo de contagio, y evitar la dificultad de enseñarles a nuestros clientes cómo funciona la tecnología, pero a la vez mejorando su flexibilidad de compra.
-
-La idea es que nuestros clientes puedan comunicarse con el equipo a través del celular y pedir los productos que necesitase. Compramos la mercadería al menor precio pero cuando la relación de calidad-precio, para posteriormente enviarle al cliente su pedido.
-
-Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el contacto y el riesgo de contagio. Sin embargo, podrán pagar en efectivo si así lo desean.
 
 ## Presentación del cliente
 
@@ -55,6 +50,7 @@ Por ultimo este grafico confirma lo dicho anteriormente, una mayoria 75% afirma 
 Un dato importante que no se puede ver en las graficas es que hay una tendencia de los hombres encuestados a responder que no a la ultima pregunta, no podemos decir que sea una tendencia tan clara teniendo en cuenta que solo consideramos 20 entrevistados, pero una de las hipotesis que manejamos es que en general los hombres mayores imponen mas resistencia a reconocer que no se sienten seguros o que sienten miedo a determinadas cosas. Por lo que puede que en la realidad los datos sean aun mayores, pero resulta incomprobable.
 Como conclusion final de esta encuesta podemos ver que es necesaria una alternativa extra a estas personas, ya que se encuentran en una situacion en la que quieren comprar pero no quieren arriesgar su salud, por lo que implementar una solucion sin grandes dificultades tecnologicas para estas personas podria ser una muy importante oportunidad. 
 
+
 ## Alternativas
 ### PedidosYa (igual que Rappi, UberEats)
 www.pedidosya.com.uy
@@ -73,6 +69,18 @@ Diferencias con el Proyecto Verdulista:
 * Solo funciona en los EEUU
 * Requiere que el usuario sepa usar una computadora
 * No se pueden pedir ingredientes, es comida lista
+
+## Especificacion del problema
+Como podemos ver tenemos dos grandes problematicas: por un lado una historica que se trata de la falta de adaptabilidad de las personas mayores a las nuevas tecnologias, esto no es una gran sorpresa.
+Por otro lado tenemos la componente de la Pandemia del Covid 19 que fue un catalizador al desarrollo e incorporacion de nuevas tecnologias y ademas les impidio a millones de personas salir de sus casas principlamente a los mayores.
+En este contexto de por un lado ignoracia de nuevas tecnologias y obligacion de quedarse en sus casas para prevenir riesgos se generó la tormeta perfecta para que estas personas mayores quedaran excluidas.
+En virtud de esta situacion podemos observar que una de las principales causas de que los mayores salgan de sus casas es para comprar alimentos y a partir de esta actividad generar se puede generar un brote de SARS-COV-2.
+
+## Que vamos a hacer?
+Tomaremos como base de la solución imitar la experiencia de usuario que los ancianos tuvieron en épocas menos arraigadas al riesgo de contagio, y evitar la dificultad de enseñarles a nuestros clientes cómo funciona la tecnología, pero a la vez mejorando su flexibilidad de compra.
+La idea es que nuestros clientes puedan comunicarse con el equipo a través del celular y pedir los productos que necesitase. Compramos la mercadería al menor precio pero cuando la relación de calidad-precio, para posteriormente enviarle al cliente su pedido.
+Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el contacto y el riesgo de contagio. Sin embargo, podrán pagar en efectivo si así lo desean.
+
 
 ## Tecnologías a utilizar
 
@@ -193,7 +201,7 @@ Los actores directos son:
 2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
 3- Repartidores: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
 Los actores indirectos son: 
-1- Otros competidores con servicios similares: Rappi, UberEats, Pedidos Ya , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
+1- Otros competidores con servicios similares: Rappi, UberEats, PedidosYa , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
 2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
 
 ## Objetivos especificos
@@ -512,6 +520,9 @@ Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
 
 
 ## Anexo
+
+Anexo 1.0 : 
+El nuevo coronavirus denominado SARS-CoV-2 (COVID-19) funcionó como un catalizador para la tecnología en todos los aspectos de nuestra vida diaria, incluso llegó a modernizar el delivery de mercadería de supermercado. Es sabido que este virus es significativamente más dañino para las personas de mayor edad (60+). Los ancianos no pueden exponerse a la posibilidad de fallecer por un mandado. La data nos muestra que unos de los más importantes culpables son los supermercados. Como ejemplo, en Riverside, California, hubo alrededor de 48 brotes relacionados a supermercados el verano pasado. Actualmente el grupo social mencionado puede pedir comida online, si es que llega a tener un asistente humano para realizar dicha orden, ya que gran parte de ellos no tienen la suficiente alfabetización informática.
 
 Anexo 1.1 ![Image of dog](https://i.imgur.com/DJgzPMJ.png)
 
