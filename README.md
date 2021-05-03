@@ -18,9 +18,9 @@ En este contexto, tomamos la iniciativa de cerrar la grieta entre la vejez y la 
 
 La tendencia en la distribución etaria uruguaya es el envejecimiento general. El porcentaje de personas en la franja etaria de 60+ es cada vez más alto, siendo un 23% de la población total.
 
-Anexo 1.1
+Ver datos en Anexo 1.1
 
-Anexo 1.2
+Ver mas datos Anexo 1.2
 
 
 ### Cuestiones sanitarias
@@ -29,23 +29,23 @@ Para entender la relación de los mayores con los supermercados y la pandemia, d
 #### Encuesta
 Resolvimos la realizacion de una encuesta dado que preevimos que muchas personas no sabrian utilizar google forms por lo que debiamos contactarlas por telefono y hacerles las preguntas del formulario. Consideramos que es una buena forma de conseguir datos de manera eficiente ya que la encuesta no permite grandes desviaciones de la conversacion como si podria generar una entrevista u otro metodo de elicitacion.
  
-Anexo 2.1(Encuesta)
+Ver mas datos Anexo 2.1
 
 #### Conclusiones de la encuesta
 
 Es importante aclarar que muchos de los datos de las graficas que estan mas abajo fueron rellenados por nosotros realizando llamadas a estas personas.
 Luego de realizado la encuesta llegamos a una serie de conclusiones basandonos en los datos que obtuvimos.
-Anexo 2.2
+Ver grafico Anexo 2.2
 Como podemos observar la enorme mayoria de las personas mayores encuestadas cuentan con celular, por lo que ya podemos inducir que hay un grado de modernidad que la mayoria por distintas causas termina siendo propietaria de un celular.
-Anexo 2.3
+Ver grafico Anexo 2.3
 Pero por otro lado podemos ver que el nivel de aprendizaje con respecto al uso del celular es muy variado, tenemos un 45% de nuestros encuestados que no puede afiermar que maneja bien el celular. Es decir cuentan con una herramienta que no pueden entender completamente.
-Anexo 2.4
+Ver grafico Anexo 2.4
 Con relacion a los criterios con los que compran frutas y verduras podemos ver que hay un peso sustancial en el precio, lo que es razonable , pero luego el segundo item mas votado es la seguridad. Aqui podemos ver la incidencia del COVID 19 en el miedo de las personas mayores y como este factor condiciona sus habitos de compra.
-Anexo 2.5
+Ver grafico Anexo 2.5
 Luego observamos que todos los que cuentan con celular y fueron encuestados saben llamar con su celular , lo que nos hace inducir que su problema principal de comprension esta dirigido al uso de mensajeria/otras apps , pero que la llamada la pueden entender bien. Esto tiene sentido ya que la llamada ha existido desde hace mucho tiempo y han ellos han adquirido ese concepto con facilidad.
-Anexo 2.6
+Ver grafico Anexo 2.6
 Si observamos el grafico de como compran los encuestados podemos observar que el 75% va personalmente a realizar las compras, pero tambien hemos observado que una importante mayoria prioriza la seguridad, por lo que podemos ver que estas personas asumen un riesgo conciente al salir de sus casas.
-Anexo 2.7
+Ver grafico Anexo 2.7
 Por ultimo este grafico confirma lo dicho anteriormente, una mayoria 75% afirma no estar segura de ir a la verduleria por motivos de COVID 19.
 Un dato importante que no se puede ver en las graficas es que hay una tendencia de los hombres encuestados a responder que no a la ultima pregunta, no podemos decir que sea una tendencia tan clara teniendo en cuenta que solo consideramos 20 entrevistados, pero una de las hipotesis que manejamos es que en general los hombres mayores imponen mas resistencia a reconocer que no se sienten seguros o que sienten miedo a determinadas cosas. Por lo que puede que en la realidad los datos sean aun mayores, pero resulta incomprobable.
 Como conclusion final de esta encuesta podemos ver que es necesaria una alternativa extra a estas personas, ya que se encuentran en una situacion en la que quieren comprar pero no quieren arriesgar su salud, por lo que implementar una solucion sin grandes dificultades tecnologicas para estas personas podria ser una muy importante oportunidad. 
