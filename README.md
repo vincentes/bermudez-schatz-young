@@ -75,6 +75,7 @@ Para entender la relación de los mayores con los supermercados y la pandemia, d
 * Cuestionarios
 * Entrevistas
 * Workshops
+* Tormenta de ideas
 
 #### Cuestionarios
 Titulo: Relación de personas de 60+ con la tecnología y la pandemia
