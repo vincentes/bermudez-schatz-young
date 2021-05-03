@@ -76,7 +76,7 @@ Por otro lado tenemos la componente de la Pandemia del Covid 19 que fue un catal
 En este contexto de por un lado ignoracia de nuevas tecnologias y obligacion de quedarse en sus casas para prevenir riesgos se generó la tormeta perfecta para que estas personas mayores quedaran excluidas.
 En virtud de esta situacion podemos observar que una de las principales causas de que los mayores salgan de sus casas es para comprar alimentos y a partir de esta actividad generar se puede generar un brote de SARS-COV-2.
 
-## Que vamos a hacer?
+## ¿Qué vamos a hacer?
 Tomaremos como base de la solución imitar la experiencia de usuario que los ancianos tuvieron en épocas menos arraigadas al riesgo de contagio, y evitar la dificultad de enseñarles a nuestros clientes cómo funciona la tecnología, pero a la vez mejorando su flexibilidad de compra.
 La idea es que nuestros clientes puedan comunicarse con el equipo a través del celular y pedir los productos que necesitase. Compramos la mercadería al menor precio pero cuando la relación de calidad-precio, para posteriormente enviarle al cliente su pedido.
 Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el contacto y el riesgo de contagio. Sin embargo, podrán pagar en efectivo si así lo desean.
