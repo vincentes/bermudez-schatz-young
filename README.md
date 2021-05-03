@@ -5,15 +5,10 @@
 ## Introducción
 Es sabido que la tecnología cambia la forma por la cual interactuamos con el mundo, pero estos cambios pueden ser abruptos y algunas personas simplemente no se pueden acostumbrar a ello. De hecho, es de conocimiento que en varios países existe un notorio envejecimiento de la población, y además, un exponencial desarrollo tecnológico. En otras palabras: los ancianos están siendo aislados del mundo debido a su poca capacidad de incorporar nuevas tecnologías en sus vidas.
 
-El nuevo coronavirus denominado SARS-CoV-2 (COVID-19) funcionó como un catalizador para la tecnología en todos los aspectos de nuestra vida diaria, incluso llegó a modernizar el delivery de mercadería de supermercado. Es sabido que este virus es significativamente más dañino para las personas de mayor edad (60+). Los ancianos no pueden exponerse a la posibilidad de fallecer por un mandado. La data nos muestra que unos de los más importantes culpables son los supermercados. Como ejemplo, en Riverside, California, hubo alrededor de 48 brotes relacionados a supermercados el verano pasado. Actualmente el grupo social mencionado puede pedir comida online, si es que llega a tener un asistente humano para realizar dicha orden, ya que gran parte de ellos no tienen la suficiente alfabetización informática.
+Ver Anexo 1.0 para mas detalles sobre COVID19.
 
 En este contexto, tomamos la iniciativa de cerrar la grieta entre la vejez y la tecnología, al menos en lo que tiene que ver con los supermercados.
 
-Tomaremos como base de la solución imitar la experiencia de usuario que los ancianos tuvieron en épocas menos arraigadas al riesgo de contagio, y evitar la dificultad de enseñarles a nuestros clientes cómo funciona la tecnología, pero a la vez mejorando su flexibilidad de compra.
-
-La idea es que nuestros clientes puedan comunicarse con el equipo a través del celular y pedir los productos que necesitase. Compramos la mercadería al menor precio pero cuando la relación de calidad-precio, para posteriormente enviarle al cliente su pedido.
-
-Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el contacto y el riesgo de contagio. Sin embargo, podrán pagar en efectivo si así lo desean.
 
 ## Presentación del cliente
 
@@ -23,98 +18,42 @@ Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el co
 
 La tendencia en la distribución etaria uruguaya es el envejecimiento general. El porcentaje de personas en la franja etaria de 60+ es cada vez más alto, siendo un 23% de la población total.
 
-![Image of dog](https://i.imgur.com/DJgzPMJ.png)
+Ver datos en Anexo 1.1
 
-| Edad | Hombres | Mujeres |
-| :------- | ----: | :---: |
-| 0-4 | 120998 | 115658 |
-| 5-9 | 120696 | 115718 |
-| 10-14 | 119355 | 113959 |
-| 15-19 | 125373 | 120242 |
-| 20-24 | 129196 | 124869 |
-| 25-29 | 130680 | 126815 |
-| 30-34 | 120774 | 118842 |
-| 35-39 | 110535 | 110995 |
-| 40-44 | 116131 | 118233 |
-| 45-49 | 108977 | 111679 |
-| 50-54 | 94801 | 101540 |
-| 55-59 | 92752 | 101984 |
-| 60-64 | 83283 | 95541 |
-| 65-69 | 68057 | 81040 |
-| 70-74 | 53325 | 70486 |
-| 75-79 | 38711 | 57744 |
-| 80-84 | 24278 | 46053 |
-| 85-89 | 13862 | 34361 |
-| 90-94 | 5155 | 20077 |
-| 95-99 | 1192 | 7617 |
-| 100 | 205 | 1938 |
-
-
-##### Franja de edad objetiva
-
-| Edad | Hombres | Mujeres |
-| :------- | ----: | :---: |
-| 60-64 | 83283 | 95541 |
-| 65-69 | 68057 | 81040 |
-| 70-74 | 53325 | 70486 |
-| 75-79 | 38711 | 57744 |
-| 80-84 | 24278 | 46053 |
-| 85-89 | 13862 | 34361 |
-| 90-94 | 5155 | 20077 |
-| 95-99 | 1192 | 7617 |
-| 100 | 205 | 1938 |
-
-Total de población: 702.926 (23%)
-
+Ver mas datos Anexo 1.2
 
 
 ### Cuestiones sanitarias
 Para entender la relación de los mayores con los supermercados y la pandemia, decidimos buscar sus opiniones, para lograr entender sus dificultades.
 
 #### Encuesta
-Titulo: Relación de personas de 60+ con la tecnología y la pandemia
-
-Campos requeridos: Nombre, Edad
-
-Preguntas realizadas: 
-¿Que tanto sabe usar un celular?
-* Muy bien
-* Bien
-* Mas o menos
-* Poco
-* Muy poco
-* Nada
-
-**¿Tiene celular?**
-* Si
-* No
-
-Aquí buscamos hallar cuántos tienen celular, para poder considerar la opción de implementar alguna aplicación móvil para evitar las llamadas telefónicas por parte de los clientes.
-
-**¿Si tiene un celular, tiene alguna aplicación instalada? ¿Cuáles?**
-(Libre respuesta)
-
-No es suficiente con que los mayores sepan usar un celular, sino que también debemos asegurarnos que tengan el suficiente conocimiento como para realizar transacciones bancarias y/o de crédito via una interfaz móvil. 
-
-**¿Se siente excluido/a del mundo moderno?(Si/no, y porque)**
-(Libre respuesta)
-
-Con esta pregunta evaluamos el sentimiento de inclusión en el mundo moderno, para confirmar que nuestro grupo objetivo es ignorado en las nuevas tecnologías, o que al menos así lo siente.
-
-**Actualmente (en el contexto del COVID) ¿cómo realiza las compras de frutas y verduras?**
-
-**¿Te sentís seguro yendo a la verdulería? Con respecto al COVID-19.**
-
-Además de conocer su relación con la tecnología, es importante conocer cómo este grupo realiza sus compras en el contexto de pandemia.
+Resolvimos la realizacion de una encuesta dado que preevimos que muchas personas no sabrian utilizar google forms por lo que debiamos contactarlas por telefono y hacerles las preguntas del formulario. Consideramos que es una buena forma de conseguir datos de manera eficiente ya que la encuesta no permite grandes desviaciones de la conversacion como si podria generar una entrevista u otro metodo de elicitacion.
+ 
+Ver mas datos Anexo 2.1
 
 #### Conclusiones de la encuesta
 
+Es importante aclarar que muchos de los datos de las graficas que estan mas abajo fueron rellenados por nosotros realizando llamadas a estas personas.
 Luego de realizado la encuesta llegamos a una serie de conclusiones basandonos en los datos que obtuvimos.
-(IMAGENEEEEEEEE)
-Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encuesta a 53 personas para investigar acerca de este sentimiento en nuestro grupo foco. El 73% de los mayores de edad reportaron temor ante la posibilidad de contagiarse en un supermercado o verdulería. El 81% de este grupo foco estuvo de acuerdo en que se debían disponer de mejores soluciones tecnológicas para el delivery de frutas y verduras. 
+Ver grafico Anexo 2.2
+Como podemos observar la enorme mayoria de las personas mayores encuestadas cuentan con celular, por lo que ya podemos inducir que hay un grado de modernidad que la mayoria por distintas causas termina siendo propietaria de un celular.
+Ver grafico Anexo 2.3
+Pero por otro lado podemos ver que el nivel de aprendizaje con respecto al uso del celular es muy variado, tenemos un 45% de nuestros encuestados que no puede afiermar que maneja bien el celular. Es decir cuentan con una herramienta que no pueden entender completamente.
+Ver grafico Anexo 2.4
+Con relacion a los criterios con los que compran frutas y verduras podemos ver que hay un peso sustancial en el precio, lo que es razonable , pero luego el segundo item mas votado es la seguridad. Aqui podemos ver la incidencia del COVID 19 en el miedo de las personas mayores y como este factor condiciona sus habitos de compra.
+Ver grafico Anexo 2.5
+Luego observamos que todos los que cuentan con celular y fueron encuestados saben llamar con su celular , lo que nos hace inducir que su problema principal de comprension esta dirigido al uso de mensajeria/otras apps , pero que la llamada la pueden entender bien. Esto tiene sentido ya que la llamada ha existido desde hace mucho tiempo y han ellos han adquirido ese concepto con facilidad.
+Ver grafico Anexo 2.6
+Si observamos el grafico de como compran los encuestados podemos observar que el 75% va personalmente a realizar las compras, pero tambien hemos observado que una importante mayoria prioriza la seguridad, por lo que podemos ver que estas personas asumen un riesgo conciente al salir de sus casas.
+Ver grafico Anexo 2.7
+Por ultimo este grafico confirma lo dicho anteriormente, una mayoria 75% afirma no estar segura de ir a la verduleria por motivos de COVID 19.
+Un dato importante que no se puede ver en las graficas es que hay una tendencia de los hombres encuestados a responder que no a la ultima pregunta, no podemos decir que sea una tendencia tan clara teniendo en cuenta que solo consideramos 20 entrevistados, pero una de las hipotesis que manejamos es que en general los hombres mayores imponen mas resistencia a reconocer que no se sienten seguros o que sienten miedo a determinadas cosas. Por lo que puede que en la realidad los datos sean aun mayores, pero resulta incomprobable.
+Como conclusion final de esta encuesta podemos ver que es necesaria una alternativa extra a estas personas, ya que se encuentran en una situacion en la que quieren comprar pero no quieren arriesgar su salud, por lo que implementar una solucion sin grandes dificultades tecnologicas para estas personas podria ser una muy importante oportunidad. 
+
 
 ## Alternativas
 ### PedidosYa (igual que Rappi, UberEats)
+www.pedidosya.com.uy
 PedidosYa es una compañía uruguaya de delivery que reúne los restaurantes locales y los depliesga en una interfaz amigable para el usuario, dandole la opción de elegir de una variedad de comidas.
 
 Diferencias con el Proyecto Verdulista:
@@ -123,12 +62,25 @@ Diferencias con el Proyecto Verdulista:
 * Caro
 
 ### Snap Kitchen (igual que Daily Harvest, Splendid Spoon, Hungryroot)
+www.snapkitchen.com
 SnapKitchen es una plataforma de delivery de comida para personas que tienen tiempo limitado para cocinar o comprar comida. El usuario puede registrarse en la página, introduciendo su dirección y una tarjeta de crédito para pagar.
 
 Diferencias con el Proyecto Verdulista:
 * Solo funciona en los EEUU
 * Requiere que el usuario sepa usar una computadora
 * No se pueden pedir ingredientes, es comida lista
+
+## Especificacion del problema
+Como podemos ver tenemos dos grandes problematicas: por un lado una historica que se trata de la falta de adaptabilidad de las personas mayores a las nuevas tecnologias, esto no es una gran sorpresa.
+Por otro lado tenemos la componente de la Pandemia del Covid 19 que fue un catalizador al desarrollo e incorporacion de nuevas tecnologias y ademas les impidio a millones de personas salir de sus casas principlamente a los mayores.
+En este contexto de por un lado ignoracia de nuevas tecnologias y obligacion de quedarse en sus casas para prevenir riesgos se generó la tormeta perfecta para que estas personas mayores quedaran excluidas.
+En virtud de esta situacion podemos observar que una de las principales causas de que los mayores salgan de sus casas es para comprar alimentos y a partir de esta actividad generar se puede generar un brote de SARS-COV-2.
+
+## Que vamos a hacer?
+Tomaremos como base de la solución imitar la experiencia de usuario que los ancianos tuvieron en épocas menos arraigadas al riesgo de contagio, y evitar la dificultad de enseñarles a nuestros clientes cómo funciona la tecnología, pero a la vez mejorando su flexibilidad de compra.
+La idea es que nuestros clientes puedan comunicarse con el equipo a través del celular y pedir los productos que necesitase. Compramos la mercadería al menor precio pero cuando la relación de calidad-precio, para posteriormente enviarle al cliente su pedido.
+Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el contacto y el riesgo de contagio. Sin embargo, podrán pagar en efectivo si así lo desean.
+
 
 ## Tecnologías a utilizar
 
@@ -149,28 +101,50 @@ Diferencias con el Proyecto Verdulista:
 ##  Requerimientos funcionales
 Existen diferentes especificaciones que el sistema debe cumplir para su uso e implementacion, tambien en este momento vamos a especificar el funcionamiento del sistema en un momento especifico. Ademas de como se procesa la informacion (entrada y salida). 
 
-RF1. Vista general. Descripcion:Permitir al administrador ver el estado , origen , destino y usuario de un envio. 
+RF1. **Vista general**.
+Descripcion:Permitir al administrador ver el estado , origen , destino y usuario de un envio.
+Prioridad: Alta
 
-RF2. Manipulacion de usuarios. Descripcion: el administrador debe poder agregar/modificar/eliminar nuevos usuarios.
+RF2. **Manipulacion de usuarios**. 
+Descripcion: el administrador debe poder agregar/modificar/eliminar nuevos usuarios.
+Prioridad: Alta
 
-RF3. Chequeo de cliente registrado. Descripcion: Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
 
-RF4. Listas de precios. Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
+RF3. **Chequeo de cliente registrado**. 
+Descripcion: Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
+Prioridad: Alta
 
-RF5. Verdulerias por alimento. Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
+RF4. **Listas de precios**. 
+Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
+Prioridad: Alta
 
-RF6. Armar pedido. Descripcion: Se le debe permitir a los administradores armar un pedido de un cliente y asignarle a un repartidor disponible.
+RF5. **Verdulerias por alimento**. 
+Descripcion:Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
+Prioridad: Media
 
-RF7. Llegada del pedido. Descripcion: El repartidor podrá notificar al administrador la finalización de un pedido.
+RF6. **Armar pedido**. 
+Descripcion: Se le debe permitir a los administradores armar un pedido de un cliente y asignarle a un repartidor disponible.
+Prioridad: Alta
 
-RF8. Guia del repartidor. Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
+RF7. **Llegada del pedido**. 
+Descripcion: El repartidor podrá notificar al administrador la finalización de un pedido.
+Prioridad: Media
 
-RF9. Lista de repartidores. Descripcion: Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
+RF8. **Guia del repartidor**. 
+Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
+Prioridad: Baja
 
-RF10. Sancionar repartidor. El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
+RF9. **Lista de repartidores**. 
+Descripcion: Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
+Prioridad: Baja
 
-RF11. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
+RF10. **Sancionar repartidor**. 
+Descripcion: El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
+Prioridad: Media
 
+RF11. **Encuestas**.
+Descripcion:Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
+Prioridad: Baja
 
 
 
@@ -178,15 +152,47 @@ RF11. Permitir a los administradores realizar encuestas de calidad de servicio a
 
 A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
 
-RNF1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos.
+RNF1. **Soporte del sistema.**
+Descripcion: El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos.
+Prioridad: Alta.
 
-RNF2. Debe ser responsive para móviles con iOS 8.0 o superior y con Android Jelly bean o superior.
+RNF2. **Sistemas operativos soportados.**
+Descripcion:Debe ser responsive para móviles con iOS 8.0 o superior y con Android Jelly bean o superior.
+Prioridad: Alta
 
-RNF3. El sistema debe construirse utilizando el estandar de diseño Material Design.
+RNF3. **Estandar de diseño.**
+Descripcion:El sistema debe construirse utilizando el estandar de diseño Material Design teniendo como fuente Roboto, los colores primary:Light Green 800 y secondary: Deep Orange 800 , y los iconos deben ser de format filled.
+Prioridad: Alta
 
-RNF4. El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes.
+RNF4. **Mantenimiento y reparacion.**
+Descripcion:El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes.
+Prioridad: Baja
 
-RNF5. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
+RNF5. **Proteccion de datos personales.**
+Descripcion:El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
+Prioridad: Alta
+
+RNF6. **IDE utilizado.**
+Descripcion:Se debe utilizar el IDE Visual Studio Code.
+Prioridad: Alta
+
+RNF7.**Estandar de documentacion.** 
+Descripcion:La documentacion debe escribirse en Markdown.
+Prioridad: Alta
+
+RNF8. **Testing.**
+Descripcion:Los test unitarios se deben realizar utilizando Jest.
+Prioridad: Alta
+
+RNF9. **Backend.**
+Descripcion:El backend debe estar programado en NodeJs
+Prioridad: Alta
+
+RNF10. **Front-end.**
+Descripcion:El front-end debe estar realizado utilizando AngularJS .
+Prioridad: Alta
+
+
 
 ## Actores involucrados
 El proyecto afecta a varios actores directa e indirectamente: 
@@ -195,7 +201,7 @@ Los actores directos son:
 2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
 3- Repartidores: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
 Los actores indirectos son: 
-1- Otros competidores con servicios similares: Rappi, UberEats, Pedidos Ya , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
+1- Otros competidores con servicios similares: Rappi, UberEats, PedidosYa , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
 2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
 
 ## Objetivos especificos
@@ -218,12 +224,7 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 
 4- Otra aplicacion web que permita a los repartidores notificarles de envios nuevos y ademas de notificar al adminstrador entregas.
 
-## Escenciales
-
-Los principales elementos de la aplicación, los cuales el proyecto no puede prescindir son los siguientes:
-1. Vista general. El administrador debe poder ver que pedidios estan en camino, en que consiste cada pedido y a donde van. Su importancia alta deriva de que es el rol central del producto poder adminstrar todos estos pedidos.
-2. Lista de productos. El administrador debe poder ver los productos, con los precios por alimento y por verduleria. Su importancia deriva de poder manejar los precios de los productos para poder comunicarselos al cliente.
-3. Manipulacion de usuarios. El administrador debe poder crear/editar/eliminar usuarios. Su importancia alta se debe a que permite identificar y asociar a las persoans que llaman con usuarios ya registrados en el sistema.
+Anexo 3.0
 
 
 ## Plan de SCM
@@ -253,8 +254,7 @@ Los errores que preevemos que pueden suceder son:
 Todos estos problemas son reversibles y no representan una amenaza para el equipo, pero es importante denotar que pueden ocurrir.
 
 ## Casos de uso
-![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
-
+Anexo 4.1
 ### Casos generales de usuario
 ### Menú de iniciar sesión
 #### Título: Login
@@ -471,13 +471,13 @@ Es una mezzosoprano nacida el 29/11/1945 en Montevideo. Haciendo sus estudios te
 
 ## User Persona 
 
-Nombre : Rene Schatz
+Nombre : Edith Schwartzdoff
 
-Lema de vida de Rene:  “La vida es una y hay que cuidarla” y 
+Lema de vida de Edith:  “La vida es una y hay que cuidarla” y 
 
-Bio: María nació en el año 1937 en Polonia,  sobrevivió a varias guerra y pandemias (hasta la fecha),  ella trabajo desarrollándose siempre en el área del ballet, fue primera bailarina en el periodo de (1950-1957) hoy en día se desarrolla como parte del cuerpo honorario de las escuelas de formación artística del Sodre.  En su vida personal se casó en el 1952, tiene 3 hijos 16 nietos, 2 bisnietos y 6 gatos por lo que la familia es un pilar muy importante. Se caracteriza como una persona muy trabajadora y comprometida (en todos los ámbitos) . En este momento de la pandemia del país maría es consciente de que no se pueden hacer actividades con tanta exposición como ir a la feria.
+Bio: Edith nació en el año 1937 en Polonia,  sobrevivió a varias guerra y pandemias (hasta la fecha),  ella trabajo desarrollándose siempre en el área del ballet, fue primera bailarina en el periodo de (1950-1957) hoy en día se desarrolla como parte del cuerpo honorario de las escuelas de formación artística del Sodre.  En su vida personal se casó en el 1952, tiene 3 hijos 16 nietos, 2 bisnietos y 6 gatos por lo que la familia es un pilar muy importante. Se caracteriza como una persona muy trabajadora y comprometida (en todos los ámbitos) . En este momento de la pandemia del país maría es consciente de que no se pueden hacer actividades con tanta exposición como ir a la feria.
 
-Características de Rene
+Características de Edith
 -Veterana
 -No maneja bien la tecnología
 -Comprometida y trabajadora
@@ -493,10 +493,10 @@ Caracterisiticas de Magdi:
 -Compromiso 
 - Reinvencion constante
 
-Nombre: Edith Schatz
-Bio: Edith nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
+Nombre: Isaac Gandelmann
+Bio: Isaac nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
 
-Caracteristicas de Eduth: 
+Caracteristicas de Isaac: 
 -Amante de la familia
 -Trabajadora
 -Responsable 
@@ -509,11 +509,129 @@ Caracteristicas de Eduth:
  Los equipos se integran, se desempeñan y desintegran en base a  sus relaciones, actitudes y esfuerzo. Los mejores equipos rn este caso creo que entre todos los miembros del mismo hubo una gran quimica, creo que cada uno de nosotros nos llevamos relaciones son significativas y los miembros del equipo están conectados.Porque nuestra actitud colectiva es muy positiva y todos en el equipo trabajan duro para lograr nuestra mision que era sacar el obligatorio adelante. Tambien el uso de la herramienta git nos ayudo en cuanto a la diferencia de horario que cada uno maneja en su vida profesional y personal. Por ultimo queria cometar dde que yo personalmente no sabia utilizar las herramientas y me senti muy apoyada por mis compañeros al momento de utilizarla.
 
 
-## Conclusiones Felipe
-
+-> Felipe:
 Llegada a esta altura del obligatorio podemos sacar conclusiones a dos niveles:
 
 1. Como "desarrollador" se pudo ver que el analisis del entorno donde se va a intentar crear un producto es fundamental ya que algo que parece tan obvio como definir que rumbo tomara el equipo, no se vuelve tan claro dentro de la toma de decisiones micro y por ello es tan importante tener una hoja de ruta bien definida y evitar improvisar. Todo esto se pudo ver sin haber escrito una sola linea de codigo para el proyecto.
 2. Como un integrante "creador del producto" se pudo ver que la creacion de un producto abarca muchisimo mas que solo la programacion, abarca partes de diseño, planificacion, organizacion , comunicacion con el "cliente", entre muchas otras areas. Ademas de que hay que aprender a convivr con el impulso de querer crear cosas nuevas sobre algo que todavia ni fue creado.
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
+
+
+
+## Anexo
+
+Anexo 1.0 : 
+El nuevo coronavirus denominado SARS-CoV-2 (COVID-19) funcionó como un catalizador para la tecnología en todos los aspectos de nuestra vida diaria, incluso llegó a modernizar el delivery de mercadería de supermercado. Es sabido que este virus es significativamente más dañino para las personas de mayor edad (60+). Los ancianos no pueden exponerse a la posibilidad de fallecer por un mandado. La data nos muestra que unos de los más importantes culpables son los supermercados. Como ejemplo, en Riverside, California, hubo alrededor de 48 brotes relacionados a supermercados el verano pasado. Actualmente el grupo social mencionado puede pedir comida online, si es que llega a tener un asistente humano para realizar dicha orden, ya que gran parte de ellos no tienen la suficiente alfabetización informática.
+
+Anexo 1.1 ![Image of dog](https://i.imgur.com/DJgzPMJ.png)
+
+Anexo 1.2 
+| Edad | Hombres | Mujeres |
+| :------- | ----: | :---: |
+| 0-4 | 120998 | 115658 |
+| 5-9 | 120696 | 115718 |
+| 10-14 | 119355 | 113959 |
+| 15-19 | 125373 | 120242 |
+| 20-24 | 129196 | 124869 |
+| 25-29 | 130680 | 126815 |
+| 30-34 | 120774 | 118842 |
+| 35-39 | 110535 | 110995 |
+| 40-44 | 116131 | 118233 |
+| 45-49 | 108977 | 111679 |
+| 50-54 | 94801 | 101540 |
+| 55-59 | 92752 | 101984 |
+| 60-64 | 83283 | 95541 |
+| 65-69 | 68057 | 81040 |
+| 70-74 | 53325 | 70486 |
+| 75-79 | 38711 | 57744 |
+| 80-84 | 24278 | 46053 |
+| 85-89 | 13862 | 34361 |
+| 90-94 | 5155 | 20077 |
+| 95-99 | 1192 | 7617 |
+| 100 | 205 | 1938 |
+
+
+##### Franja de edad objetiva
+
+| Edad | Hombres | Mujeres |
+| :------- | ----: | :---: |
+| 60-64 | 83283 | 95541 |
+| 65-69 | 68057 | 81040 |
+| 70-74 | 53325 | 70486 |
+| 75-79 | 38711 | 57744 |
+| 80-84 | 24278 | 46053 |
+| 85-89 | 13862 | 34361 |
+| 90-94 | 5155 | 20077 |
+| 95-99 | 1192 | 7617 |
+| 100 | 205 | 1938 |
+
+Total de población: 702.926 (23%)
+
+Anexo 2.1 
+Titulo: Relación de personas de 60+ con la tecnología y la pandemia
+
+Campos requeridos: Nombre, Edad
+
+Preguntas realizadas: 
+¿Que tanto sabe usar un celular?
+* Muy bien
+* Bien
+* Mas o menos
+* Poco
+* Muy poco
+* Nada
+
+**¿Tiene celular?**
+* Si
+* No
+
+Aquí buscamos hallar cuántos tienen celular, para poder considerar la opción de implementar alguna aplicación móvil para evitar las llamadas telefónicas por parte de los clientes.
+
+**¿Si tiene un celular, tiene alguna aplicación instalada? ¿Cuáles?**
+(Libre respuesta)
+
+No es suficiente con que los mayores sepan usar un celular, sino que también debemos asegurarnos que tengan el suficiente conocimiento como para realizar transacciones bancarias y/o de crédito via una interfaz móvil. 
+
+**¿Se siente excluido/a del mundo moderno?(Si/no, y porque)**
+(Libre respuesta)
+
+Con esta pregunta evaluamos el sentimiento de inclusión en el mundo moderno, para confirmar que nuestro grupo objetivo es ignorado en las nuevas tecnologías, o que al menos así lo siente.
+
+**Actualmente (en el contexto del COVID) ¿cómo realiza las compras de frutas y verduras?**
+
+**¿Te sentís seguro yendo a la verdulería? Con respecto al COVID-19.**
+
+Además de conocer su relación con la tecnología, es importante conocer cómo este grupo realiza sus compras en el contexto de pandemia.
+
+
+Anexo 2.2
+
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf3.png) 
+
+Anexo 2.3
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf4.png) 
+
+Anexo 2.4
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf1.png) 
+
+Anexo 2.5
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf2.png) 
+
+Anexo 2.6
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf5.png)
+
+Anexo 2.7 
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graf6.png) 
+
+Anexo 3.0
+
+## Escenciales
+
+Los principales elementos de la aplicación, los cuales el proyecto no puede prescindir son los siguientes:
+1. Vista general. El administrador debe poder ver que pedidios estan en camino, en que consiste cada pedido y a donde van. Su importancia alta deriva de que es el rol central del producto poder adminstrar todos estos pedidos.
+2. Lista de productos. El administrador debe poder ver los productos, con los precios por alimento y por verduleria. Su importancia deriva de poder manejar los precios de los productos para poder comunicarselos al cliente.
+3. Manipulacion de usuarios. El administrador debe poder crear/editar/eliminar usuarios. Su importancia alta se debe a que permite identificar y asociar a las persoans que llaman con usuarios ya registrados en el sistema.
+
+Anexo 4.1 
+![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
