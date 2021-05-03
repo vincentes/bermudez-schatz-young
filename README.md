@@ -464,7 +464,7 @@ Es una mezzosoprano nacida el 29/11/1945 en Montevideo. Haciendo sus estudios te
 
 
 ## User Persona 
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona1.jpg)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona1.jpeg)
 
 Nombre : Edith Schwartzdoff
 
@@ -480,7 +480,7 @@ Características de Edith
 -Es compradora habitual de la feria
 
 
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona2.jpg)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona2.jpeg)
 Nombre: Jose Kreiner
 Bio: Jose nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
 
@@ -490,7 +490,7 @@ Caracterisiticas de Jose:
 -Compromiso 
 - Reinvencion constante
 
-![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona3.jpg)
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona3.jpeg)
 Nombre: Isaac Gandelmann
 Bio: Isaac nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
 
