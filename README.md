@@ -1,3 +1,4 @@
+
 # Proyecto Verdulista
 
 ![alt text](https://github.com/vincentes/bermudez-schatz-young/tree/felipe/assets/Orange.png "Logo")  
@@ -80,95 +81,6 @@ Titulo: Relación de personas de 60+ con la tecnología y la pandemia
 
 Campos requeridos: Nombre, Edad
 
-<<<<<<< HEAD
-## User Sories 
-
-ID: #1	
-Título: Compra
-Narrativa:
-			Como usuario
-			Quiero poder registrarme con mi tarjeta de debito
-            Para poder comprar unicamente con la tarjeta que elegi
-Criterios de aceptación:
-La tarjeta debe no haber caducido y cumplir con todos los requerimientos necesarios del banco
-
-
-ID: #3
-Título: Ofertas para usuarios frecuentes
-Narrativa: 
-			Como empleado
-			Quiero poder ver la lista de productos mas consumidos por un usuario frecuente //definir usuario frecuente 
-            Para poder ofrecerle esos productos en oferta 
-Criterios de aceptación:
-Cumplir con las condiciones para ser un usuario frecuente
-
-
-ID: #4
-Título: Consumo del usuario
-Narrativa: 
-			Como usuario 
-			Quiero poder ver de donde procede la mercaderia
-            Para asegurar que el usuario se siente seguro con lo que esta consumiendo 
-Criterios de aceptación:
-Ser usuario del sistema
-
-ID: #5
-Título: Dar de baja
-Narrativa: 
-			Como usuario 
-			Quiero poder dejar de usar el sistema
-            Para poder abandonar el sistema cuando el usuario quiera
-Criterios de aceptación:el usuario no tiene adeudos
-
-## Validacion de requerimientos 
-
-## CheckList requerimientos 
-1. Completitud 
-/*Los requerimientos se encuentran correctamente priorizados porque el sistema prioriza a adultos mayores a poder seguir realizando las tareas diarias sin 
-*/
-Los usuarios fueron obtenidos de ir a la feria y observar que patrones sigue el grupo de adultos mayores que concurren diariamente alli. Por lo tanto, consideramos que todos los casos sosn exaustivos. Ademas de de respetar con el estandar puesto que cada vez que se realiza una entrevista se cumple con cada uno de los requerimientos especificados. Todos los requerimientos de calidad estan tomados en cuenta segun las especificaciones dadas por los usurarios . 
-
-2. Verificabilidad y no ambiguedad 
-Cada uno de los requerimientos de los usuarios fueron interpretados como preguntas unicas sin repeticio. Podemos demostrar esto observando que ninguna de las pregntas fueron repetidas. 
-
-3. Correctitud y consistencia 
-//no se puede hacer esto sin haber hecho las entecistas tampoco la trnzabilidad
-
-## User Persona 
-
-Nombre : Maria Rodriguez 
-
-Lema de vida de Maria:  “La vida es una y hay que cuidarla” y 
-
-Bio: María nació en el año 1937 en Polonia,  sobrevivió a varias guerra y pandemias (hasta la fecha),  ella trabajo desarrollándose siempre en el área del ballet, fue primera bailarina en el periodo de (1950-1957) hoy en día se desarrolla como parte del cuerpo honorario de las escuelas de formación artística del Sodre.  En su vida personal se casó en el 1952, tiene 3 hijos 16 nietos, 2 bisnietos y 6 gatos por lo que la familia es un pilar muy importante. Se caracteriza como una persona muy trabajadora y comprometida (en todos los ámbitos) . En este momento de la pandemia del país maría es consciente de que no se pueden hacer actividades con tanta exposición como ir a la feria.
-
-Características de Maria:
--Veterana
--No maneja bien la tecnología
--Comprometida y trabajadora
--Tiene una gran familia
--Es compradora habitual de la feria
-
-Nombre: Jose Menigues 
-Bio: Jose nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
-
-Caracterisiticas de Jose: 
-- Trabajador 
--Amante de la tecnologia 
--Compromiso 
-- Reinvencion constante
-
-Nombre: Luisa Fernandez 
-Bio: Luisa nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
-
-Caracteristicas de Luisa: 
--Amante de la familia
--Trabajadora
--Responsable 
-
-
-Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
-=======
 Preguntas realizadas: 
 ¿Que tanto sabe usar un celular?
 * Muy bien
@@ -328,7 +240,6 @@ Tendremos tres repositorios en Github:
 * Verdulería Documentación: Documentación técnica y especifición del proyecto. 
 * Verdulería Web: Código fuente de la aplicación web.
 * Verdulería API: Código fuente de la API.
->>>>>>> 5ec1551de1db1215736354152bd9424bed51d5b4
 
 Branches para la documentación:
 * main
@@ -352,6 +263,101 @@ Todos estos problemas son reversibles y no representan una amenaza para el equip
 ![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
 
 
+### Casos generales de usuario
+### Menú de iniciar sesión
+#### Título: Login
+#### Actor: Usuario
+#### Menú: Iniciar Sesión
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 1. Se introduce el login | 2. - |
+| 3. Se introduce la contraseña| 4. - |
+| 5. Se presiona el botón de inicar sesión | 6. El sistema lleva al usuario al menú correspondiente (Menú Repartidor o Menú Administrador). |
+
+### Menú de inicio
+#### Título: Menú de inicio
+#### Actor: Usuario
+#### Menú: Inicio 
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 2.- | 1. - El sistema le muestra las funcionalidades disponibles para el rol del usuario (Repartidor o Administrador)|
+
+### RF1
+#### Título: Vista general de los envíos
+#### Actor: Administrador
+#### Menú: Listado de envíos (Administrador)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 1. El administrador entra al menú desde Menu Inicio.  | 2. El sistema le muestra el estado, origen, destino, y usuarios de los envíos pendientes.  |
+
+### RF2
+#### Título: Armar pedido
+#### Actor: Administrador
+#### Menú: Armar Pedido (Administrador)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 2. El administrador elige uno o varios productos de la lista. | 1. El sistema le muestra un listado de productos. |
+| 3. El administrador asigna un repartidor. | 3. - |
+| 4. El administrador introduce la cédula del cliente. | 5. - |
+| 6. El administrador elige la opción de confirmar pedido. | 7. El sistema ingresa el pedido al sistema. |
+
+7.1 El administrador introduce una cédula inválida (sin dígito verificador correcto) y el sistema le avisa.
+7.2 El administrador introduce una cédula válida que no está registrada en el sistema, por lo tanto el sistema le avisa que no figura en el mismo.
+
+
+### RF3
+#### Título: Guia del repartidor
+#### Actor: Repartidor
+#### Menú: Info Envío (Repartidor)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 2. - | 1. El sistema le muestra la ubicación del cliente y la ubicación suya según el GPS. |
+
+
+Curso alternativo:
+2.1: El usuario presiona volver y vuelve al menú principal.
+
+### RF4
+
+#### Título:  Notificar llegada del pedido
+#### Actor: Repartidor
+#### Menú: Info Envío (Repartidor)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 1. El repartidor elige la opción de confirmar envío. - | 2. El sistema actualiza el envío en la base de datos y le avisa al repartidor que fue actualizado correctamente. |
+
+
+### RF5
+
+#### Título:  Sancionar repartidor
+#### Actor: Administrador
+#### Menú: Listado de Repartidores (Repartidor)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+| 1. El administrador elige un repartidor para sancionar. - | 2. El sistema le pide la confirmación de la sanción. |
+| 3. El administrador confirma la sanción. - | 4. El sistema le registra la sanción en el sistema. |
+
+Cursos alternativos
+1.1 El adminstrador elige la opción de volver y se dirige hacia el menú principal.
+3.1 El administrador cancela la creación de la sanción y el sistema no efectúa ningún cambio. 
+
+
+### RF_XX
+
+#### Título:  Notificar pedido en curso
+#### Actor: Repartidor
+#### Menú: Info Envío (Repartidor)
+
+| Acción de los actores | Respuesta del sistema |
+| :-------: | :---:	 |
+|  1. El repartidor elige la opción de cambiar estado de envío a "en curso".  | 2. El sistema actualiza el envío en la base de datos y le avisa al repartidor que fue actualizado correctamente. |
 
 ## User Stories
 ID: #1	
@@ -431,7 +437,6 @@ Criterios de aceptacion:
 * El pedido ya no debe ser visible en la lista de pedidos pendientes
 * Se debe notificar al cliente que su pedido esta en camino.
 
-## 
 
 ## Validacion de requerimientos 
 
@@ -493,7 +498,5 @@ Llegada a esta altura del obligatorio podemos sacar conclusiones a dos niveles:
 
 1. Como "desarrollador" se pudo ver que el analisis del entorno donde se va a intentar crear un producto es fundamental ya que algo que parece tan obvio como definir que rumbo tomara el equipo, no se vuelve tan claro dentro de la toma de decisiones micro y por ello es tan importante tener una hoja de ruta bien definida y evitar improvisar. Todo esto se pudo ver sin haber escrito una sola linea de codigo para el proyecto.
 2. Como un integrante "creador del producto" se pudo ver que la creacion de un producto abarca muchisimo mas que solo la programacion, abarca partes de diseño, planificacion, organizacion , comunicacion con el "cliente", entre muchas otras areas. Ademas de que hay que aprender a convivr con el impulso de querer crear cosas nuevas sobre algo que todavia ni fue creado.
-
-
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
