@@ -1,7 +1,6 @@
 
 ## Plantilla identificatoria de grupo
-Identificación                                                                                    
-https://github.com/vincentes/bermudez-schatz-young/                                                
+Identificación                                                                                                                                   
 Fundamentos de Ingenieria de Software    Docente: Alejandro Adorjan                                
 Grupo M4A                                Integrantes: Tali Schatz, Felipe Young y Vicente Bermudez.
 
