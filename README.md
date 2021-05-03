@@ -224,8 +224,7 @@ Las necesidades que se presentan en este desarrollo son las siguientes:
 
 4- Otra aplicacion web que permita a los repartidores notificarles de envios nuevos y ademas de notificar al adminstrador entregas.
 
-Anexo 3.0
-
+Ver Anexo 3.0 para ver los elementos esenciales del sistema.
 
 ## Plan de SCM
 Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
@@ -254,7 +253,7 @@ Los errores que preevemos que pueden suceder son:
 Todos estos problemas son reversibles y no representan una amenaza para el equipo, pero es importante denotar que pueden ocurrir.
 
 ## Casos de uso
-Anexo 4.1
+Ver imagen Anexo 4.1
 ### Casos generales de usuario
 ### Menú de iniciar sesión
 #### Título: Login
@@ -491,17 +490,24 @@ Caracteristicas de Isaac:
 
 ## Reflexiones individuales y grupales 
 
+## Reflexión grupal
+El equipo concluye para el desarrollo de software es necesario tener un objetivo claro y común, debido a que durante el desarrollo del proyecto surgen nuevas ideas y propuestas de cambio que si bien son bienvenidas debemos ser mesurados para no perder la finalidad del proyecto que es resolver el problema. Otro aspecto a considerar es que al usar Git, por más que cada uno tenía horarios diferentes, podíamos aportar de la misma manera a cualquier hora con pequeñas reuniones dividiendo el trabajo, logrando así un buen desempeño del equipo. Por otro lado, también se nos presentaron problemas por el sobreuso de dicha plataforma ya que generaba copias con demasiados conflictos. Esto fue debido a que la gran parte del grupo tenía desconocimiento sobre su uso, no obstante, estos errores fueron parte del proceso de aprendizaje.
+
 ## Reflexion individual 
--> Tali: 
+### Tali: 
 
- Los equipos se integran, se desempeñan y desintegran en base a  sus relaciones, actitudes y esfuerzo. Los mejores equipos rn este caso creo que entre todos los miembros del mismo hubo una gran quimica, creo que cada uno de nosotros nos llevamos relaciones son significativas y los miembros del equipo están conectados.Porque nuestra actitud colectiva es muy positiva y todos en el equipo trabajan duro para lograr nuestra mision que era sacar el obligatorio adelante. Tambien el uso de la herramienta git nos ayudo en cuanto a la diferencia de horario que cada uno maneja en su vida profesional y personal. Por ultimo queria cometar dde que yo personalmente no sabia utilizar las herramientas y me senti muy apoyada por mis compañeros al momento de utilizarla.
+ Los equipos se integran, se desempeñan y desintegran en base a  sus relaciones, actitudes y esfuerzo. Los mejores equipos rn este caso creo que entre todos los miembros del mismo hubo una gran quimica, creo que cada uno de nosotros nos llevamos relaciones son significativas y los miembros del equipo están conectados.Porque nuestra actitud colectiva es muy positiva y todos en el equipo trabajan duro para lograr nuestra mision que era sacar el obligatorio adelante. Tambien el uso de la herramienta git nos ayudo en cuanto a la diferencia de horario que cada uno maneja en su vida profesional y personal. Por ultimo queria comentar de que yo personalmente no sabia utilizar las herramientas y me senti muy apoyada por mis compañeros al momento de utilizarla.
 
 
--> Felipe:
+### Felipe:
 Llegada a esta altura del obligatorio podemos sacar conclusiones a dos niveles:
 
 1. Como "desarrollador" se pudo ver que el analisis del entorno donde se va a intentar crear un producto es fundamental ya que algo que parece tan obvio como definir que rumbo tomara el equipo, no se vuelve tan claro dentro de la toma de decisiones micro y por ello es tan importante tener una hoja de ruta bien definida y evitar improvisar. Todo esto se pudo ver sin haber escrito una sola linea de codigo para el proyecto.
 2. Como un integrante "creador del producto" se pudo ver que la creacion de un producto abarca muchisimo mas que solo la programacion, abarca partes de diseño, planificacion, organizacion , comunicacion con el "cliente", entre muchas otras areas. Ademas de que hay que aprender a convivr con el impulso de querer crear cosas nuevas sobre algo que todavia ni fue creado.
+
+### Vicente
+Es necesario conocer flujos del trabajo en equipo en lo que respecta al software, para una vez insertados al mercado laboral, llegar a sincronizarnos adecuadamente con los avances de los proyectos. Como estudiante aprendí a trabajar en equipo con otros desarrolladores, sin obstaculizarnos. El uso de la herramiento de Git fue primordial para dicho aprendizaje, ya que esta tecnología nos permite estar constantemente sincronizados, y aumenta la rapidez del desarrollo. Nuestra misión fue analizar una solución para un problema que de verdad existe, y pudimos hallarla, preguntándonos qué es lo que quiere el cliente y cómo se lo podemos brindar. El equipo trabajó en completa sincronía. Estoy seguro que esta experiencia nos servirá para los proyectos que tomemos fuera de la facultad.
+
 
 Fundamentos de Ingenieria de Software, Proyecto Universidad ORT 2021
 
