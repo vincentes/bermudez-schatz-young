@@ -1,3 +1,10 @@
+
+## Plantilla identificatoria de grupo
+| Identificación                                                                                      |
+| https://github.com/vincentes/bermudez-schatz-young/                                                 |
+| Fundamentos de Ingenieria de Software    | Docente: Alejandro Adorjan                               | 
+| Grupo M4A                               | Integrantes: Tali Schatz, Felipe Young y Vicente Bermudez|
+
 # Proyecto Verdulista
 
 ![image](https://user-images.githubusercontent.com/11695552/116833561-5551da00-ab90-11eb-8ea2-ad862df34422.png)
