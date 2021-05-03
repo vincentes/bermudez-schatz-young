@@ -1,7 +1,4 @@
-# Proyecto Verdulista
-  
-## Abstract 
-Reserved.
+# Proyecto Verdulista  
 
 ## Introducción
 Es sabido que la tecnología cambia la forma por la cual interactuamos con el mundo, pero estos cambios pueden ser abruptos y algunas personas simplemente no se pueden acostumbrar a ello. De hecho, es de conocimiento que en varios países existe un notorio envejecimiento de la población, y además, un exponencial desarrollo tecnológico. En otras palabras: los ancianos están siendo aislados del mundo debido a su poca capacidad de incorporar nuevas tecnologías en sus vidas.
@@ -15,7 +12,6 @@ Tomaremos como base de la solución imitar la experiencia de usuario que los anc
 La idea es que nuestros clientes puedan comunicarse con el equipo a través del celular y pedir los productos que necesitase. Compramos la mercadería al menor precio pero cuando la relación de calidad-precio, para posteriormente enviarle al cliente su pedido.
 
 Nuestros clientes pagarán vía tarjeta de débito o crédito para reducir el contacto y el riesgo de contagio. Sin embargo, podrán pagar en efectivo si así lo desean.
-
 
 ## Presentación del cliente
 
@@ -116,7 +112,6 @@ Los mayores sienten un riesgo sanitario al ir supermercado. Se realizó una encu
 PedidosYa es una compañía uruguaya de delivery que reúne los restaurantes locales y los depliesga en una interfaz amigable para el usuario, dandole la opción de elegir de una variedad de comidas.
 
 Diferencias con el Proyecto Verdulista:
-* Requiere una tarjeta internacional
 * Requiere saber usar el celular
 * No es de uso diario
 * Caro
@@ -142,50 +137,51 @@ Diferencias con el Proyecto Verdulista:
 | IDE | Visual Studio Code | Requerido |
 | Test unitarios | Jest | Conocimiento del equipo, facil de usar |
 
-### Cuestiones sanitarias
 
 ## Requerimientos
 
 ##  Requerimientos funcionales
 Existen diferentes especificaciones que el sistema debe cumplir para su uso e implementacion, tambien en este momento vamos a especificar el funcionamiento del sistema en un momento especifico. Ademas de como se procesa la informacion (entrada y salida). 
 
-1. Se le debe notificar al administrador la llegada de un pedido
+RF1. Vista general. Descripcion:Permitir al administrador ver el estado , origen , destino y usuario de un envio. 
 
-2. El repartidor podrá notificar al administrador la finalización de un pedido
+RF2. Armar pedido. Descripcion: Se le debe permitir a los administradores armar un pedido de un cliente y asignarle a un repartidor disponible.
 
-3. Se le debe proporcionar al administrador una lista de alimentos disponibles para delivery.
+RF3. Guia del repartidor. Descripcion: el sistema debera guiar al repartidor hacia la verduleria más cercana.
 
-4. Se le debe proporcionar al administrador una lista de comercios junto con un lista de alimentos correspondientes, junto con sus precios.
+RF4. Llegada del pedido. Descripcion: El repartidor podrá notificar al administrador la finalización de un pedido.
 
-5. Se le debe permitir a los administradores armar un pedido y asignarlo a un repartidor y a un cliente
+RF5. Sancionar repartidor. El adminsitrador puede sancionar a los repartidores por incumplimiento de normas santirias que hallan sido reportadas por los compradores a traves de una llamada.
 
-6. Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad
+RF6. Verdulerias por alimento. Se le debe proporcionar al administrador una lista de alimentos disponibles y para cada alimento se debe poder ver que verdulerias lo venden y a que precio.
 
-7. Se le debe permitir a los administradores visualizar los clientes registrados
+RF7. Listas de precios. Descripcion: El sistema debe mostrar al administrador una lista de comercios junto con un lista de alimentos correspondientes y sus precios.
 
-8. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes  
+RF8. Lista de repartidores. Descripcion: Se le debe permitir a los administradores ver una lista de repartidores junto con su estado de actividad.
 
-9. Guiar al repartidor hacia la verduleria más cercana
+RF9. Chequeo de cliente registrado. Descripcion: Se le debe permitir a los administradores visualizar los clientes registrados para poder chequear que el que llama este registrado en el sistema.
+
+RF10. Permitir a los administradores realizar encuestas de calidad de servicio a los clientes.  
+
+
+
 
 # Requerimientos no funcionales
 
 A continuacion  se muestran las restricciones  provistas por el sistema, en aspectos mas tecnicos e interoperaciones con sisteas externos.
 
-1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos 
-2. Los usuarios tienen disponibles aplicaciones son móviles compatibles con iOS 10 o superior y con Android 8 Oreo o superior
-3. El sistema debe ser amigables e intuitivos para usuarios y empleadaos.
-4. El sistema debe estar disponible las veinticuatro horas del día sin percances. 
-5. En la aplicación móvil debe correr de manera fluida, incluso con dispositivos relativamente antiguos.
-6. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
-7. La aplicación móvil no debe pesar más de 100MB, y la aplicación web no debe pesar más de 500MB.
-8. Todo el codigo debe estar escrito en JavaScript. 
+RNF1. El sistema debe soportar 2000 usuarios haciendo un evento sin superar el tiempo de realizacion maxima siendo este 2 segundos 
+RNF2. Debe ser responsive para móviles con iOS 8.0 o superior y con Android Jelly bean o superior.
+RNF3. El sistema debe construirse utilizando el estandar de diseño Material Design.
+RNF4. El sistema puede ponerse en mantenimiento(y permanecer caido) solo entre las 3 y 4 de la madrugda de los lunes. 
+RNF5. El diseño de los programas a desarrollar, deberán cumplir con la ley N°18.331 de protección de datos personales.
 
 ## Actores involucrados
 El proyecto afecta a varios actores directa e indirectamente: 
 Los actores directos son:
 1- Los ancianos: son el eje central en la creacion de este servicio que propone facilitar la seguridad y practicidad con la que hacen compras durante la era del COVID-19.
 2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
-3- Empresa de reparticion: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
+3- Repartidores: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
 Los actores indirectos son: 
 1- Otros competidores con servicios similares: Rappi, UberEats, Pedidos Ya , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
 2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
@@ -202,13 +198,13 @@ A continuacion detallaremos los objetivos especificos del proyecto:
 
 Las necesidades que se presentan en este desarrollo son las siguientes: 
 
-1- Desarrollar una aplicacion que permita organizar los pedidos: agregar, leer , modificar y eliminar estos de la manera mas organizada posible por el administrador del sistema.
+1- Desarrollar una aplicacion web que permita organizar los pedidos: agregar, leer , modificar y eliminar estos de la manera mas organizada posible por el administrador del sistema.
 
-2- Una base de datos para almacenar la aplicacion de la aplicacion del punto 1 y que esos datos sean persistentes.
+2- Una base de datos para almacenar los datos de pedidos, usuarios y repartidores.
 
 3- Un adminsitrador del sistema: Una persona que cuente con las habilidades para manipular un telefono y responder las llamadas de las personas y agendar esos pedidos en nuestra plataforma(desarrollada en el punto 1).
 
-4- Un servicio de transporte que permita coordinar los envios lo mas rapido posible ajustandose al horario de los clientes.
+4- Otra aplicacion web que permita a los repartidores notificarles de envios nuevos y ademas de notificar al adminstrador entregas.
 
 
 ## Alcance del proyecto
@@ -219,9 +215,6 @@ Los principales elementos de la aplicación son los siguientes:
 
 Por lo tanto, estos elementos son esenciales para cumplir las necesidades de los clientes.
 
-## Plan de SQA
-* Load testing: Se probarán los distintos endpoints de la API utilizando una plataforma como loader.io, analizando el estrés máximo que soportará el servicio.
-* Tests unitarios: Se escribirán unit tests de las clases más importantes para el sistema. El estándard será de un 60% de code completion.
 
 ## Plan de SCM
 Nos hemos decantado por la utilización de Git como herramienta para la gestión de las distintas versiones del producto durante el desarrollo. El código fuente estará hosteado en un repositorio privado de Github para el manejo de tickets, pull requests, comentarios, y demás.
@@ -252,37 +245,6 @@ Todos estos problemas son reversibles y no representan una amenaza para el equip
 ## Casos de uso
 ![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
 
-## Actores involucrados
-El proyecto afecta a varios actores directa e indirectamente: 
-Los actores directos son:
-1- Los ancianos: son el eje central en la creacion de este servicio que propone facilitar la seguridad y practicidad con la que hacen compras durante la era del COVID-19.
-2- Los proveedores: supermercados, tiendas de conveniencia , puestos de feria , seran los encargados de proveer las frutas y verduras a los compradores.
-3- Empresa de reparticion: encargados de transportar la fruta del proveedor al cliente, fundamentales en la cadena y ademas es clave su cuidado de la higiene.
-Los actores indirectos son: 
-1- Otros competidores con servicios similares: Rappi, UberEats, Pedidos Ya , etc. Estos ya tienen una solucion similar para este tipo de propuesta por lo que puede pasar que intenten imitar este modelo de negocio con mayor capacidad productiva debido a que son empresas mucho mas grandes.
-2- Reguladores: Muchos de los vendedores de frutas y verduras realizan transacciones informales es decir, no pagan impuestos por lo que un aumento de la demanda de estos comerciantes puede impactar en entes reguladores y ademas puede afectar a otras verdulerias que compiten con desventaja debido a que pagan impuestos.
-
-
-
-## Objetivos especificos
-
-A continuacion detallaremos los objetivos especificos del proyecto: 
-
-1- Reducir el riesgo de contagio en personas mayores que no tienen manejo fluido con aplicaciones: estas personas durante el tiempo que quede de COVID-19 deberan al menos tener la libertad de elegir cuando salir a comprar y cuando no, sin verse limitadas a depender de alguien mas para tener stock de alimentos.
-
-2- Darle mas independencia a las personas mayores en el mundo moderno: estos tiempos dejaron relegados a muchas personas mayores que no tienen la capacidad de adaptarse a determinados cambios que propuso la mezcla de la pandemia y el avance de la tecnologia. Por lo que esta aplicacion puede ser una puerta de entrada gradual al mundo de la tecnologia para que estas personas puedan disfrutar de una vida mas independiente y con mas opciones.
-
-##  Necesidades 
-
-Las necesidades que se presentan en este desarrollo son las siguientes: 
-
-1- Desarrollar una aplicacion que permita organizar los pedidos: agregar, leer , modificar y eliminar estos de la manera mas organizada posible por el administrador del sistema.
-
-2- Una base de datos para almacenar la aplicacion de la aplicacion del punto 1 y que esos datos sean persistentes.
-
-3- Un adminsitrador del sistema: Una persona que cuente con las habilidades para manipular un telefono y responder las llamadas de las personas y agendar esos pedidos en nuestra plataforma(desarrollada en el punto 1).
-
-4- Un servicio de transporte que permita coordinar los envios lo mas rapido posible ajustandose al horario de los clientes.
 
 ## User Stories
 ID: #1	
@@ -293,7 +255,7 @@ Narrativa:
         Para poder cobrarle las verduras al cliente
 	
 Criterios de aceptación:
-* La tarjeta debe no haber caducido y cumplir con todos los requerimientos necesarios del banco.
+*Al ingresar la tarjeta para aceptar el pedido el sistema debe verificar que todos los datos sean veridicos de acuerdo a la reglamentacion del banco.
 
 ID: #2
 Título: Ofertas para cliente frecuentes
@@ -302,8 +264,7 @@ Narrativa:
 	Quiero poder ver la lista de productos mas consumidos por un cliente frecuente**
         Para poder ofrecerle esos productos en oferta 
 Criterios de aceptación:
-Cumplir con las condiciones para ser un usuario frecuente
-
+Cumplir con las condiciones para ser un usuario frecuente. Ademas el sistema debe contar con una lista de los clientes frecuentes para poder contactarlos, junto con su maximo de gasto en el pedido.
 ** Cliente frecuente: Un cliente que hizo más de diez compras.
 
 ID: #4
@@ -314,7 +275,7 @@ Narrativa:
         Para asegurar que el repartidor no se presente al lugar equivocado
 
 Criterios de aceptación:
-Ser repartidor del sistema.
+El sistema debe poder verificar periodicamente si la verduleria cuenta con los protocolos santiarios correspondientes y entran en el rango de zona que puede abarcar el repartidor.
 
 ID: #5
 Título: Dar de baja
@@ -322,7 +283,7 @@ Narrativa:
 			Como usuario 
 			Quiero poder dejar de usar el sistema
             Para poder abandonar el sistema cuando el usuario quiera
-Criterios de aceptación:el usuario no tiene deudas
+Criterios de aceptación:el sistema debe poder verificar si el cliente tiene una deuda anterior
 
 ID: #6
 Titulo: Agregar Verduleria
@@ -364,51 +325,79 @@ Criterios de aceptacion:
 
 ## 
 
-## Validacion de requerimientos 
+## Verificacion y validacion de requerimientos 
 
 ## CheckList requerimientos 
 1. Completitud 
-/*Los requerimientos se encuentran correctamente priorizados porque el sistema prioriza a adultos mayores a poder seguir realizando las tareas diarias sin 
-*/
-Los usuarios fueron obtenidos de ir a la feria y observar que patrones sigue el grupo de adultos mayores que concurren diariamente alli. Por lo tanto, consideramos que todos los casos sosn exaustivos. Ademas de de respetar con el estandar puesto que cada vez que se realiza una entrevista se cumple con cada uno de los requerimientos especificados. Todos los requerimientos de calidad estan tomados en cuenta segun las especificaciones dadas por los usurarios . 
+Los usuarios fueron obtenidos de ir a la feria y observar que patrones sigue el grupo de adultos mayores que concurren diariamente alli. Por lo tanto, consideramos que todos los casos son exaustivos. Ademas de de respetar con el estandar puesto que cada vez que se realiza una entrevista se cumple con cada uno de los requerimientos especificados. Todos los requerimientos de calidad estan tomados en cuenta segun las especificaciones dadas por los usurarios . 
 
 2. Verificabilidad y no ambiguedad 
 Cada uno de los requerimientos de los usuarios fueron interpretados como preguntas unicas sin repeticio. Podemos demostrar esto observando que ninguna de las pregntas fueron repetidas. 
 
 3. Correctitud y consistencia 
-//no se puede hacer esto sin haber hecho las entecistas tampoco la trnzabilidad
+Cada uno de los requerimientos fueron escritos de forma consistentes y haciendo hincapie en el nivel de detalles en que los dimos. No existen duplicados o conflictos entre cada requerimiento cada uno es unico y detallado, ademas de estar en el alcance del problema. Por ultimo ninguno de los requerimientos evitan algun aspecto del diseño. 
+
+4. Tranzabilidad
+Cada uno de los requerimientos se referencian correctamente entre si y cada uno se puede especificar hasta el origen.  
+
+## Revision de requerimientos frente a pares 
+
+//foto graciela 
+En esta parte del obligatorio decidimos preguntarle a un posible usuario de nuestro sistema, sus opiniones acerca del proyecto planteado, en este caso decidimos hablar con: Graciela Lassner.
+Es una mezzosoprano nacida el 29/11/1945 en Montevideo. Haciendo sus estudios terciarios como Interprete de Arte lirico en la universidad de Berkeley, carrera que desempeno tanto a nivel nacional como internacional, actualmente ella se dedica a dar clases de tecnica vocal en la Escuela Nacional de Arte lirico del Sodre.
+
+-> Opinion general sobre la solucion dado el problema planteado
+"En materia de alimentos siempre es un poco complicado, pero no me parecee inviable, comprar sin ver comida es un poco dificil, por ejemplo, en mi caso a mi me gusta que las bananas entre amarillas y verdes que solo mi verdulero de confianza sabe pero por mas de que yo le de al sistema esta especificacion capaz el verdulero igual me puede poner de otro color porque se lo quiere "sacar de encima". Sin embargo, el proyecto en lineas generales me parece una excelente idea no solamente para este momento de pandemia sino tambien para el futuro, puesto que nosotros (las personas mayores) no queremos salir a la calle por miedo tambien a por ejemplo ser victimas de un robo o porque simplemente algunos no tienen fuerza."
+
+->Opinion en lineas generales sobre los requerimientos funcionales 
+"Me parecen excelentes las ideas que estan proponiendole al sistema porque creo que es todo lo que el mismo debe cumplir"
+
+->Opinion sobre los repartidores frente a los aspectos sanitarios 
+
+"Sinceramente yo me sentiria mucho mas segura con un sistema de este tipo, desde el momento que se le impone una sancion al repartidor por no cumplir con las medidas que nos cuidan a nosotros"
+
+->Sugerencias 
+"Creo que esta es una excelente idea siempre y cuando haya una relacion comercial. El minoreo tiene sus cosas. Conocer bien al cliente, sus gustos, etc. es todo un tema. Me parece que es una idea con un gran futuro, pero que hay que pulirla en el sentido de darle importancia a lo que el cliente quiera especificamente. Me parece que la idea va a permanecer la gente siempre va a envejecer y es algo que no va a pasar de modo pero siempre con un servicio correcto a nivel de valores , que este centrada en el gusto del consumidor,etc" 
+
 
 ## User Persona 
 
-Nombre : Maria Rodriguez 
+Nombre : Rene Schatz
 
-Lema de vida de Maria:  “La vida es una y hay que cuidarla” y 
+Lema de vida de Rene:  “La vida es una y hay que cuidarla” y 
 
 Bio: María nació en el año 1937 en Polonia,  sobrevivió a varias guerra y pandemias (hasta la fecha),  ella trabajo desarrollándose siempre en el área del ballet, fue primera bailarina en el periodo de (1950-1957) hoy en día se desarrolla como parte del cuerpo honorario de las escuelas de formación artística del Sodre.  En su vida personal se casó en el 1952, tiene 3 hijos 16 nietos, 2 bisnietos y 6 gatos por lo que la familia es un pilar muy importante. Se caracteriza como una persona muy trabajadora y comprometida (en todos los ámbitos) . En este momento de la pandemia del país maría es consciente de que no se pueden hacer actividades con tanta exposición como ir a la feria.
 
-Características de Maria:
+Características de Rene
 -Veterana
 -No maneja bien la tecnología
 -Comprometida y trabajadora
 -Tiene una gran familia
 -Es compradora habitual de la feria
 
-Nombre: Jose Menigues 
-Bio: Jose nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
+Nombre: Magdi Kreiner
+Bio: Magdi nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
 
-Caracterisiticas de Jose: 
+Caracterisiticas de Magdi: 
 - Trabajador 
 -Amante de la tecnologia 
 -Compromiso 
 - Reinvencion constante
 
-Nombre: Luisa Fernandez 
-Bio: Luisa nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
+Nombre: Edith Schatz
+Bio: Edith nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
 
-Caracteristicas de Luisa: 
+Caracteristicas de Eduth: 
 -Amante de la familia
 -Trabajadora
 -Responsable 
+
+## Reflexiones individuales y grupales 
+
+## Reflexion individual 
+-> Tali: 
+
+ Los equipos se integran, se desempeñan y desintegran en base a  sus relaciones, actitudes y esfuerzo. Los mejores equipos rn este caso creo que entre todos los miembros del mismo hubo una gran quimica, creo que cada uno de nosotros nos llevamos relaciones son significativas y los miembros del equipo están conectados.Porque nuestra actitud colectiva es muy positiva y todos en el equipo trabajan duro para lograr nuestra mision que era sacar el obligatorio adelante. Tambien el uso de la herramienta git nos ayudo en cuanto a la diferencia de horario que cada uno maneja en su vida profesional y personal. Por ultimo queria cometar dde que yo personalmente no sabia utilizar las herramientas y me senti muy apoyada por mis compañeros al momento de utilizarla.
 
 
 
