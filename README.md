@@ -263,8 +263,8 @@ Anexo 4.1
 
 | Acción de los actores | Respuesta del sistema |
 | :-------: | :---:	 |
-| 1. Se introduce el login | 2. - |
-| 3. Se introduce la contraseña| 4. - |
+| 1. Se introduce el login | 2. No hay respuesta del sistema. |
+| 3. Se introduce la contraseña| 4. No hay respuesta del sistema. |
 | 5. Se presiona el botón de inicar sesión | 6. El sistema lleva al usuario al menú correspondiente (Menú Repartidor o Menú Administrador). |
 
 #### Título: Menú de inicio
@@ -273,7 +273,7 @@ Anexo 4.1
 
 | Acción de los actores | Respuesta del sistema |
 | :-------: | :---:	 |
-| 2.- | 1. - El sistema le muestra las funcionalidades disponibles para el rol del usuario (Repartidor o Administrador)|
+| 2. No hay respuesta del sistema. | 1. El sistema le muestra las funcionalidades disponibles para el rol del usuario (Repartidor o Administrador)|
 
 #### Título: Vista general de los envíos
 #### Actor: Administrador
@@ -290,8 +290,8 @@ Anexo 4.1
 | Acción de los actores | Respuesta del sistema |
 | :-------: | :---:	 |
 | 2. El administrador elige uno o varios productos de la lista. | 1. El sistema le muestra un listado de productos. |
-| 3. El administrador asigna un repartidor. | 3. - |
-| 4. El administrador introduce la cédula del cliente. | 5. - |
+| 3. El administrador asigna un repartidor. | 3. No hay respuesta del sistema. |
+| 4. El administrador introduce la cédula del cliente. | 5. No hay respuesta del sistema. |
 | 6. El administrador elige la opción de confirmar pedido. | 7. El sistema ingresa el pedido al sistema. |
 
 7.1 El administrador introduce una cédula inválida (sin dígito verificador correcto) y el sistema le avisa.
@@ -304,7 +304,7 @@ Anexo 4.1
 
 | Acción de los actores | Respuesta del sistema |
 | :-------: | :---:	 |
-| 2. - | 1. El sistema le muestra la ubicación del cliente y la ubicación suya según el GPS. |
+| 2. No hay respuesta del sistema. | 1. El sistema le muestra la ubicación del cliente y la ubicación suya según el GPS. |
 
 
 Curso alternativo:
@@ -316,7 +316,7 @@ Curso alternativo:
 
 | Acción de los actores | Respuesta del sistema |
 | :-------: | :---:	 |
-| 1. El repartidor elige la opción de confirmar envío. - | 2. El sistema actualiza el envío en la base de datos y le avisa al repartidor que fue actualizado correctamente. |
+| 1. El repartidor elige la opción de confirmar envío. | 2. El sistema actualiza el envío en la base de datos y le avisa al repartidor que fue actualizado correctamente. |
 
 #### Título:  Sancionar repartidor
 #### Actor: Administrador
@@ -324,8 +324,8 @@ Curso alternativo:
 
 | Acción de los actores | Respuesta del sistema |
 | :-------: | :---:	 |
-| 1. El administrador elige un repartidor para sancionar. - | 2. El sistema le pide la confirmación de la sanción. |
-| 3. El administrador confirma la sanción. - | 4. El sistema le registra la sanción en el sistema. |
+| 1. El administrador elige un repartidor para sancionar. | 2. El sistema le pide la confirmación de la sanción. |
+| 3. El administrador confirma la sanción. | 4. El sistema le registra la sanción en el sistema. |
 
 Cursos alternativos
 1.1 El adminstrador elige la opción de volver y se dirige hacia el menú principal.
@@ -373,9 +373,9 @@ El sistema debe poder verificar periodicamente si la verduleria cuenta con los p
 ID: #5
 Título: Dar de baja
 Narrativa: 
-			Como usuario 
-			Quiero poder dejar de usar el sistema
-            Para poder abandonar el sistema cuando el usuario quiera
+	 Como usuario 
+	 Quiero poder dejar de usar el sistema
+         Para poder abandonar el sistema cuando el usuario quiera
 Criterios de aceptación:el sistema debe poder verificar si el cliente tiene una deuda anterior
 
 ID: #6
