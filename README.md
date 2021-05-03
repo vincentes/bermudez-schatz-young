@@ -1,9 +1,9 @@
 
 ## Plantilla identificatoria de grupo
-| Identificación                                                                                      |
-| https://github.com/vincentes/bermudez-schatz-young/                                                 |
-| Fundamentos de Ingenieria de Software    | Docente: Alejandro Adorjan                               | 
-| Grupo M4A                               | Integrantes: Tali Schatz, Felipe Young y Vicente Bermudez|
+Identificación                                                                                    
+https://github.com/vincentes/bermudez-schatz-young/                                                
+Fundamentos de Ingenieria de Software    Docente: Alejandro Adorjan                                
+Grupo M4A                                Integrantes: Tali Schatz, Felipe Young y Vicente Bermudez.
 
 # Proyecto Verdulista
 
@@ -273,6 +273,8 @@ Ver imagen Anexo 4.1
 | 3. Se introduce la contraseña| 4. No hay respuesta del sistema. |
 | 5. Se presiona el botón de inicar sesión | 6. El sistema lleva al usuario al menú correspondiente (Menú Repartidor o Menú Administrador). |
 
+![image](https://github.com/vincentes/bermudez-schatz-young/blob/felipe/assets/Interfaz1.jpeg?raw=true)
+
 #### Título: Menú de inicio
 #### Actor: Usuario
 #### Menú: Inicio 
@@ -281,6 +283,7 @@ Ver imagen Anexo 4.1
 | :-------: | :---:	 |
 | 2. No hay respuesta del sistema. | 1. El sistema le muestra las funcionalidades disponibles para el rol del usuario (Repartidor o Administrador)|
 
+
 #### Título: Vista general de los envíos
 #### Actor: Administrador
 #### Menú: Listado de envíos (Administrador)
@@ -288,6 +291,8 @@ Ver imagen Anexo 4.1
 | Acción de los actores | Respuesta del sistema |
 | :-------: | :---:	 |
 | 1. El administrador entra al menú desde Menu Inicio.  | 2. El sistema le muestra el estado, origen, destino, y usuarios de los envíos pendientes.  |
+
+![image](https://github.com/vincentes/bermudez-schatz-young/blob/felipe/assets/Interfaz2.jpeg?raw=true)
 
 #### Título: Armar pedido
 #### Actor: Administrador
@@ -303,6 +308,7 @@ Ver imagen Anexo 4.1
 7.1 El administrador introduce una cédula inválida (sin dígito verificador correcto) y el sistema le avisa.
 7.2 El administrador introduce una cédula válida que no está registrada en el sistema, por lo tanto el sistema le avisa que no figura en el mismo.
 
+![image](https://github.com/vincentes/bermudez-schatz-young/blob/felipe/assets/Interfaz3.jpeg?raw=true)
 
 #### Título: Guia del repartidor
 #### Actor: Repartidor
@@ -316,6 +322,9 @@ Ver imagen Anexo 4.1
 Curso alternativo:
 2.1: El usuario presiona volver y vuelve al menú principal.
 
+![image](https://github.com/vincentes/bermudez-schatz-young/blob/felipe/assets/Interfaz4.jpeg?raw=true)
+
+
 #### Título:  Notificar llegada del pedido
 #### Actor: Repartidor
 #### Menú: Info Envío (Repartidor)
@@ -323,6 +332,9 @@ Curso alternativo:
 | Acción de los actores | Respuesta del sistema |
 | :-------: | :---:	 |
 | 1. El repartidor elige la opción de confirmar envío. | 2. El sistema actualiza el envío en la base de datos y le avisa al repartidor que fue actualizado correctamente. |
+
+![image](https://github.com/vincentes/bermudez-schatz-young/blob/felipe/assets/Interfaz5.jpeg?raw=true)
+
 
 #### Título:  Sancionar repartidor
 #### Actor: Administrador
@@ -344,6 +356,8 @@ Cursos alternativos
 | Acción de los actores | Respuesta del sistema |
 | :-------: | :---:	 |
 |  1. El repartidor elige la opción de cambiar estado de envío a "en curso".  | 2. El sistema actualiza el envío en la base de datos y le avisa al repartidor que fue actualizado correctamente. |
+
+## User Stories 
 
 ID: #1
 Título: Login
@@ -431,7 +445,7 @@ Cada uno de los requerimientos se referencian correctamente entre si y cada uno 
 
 ## Revision de requerimientos frente a pares 
 
-//foto graciela 
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/graciela.jpg)
 En esta parte del obligatorio decidimos preguntarle a un posible usuario de nuestro sistema, sus opiniones acerca del proyecto planteado, en este caso decidimos hablar con: Graciela Lassner.
 Es una mezzosoprano nacida el 29/11/1945 en Montevideo. Haciendo sus estudios terciarios como Interprete de Arte lirico en la universidad de Berkeley, carrera que desempeno tanto a nivel nacional como internacional, actualmente ella se dedica a dar clases de tecnica vocal en la Escuela Nacional de Arte lirico del Sodre.
 
@@ -450,6 +464,7 @@ Es una mezzosoprano nacida el 29/11/1945 en Montevideo. Haciendo sus estudios te
 
 
 ## User Persona 
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona1.jpg)
 
 Nombre : Edith Schwartzdoff
 
@@ -464,15 +479,18 @@ Características de Edith
 -Tiene una gran familia
 -Es compradora habitual de la feria
 
-Nombre: Magdi Kreiner
-Bio: Magdi nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
 
-Caracterisiticas de Magdi: 
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona2.jpg)
+Nombre: Jose Kreiner
+Bio: Jose nacio en Mercedes en el 20 de febrero de 1945 siempre se dedico al turismo teniendo la mayor cadena de hoteles del pais, en el contexto de la pandemia su sector fue sumamente afectado, quedando con mucho tiempo libre y decidiendo retirarse del comercio, el es caracterizado por ser una persona muy trabajadora y estar constantemente intentando reinventarse , por lo que todo lo que tiene que ver con tecnologia y como en este momento no puede hacer las compras en la feria, su familia decidio ofrecerle la utilizacion de este sistema para que pueda tener una interaccion con la tecnologia estando a salvo en su casa. 
+
+Caracterisiticas de Jose: 
 - Trabajador 
 -Amante de la tecnologia 
 -Compromiso 
 - Reinvencion constante
 
+![image](https://raw.githubusercontent.com/vincentes/bermudez-schatz-young/felipe/assets/persona3.jpg)
 Nombre: Isaac Gandelmann
 Bio: Isaac nacio el 20 de Octubre del 1928, cuando era joven trabajaba como peletera en la fabrica de shtimel, a pesar que en ese momento las mujeres comunmente no trabajaban por presiones familiares, al casarse se dedico unicamente al trabajo de la casa y a lo que dedico toda su vida, su familia y casa. Ultimamanete al no poder salir de su hogar siente que no tiene la posiblidad de cumplir su funcion en la casa. 
 
@@ -622,3 +640,5 @@ Los principales elementos de la aplicación, los cuales el proyecto no puede pre
 
 Anexo 4.1 
 ![Casos de uso del proyecto](https://user-images.githubusercontent.com/11695552/115164655-ccf91280-a082-11eb-8219-29400f2c48ec.png)
+
+
